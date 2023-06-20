@@ -12,38 +12,41 @@
   - [Style](#style)
   - [Storyline Sketch Outline](#storyline-sketch-outline)
   - [Prompt](#prompt)
-  - [PLM LLM](#PLM-LLM)
+  - [PLM LLM](#plm-llm)
   - [Evaluation](#evaluation)
   - [Application](#application)
-  - [Analysis Challenge FutureWork](#analysis-challenge-futureWork)
+  - [Analysis Challenge FutureWork](#analysis-challenge-futurework)
   - [Datasets](#datasets)
 - [PublicData](#publicdata)
 
 ## Introduction
-This project collects awesome works for Story Generation, mainly focusing on the papers in the LLM era.
+This project collects awesome papers on story generation, with a focus on the LLM era papers. 
 
-What I wanted to mention was that another repository [Awesome-story-generation](https://github.com/Whorra/Awesome-story-generation) on the same topic provided me with tremendous help. Express my sincerest gratitude and admiration for that.
+We would like to express our gratitude to the [Awesome-story-generation](https://github.com/Whorra/Awesome-story-generation) for their help. 
+
+The citations are current as of our discovery of the papers, but they may not be revised later. This serves as a reference for you to gauge the paper's impact.
+
+We have provided the papers for download, but we cannot guarantee that they are the final versions.
 
 ## Papers
 
+Eg. Title (ACL-2023, Citations:0) [paper] [code] .. [summary] [authors]
+
 ### Survey Overview Review
-- A Survey of Natural Language Generation (ACM Computing Surveys-2021, Citations:9) [[paper]](https://arxiv.org/pdf/2112.11739.pdf) [自然语言生成综述]
 - Plans and Planning in Narrative Generation: A Review of  Plan-Based Approaches to the Generation of Story, Discourse and Interactivity in Narratives (Sprache und Datenverarbeitung-2013, Citations:108) [[paper]](https://www.justusrobertson.com/papers/Young%20Ware%20Cassell%20and%20Robertson%202013%20-%20Plans%20and%20Planning%20in%20Narrative%20Generation.pdf)
-[叙事理论与模型]
+[A Review of Narrative Generation] [R. Michael Young, Stephen Ware, Brad Cassell, Justus Robertson]
 - From Linear Story Generation to Branching Story Graphs (AAAI-2006, Citations:300) [[paper]](http://www.cc.gatech.edu/~riedl/pubs/riedl-aiide05.pdf)
-[故事生成综述]
+[Story Generation and Graphs] [Mark O. Riedl, R. Michael Young]
 
 ### Plot Event
-- Story Realization: Expanding Plot Events into Sentences (ArXiv-2019, Citations:57) [[paper]](https://arxiv.org/pdf/1909.03480v2.pdf)  [[code]](https://github.com/rajammanabrolu/StoryRealization) [将情节事件扩展成句子]
-- Controllable Neural Story Plot Generation via Reward Shaping (ArXiv-2018, Citations:2) [[paper]](https://arxiv.org/pdf/1809.10736v3.pdf)   [可控的故事情节生成]
-- Event Representations for Automated Story Generation with Deep Neural Nets (ArXiv-2017, Citations:221) [[paper]](https://arxiv.org/pdf/1706.01331v3.pdf)  [[code]](https://github.com/lara-martin/ASTER) [自动生成故事的事件表示]
+- Story Realization: Expanding Plot Events into Sentences (AAAI-2020, Citations:57) [[paper]](https://arxiv.org/pdf/1909.03480v2.pdf)  [[code]](https://github.com/rajammanabrolu/StoryRealization) [Expanding Plot] [Prithviraj Ammanabrolu, Ethan Tien, Wesley Cheung, Zhaochen Luo, William Ma, Lara J. Martin, Mark O. Riedl]
+- Event Representations for Automated Story Generation with Deep Neural Nets (AAAI-2018, Citations:221) [[paper]](https://arxiv.org/pdf/1706.01331v3.pdf)  [[code]](https://github.com/lara-martin/ASTER) [Event Representations] [Lara J. Martin, Prithviraj Ammanabrolu, Xinyu Wang, William Hancock, Shruti Singh, Brent Harrison, Mark O. Riedl]
 
 ### Better Story
-- 🔥 CEG: A joint model for causal commonsense events enhanced story ending generation (PLOS ONE-2023, Citations:0) [[paper]](https://pdfs.semanticscholar.org/dca0/61fcdf2f3b8bde9d05b0d0e4d484f59cc669.pdf) [基于因果推理的故事结局生成]
-- Towards Document-Level Paraphrase Generation with Sentence Rewriting and Reordering (EMNLP Findings-2021, Citations:5) [[paper]](https://arxiv.org/pdf/2109.07095v1.pdf)   [[code]](https://github.com/l-zhe/corpg) [通过句子重写和重新排序实现文档级段落生成]
-- Guiding Neural Story Generation with Reader Models (EMNLP-2021, Citations:6) [[paper]](https://arxiv.org/pdf/2112.08596.pdf) [利用读者模型推进故事进展]
-- Goal-Directed Story Generation: Augmenting Generative Language Models with Reinforcement Learning (Arxiv-2021, Citations:8) [[paper]](https://arxiv.org/pdf/2112.08593.pdf) [强化学习]
-- Story Ending Generation with Incremental Encoding and Commonsense Knowledge (AAAI-2018, Citations:142) [[paper]](https://arxiv.org/pdf/1808.10113.pdf) [更合理的故事结尾]
+- Towards Document-Level Paraphrase Generation with Sentence Rewriting and Reordering (EMNLP Findings-2021, Citations:5) [[paper]](https://arxiv.org/pdf/2109.07095v1.pdf)   [[code]](https://github.com/l-zhe/corpg) [Sentence Rewriting and Reordering] [Zhe Lin, Yitao Cai, Xiaojun Wan]
+- Guiding Neural Story Generation with Reader Models (EMNLP-2021, Citations:5) [[paper]](https://arxiv.org/pdf/2112.08596.pdf) [Reader Models Guide] [Xiangyu Peng, Kaige Xie, Amal Alabdulkarim, Harshith Kayam, Samihan Dani, Mark O. Riedl]
+- Goal-Directed Story Generation: Augmenting Generative Language Models with Reinforcement Learning (Arxiv-2021, Citations:6) [[paper]](https://arxiv.org/pdf/2112.08593.pdf) [Reinforcement Learning] [Amal Alabdulkarim, Winston Li, Lara J. Martin, Mark O. Riedl]
+- Story Ending Generation with Incremental Encoding and Commonsense Knowledge (AAAI-2019, Citations:146) [[paper]](https://arxiv.org/pdf/1808.10113.pdf) [Better Ending] [Jian Guan, Yansen Wang, Minlie Huang]
 
 
 ### Controllable
