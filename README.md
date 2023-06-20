@@ -22,7 +22,7 @@
 ## Introduction
 This project collects awesome papers on story generation, with a focus on the LLM era papers. 
 
-We would like to express our gratitude to the [Awesome-story-generation](https://github.com/Whorra/Awesome-story-generation) for their help. 
+We would like to express our gratitude to the [Awesome-story-generation](https://github.com/Whorra/Awesome-story-generation), [PaperForONLG](https://github.com/thu-coai/PaperForONLG/tree/main) for their help. 
 
 The citations are current as of our discovery of the papers, but they may not be revised later. This serves as a reference for you to gauge the paper's impact.
 
