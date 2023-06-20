@@ -15,7 +15,6 @@
   - [PLM LLM](#plm-llm)
   - [Evaluation](#evaluation)
   - [Application](#application)
-  - [Analysis Challenge FutureWork](#analysis-challenge-futurework)
   - [Datasets](#datasets)
 - [PublicData](#publicdata)
 
@@ -32,18 +31,24 @@ We have provided the papers for download, but we cannot guarantee that they are 
 
 Eg. Title (ACL-2023, Citations:0) [paper] [code] .. [summary] [authors]
 
+
 ### Survey Overview Review
+- Factuality Enhanced Language Models for Open-Ended Text Generation (NeurIPS-2022, Citations:14) [[paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/df438caa36714f69277daa92d608dd63-Paper-Conference.pdf) [Open-Ended] [Nayeon Lee, Wei Ping, Peng Xu, Mostofa Patwary, Mohammad Shoeybi, Bryan Catanzaro]
+- Survey: Automatic Movie Plot and Script Generation (Arxiv-2022, Citations:0) [[paper]](https://www.cfilt.iitb.ac.in/resources/surveys/2022/prerak-ampsg-survey-27jun22.pdf)  [Movie Plot and Script] [Prerak Gandhi, Pushpak Bhattacharyya] 
 - Plans and Planning in Narrative Generation: A Review of  Plan-Based Approaches to the Generation of Story, Discourse and Interactivity in Narratives (Sprache und Datenverarbeitung-2013, Citations:108) [[paper]](https://www.justusrobertson.com/papers/Young%20Ware%20Cassell%20and%20Robertson%202013%20-%20Plans%20and%20Planning%20in%20Narrative%20Generation.pdf)
 [A Review of Narrative Generation] [R. Michael Young, Stephen Ware, Brad Cassell, Justus Robertson]
 - From Linear Story Generation to Branching Story Graphs (AAAI-2006, Citations:300) [[paper]](http://www.cc.gatech.edu/~riedl/pubs/riedl-aiide05.pdf)
 [Story Generation and Graphs] [Mark O. Riedl, R. Michael Young]
 
 ### Plot Event
+- Uncovering Surprising Event Boundaries in Narratives (ACL WNU-2022, Citations:2) [[paper]](https://aclanthology.org/2022.wnu-1.1/) [Event Boundaries] [Zhilin Wang, Anna Jafarpour, Maarten Sap] 
 - Story Realization: Expanding Plot Events into Sentences (AAAI-2020, Citations:57) [[paper]](https://arxiv.org/pdf/1909.03480v2.pdf)  [[code]](https://github.com/rajammanabrolu/StoryRealization) [Expanding Plot] [Prithviraj Ammanabrolu, Ethan Tien, Wesley Cheung, Zhaochen Luo, William Ma, Lara J. Martin, Mark O. Riedl]
 - Event Representations for Automated Story Generation with Deep Neural Nets (AAAI-2018, Citations:221) [[paper]](https://arxiv.org/pdf/1706.01331v3.pdf)  [[code]](https://github.com/lara-martin/ASTER) [Event Representations] [Lara J. Martin, Prithviraj Ammanabrolu, Xinyu Wang, William Hancock, Shruti Singh, Brent Harrison, Mark O. Riedl]
 
 ### Better Story
 - Generating Coherent Narratives by Learning Dynamic and Discrete Entity States with a Contrastive Framework (Arxiv-2022, Citations:2) [[paper]](https://arxiv.org/pdf/2208.03985.pdf) [Contrastive Framework] [Jian Guan, Zhenyu Yang, Rongsheng Zhang, Zhipeng Hu, Minlie Huang]
+- Aligning to Social Norms and Values in Interactive Narratives (NAACL-2022, Citations:9) [[paper]](https://arxiv.org/abs/2205.01975) [Social Norms and Values] [Prithviraj Ammanabrolu, Liwei Jiang, Maarten Sap, Hannaneh Hajishirzi, Yejin Choi] 
+- Towards Coherent and Consistent Use of Entities in Narrative Generation (ICML-2022, Citations:7) [[paper]](https://arxiv.org/abs/2202.01709) [Coherent and Consistent] [Pinelopi Papalampidi, Kris Cao, Tomas Kocisky]
 - Guiding Neural Story Generation with Reader Models (EMNLP-2021, Citations:5) [[paper]](https://arxiv.org/pdf/2112.08596.pdf) [Reader Models Guide] [Xiangyu Peng, Kaige Xie, Amal Alabdulkarim, Harshith Kayam, Samihan Dani, Mark O. Riedl]
 - Goal-Directed Story Generation: Augmenting Generative Language Models with Reinforcement Learning (Arxiv-2021, Citations:6) [[paper]](https://arxiv.org/pdf/2112.08593.pdf) [Reinforcement Learning] [Amal Alabdulkarim, Winston Li, Lara J. Martin, Mark O. Riedl]
 - Towards Document-Level Paraphrase Generation with Sentence Rewriting and Reordering (EMNLP Findings-2021, Citations:5) [[paper]](https://arxiv.org/pdf/2109.07095v1.pdf)   [[code]](https://github.com/l-zhe/corpg) [Sentence Rewriting and Reordering] [Zhe Lin, Yitao Cai, Xiaojun Wan]
@@ -59,6 +64,7 @@ Eg. Title (ACL-2023, Citations:0) [paper] [code] .. [summary] [authors]
 
 ### Character
 - Towards Inter-character Relationship-driven Story Generation (EMNLP-2022, Citations:3) [[paper]](https://arxiv.org/pdf/2211.00676.pdf) [从角色人际关系出发编写故事]
+- CHAE: Fine-Grained Controllable Story Generation with Characters, Actions and Emotions (COLING-2022, Citations:1) [[paper]](https://arxiv.org/pdf/2210.05221.pdf) [Characters, Actions and Emotions] [Xinpeng Wang, Han Jiang, Zhihua Wei, Shanlin Zhou]
 - Persona-Guided Planning for Controlling the Protagonist’s Persona in Story Generation (NAACL-2022, Citations:6) [[paper]](https://arxiv.org/pdf/2204.10703.pdf) [[code]](https://github.com/thu-coai/ConPer) [Persona-Guided Planning] [Zhexin Zhang, Jiaxin Wen, Jian Guan, Minlie Huang]
 - Modeling Worlds in Text (ArXiv-2021, Citations:11) [[paper]](https://arxiv.org/pdf/2106.09578.pdf) [交互式语言代理]
 - Telling Stories through Multi-User Dialogue by Modeling Character Relations (ACL-2021, Citations:9) [[paper]](https://arxiv.org/pdf/2105.15054v1.pdf) [通过建模角色关系通过多用户对话讲故事]
@@ -92,6 +98,7 @@ Eg. Title (ACL-2023, Citations:0) [paper] [code] .. [summary] [authors]
 ### Evaluation
 - 🔥 Can Large Language Models Be an Alternative to Human Evaluations? (ArXiv-2023, Citations:8) [[paper]](https://arxiv.org/pdf/2305.01937.pdf)  [对比人类和LLM对文本生成的质量]
 - 🔥 DeltaScore: Evaluating Story Generation with Differentiating Perturbations (ArXiv-2023, Citations:1) [[paper]](https://arxiv.org/pdf/2303.08991.pdf) [通过微分扰动从细粒度（错别字和相关性）评价故事生成]
+- StoryER: Automatic Story Evaluation via Ranking, Rating and Reasoning (EMNLP-2022, Citations:4) [[paper]](https://arxiv.org/pdf/2210.08459.pdf) [Automatic Story Evaluation] [Hong Chen, Duc Minh Vo, Hiroya Takamura, Yusuke Miyao, Hideki Nakayama]
 - A Benchmark for Understanding and Generating Dialogue between Characters in Stories (ArXiv-2022, Citations:0) [[paper]](https://arxiv.org/pdf/2209.08524.pdf) [Dialogue Benchmark] [Jianzhu Yao, Ziqi Liu, Jian Guan, Minlie Huang]
 - Of Human Criteria and Automatic Metrics: A Benchmark of the Evaluation of Story Generation (ArXiv-2022, Citations:7) [[paper]](https://arxiv.org/pdf/2208.11646.pdf)  [定量分析人类标准与自动标准]
 - Toward Educator-focused Automated Scoring Systems for Reading and Writing (ArXiv-2021, Citations:0)  [[paper]](https://arxiv.org/ftp/arxiv/papers/2112/2112.11973.pdf) [自动评分系统]
@@ -108,6 +115,7 @@ Eg. Title (ACL-2023, Citations:0) [paper] [code] .. [summary] [authors]
 
 ### Datasets
 - 🔥 StoryWars: A Dataset and Instruction Tuning Baselines for Collaborative Story Understanding and Generation (ACL-2023, Citations:0) [[paper]](https://arxiv.org/pdf/2305.08152.pdf) [协作写作数据集]
+- PASTA: A Dataset for Modeling Participant States in Narratives (Arxiv-2022, Citations:0) [[paper]](https://arxiv.org/pdf/2208.00329.pdf) [Modeling Participant States] [Sayontan Ghosh, Mahnaz Koupaee, Isabella Chen, Francis Ferraro, Nathanael Chambers, Niranjan Balasubramanian]
 - A corpus for understanding and generating moral stories (NAACL-2022, Citations:3) [[paper]](https://arxiv.org/pdf/2305.08152.pdf) [moral stories] [Jian Guan, Ziqi Liu, Minlie Huang]
 
 
