@@ -4,35 +4,39 @@
 
 - [Introduction](#introduction)
 - [Papers](#papers)
-  - [Survey Overview Review](#survey-overview-review)
-  - [Plot Event](#plot-event)
-  - [Better Story](#better-story)
-  - [Controllable](#controllable)
-  - [Character](#character)
-  - [Style](#style)
-  - [Storyline Sketch Outline](#storyline-sketch-outline)
-  - [Prompt](#prompt)
-  - [PLM LLM](#plm-llm)
-  - [Evaluation](#evaluation)
-  - [Application](#application)
+  - [Literature Review](#literature-review)
+  - [Plot Development](#plot-development)
+  - [Improving Storytelling](#improving-storytelling)
+  - [Controllability](#controllability)
+  - [Characterization](#characterization)
+  - [Writing Style](#writing-style)
+  - [Story Outlining](#story-outlining)
+  - [Prompt Design](#prompt-design)
+  - [Language Models](#language-models)
+  - [Evaluation Methods](#evaluation-methods)
+  - [Applications](#applications)
   - [Datasets](#datasets)
-- [PublicData](#publicdata)
+- [Public Data](#public-data)
 
 ## Introduction
-This project collects awesome papers on story generation, with a focus on the LLM era papers. 
+This project collects an extensive list of remarkable papers on **Story Generation**, primarily focusing on the era of **Large Language Models (LLMs)**.
 
-We would like to express our gratitude to the [Awesome-story-generation](https://github.com/Whorra/Awesome-story-generation), [PaperForONLG](https://github.com/thu-coai/PaperForONLG/tree/main) for their help. 
+We would like to extend our heartfelt gratitude to [**Awesome-story-generation**](https://github.com/Whorra/Awesome-story-generation),  [**PaperForONLG**](https://github.com/thu-coai/PaperForONLG/tree/main) and [**GPT-Academic**](https://github.com/binary-husky/gpt_academic/) for their invaluable assistance and contributions.
 
-The citations are current as of our discovery of the papers, but they may not be revised later. This serves as a reference for you to gauge the paper's impact.
+The <🔥> denotes the latest research work. And <🀄> signifies that we have provided a **Chinese translation** of the paper (translations are completed by the **GPT-Academic** open-source project, and all copyrights belong to the original authors). [**Project GitHub Repository**](https://github.com/binary-husky/gpt_academic/). [**Project Online Experience**](https://chatpaper.org)
 
-We have provided the papers for download, but we cannot guarantee that they are the final versions.
+Please note that the citations are up-to-date as of our last discovery of the papers, but they may not be revised in the future. This is intended to serve as a reference to help you gauge the impact of each paper.
+
+Although we provide access to download the papers, we cannot guarantee that they are the most recent or final versions.
+
+If you have any suggestions or questions, please do not hesitate to reach out to me: [mayingpeng AT westlake DOT edu DOT cn]
 
 ## Papers
 
 Eg. Title (ACL-2023, Citations:0) [paper] [code] .. [summary] [authors]
 
 
-### Survey Overview Review
+### Literature Review
 - Factuality Enhanced Language Models for Open-Ended Text Generation (NeurIPS-2022, Citations:14) [[paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/df438caa36714f69277daa92d608dd63-Paper-Conference.pdf) [Open-Ended] [Nayeon Lee, Wei Ping, Peng Xu, Mostofa Patwary, Mohammad Shoeybi, Bryan Catanzaro]
 - Survey: Automatic Movie Plot and Script Generation (Arxiv-2022, Citations:0) [[paper]](https://www.cfilt.iitb.ac.in/resources/surveys/2022/prerak-ampsg-survey-27jun22.pdf)  [Movie Plot and Script] [Prerak Gandhi, Pushpak Bhattacharyya] 
 - Plans and Planning in Narrative Generation: A Review of  Plan-Based Approaches to the Generation of Story, Discourse and Interactivity in Narratives (Sprache und Datenverarbeitung-2013, Citations:108) [[paper]](https://www.justusrobertson.com/papers/Young%20Ware%20Cassell%20and%20Robertson%202013%20-%20Plans%20and%20Planning%20in%20Narrative%20Generation.pdf)
@@ -40,12 +44,12 @@ Eg. Title (ACL-2023, Citations:0) [paper] [code] .. [summary] [authors]
 - From Linear Story Generation to Branching Story Graphs (AAAI-2006, Citations:300) [[paper]](http://www.cc.gatech.edu/~riedl/pubs/riedl-aiide05.pdf)
 [Story Generation and Graphs] [Mark O. Riedl, R. Michael Young]
 
-### Plot Event
+### Plot Development
 - Uncovering Surprising Event Boundaries in Narratives (ACL WNU-2022, Citations:2) [[paper]](https://aclanthology.org/2022.wnu-1.1/) [Event Boundaries] [Zhilin Wang, Anna Jafarpour, Maarten Sap] 
 - Story Realization: Expanding Plot Events into Sentences (AAAI-2020, Citations:57) [[paper]](https://arxiv.org/pdf/1909.03480v2.pdf)  [[code]](https://github.com/rajammanabrolu/StoryRealization) [Expanding Plot] [Prithviraj Ammanabrolu, Ethan Tien, Wesley Cheung, Zhaochen Luo, William Ma, Lara J. Martin, Mark O. Riedl]
 - Event Representations for Automated Story Generation with Deep Neural Nets (AAAI-2018, Citations:221) [[paper]](https://arxiv.org/pdf/1706.01331v3.pdf)  [[code]](https://github.com/lara-martin/ASTER) [Event Representations] [Lara J. Martin, Prithviraj Ammanabrolu, Xinyu Wang, William Hancock, Shruti Singh, Brent Harrison, Mark O. Riedl]
 
-### Better Story
+### Improving Storytelling
 - Generating Coherent Narratives by Learning Dynamic and Discrete Entity States with a Contrastive Framework (Arxiv-2022, Citations:2) [[paper]](https://arxiv.org/pdf/2208.03985.pdf) [Contrastive Framework] [Jian Guan, Zhenyu Yang, Rongsheng Zhang, Zhipeng Hu, Minlie Huang]
 - Aligning to Social Norms and Values in Interactive Narratives (NAACL-2022, Citations:9) [[paper]](https://arxiv.org/abs/2205.01975) [Social Norms and Values] [Prithviraj Ammanabrolu, Liwei Jiang, Maarten Sap, Hannaneh Hajishirzi, Yejin Choi] 
 - Towards Coherent and Consistent Use of Entities in Narrative Generation (ICML-2022, Citations:7) [[paper]](https://arxiv.org/abs/2202.01709) [Coherent and Consistent] [Pinelopi Papalampidi, Kris Cao, Tomas Kocisky]
@@ -56,13 +60,13 @@ Eg. Title (ACL-2023, Citations:0) [paper] [code] .. [summary] [authors]
 - Story Ending Generation with Incremental Encoding and Commonsense Knowledge (AAAI-2019, Citations:146) [[paper]](https://arxiv.org/pdf/1808.10113.pdf) [Better Ending] [Jian Guan, Yansen Wang, Minlie Huang]
 
 
-### Controllable
+### Controllability
 - 🔥 Controlling keywords and their positions in text generation (ArXiv-2023, Citations:0) [[paper]](https://arxiv.org/pdf/2304.09516.pdf) [控制关键词在文中位置]
 - A Plug-and-Play Method for Controlled Text Generation (EMNLP Findings-2021, Citations:41) [[paper]](https://arxiv.org/pdf/2109.09707v1.pdf)  [[code]](https://github.com/dapascual/k2t) [即插即用可控文本生成]
 - Plug-and-Blend: A Framework for Plug-and-play Controllable Story Generation with Sketches (ArXiv-2021, Citations:16) [[paper]](https://arxiv.org/pdf/2104.04039v2.pdf)  [[code]](https://github.com/xxbidiao/plug-and-blend) [可控故事生成框架]
 - Towards Controllable Story Generation (ACL-2018, Citations:129) [[paper]](https://aclanthology.org/W18-1505.pdf) [可控的故事生成]
 
-### Character
+### Characterization
 - Towards Inter-character Relationship-driven Story Generation (EMNLP-2022, Citations:3) [[paper]](https://arxiv.org/pdf/2211.00676.pdf) [从角色人际关系出发编写故事]
 - CHAE: Fine-Grained Controllable Story Generation with Characters, Actions and Emotions (COLING-2022, Citations:1) [[paper]](https://arxiv.org/pdf/2210.05221.pdf) [Characters, Actions and Emotions] [Xinpeng Wang, Han Jiang, Zhihua Wei, Shanlin Zhou]
 - Persona-Guided Planning for Controlling the Protagonist’s Persona in Story Generation (NAACL-2022, Citations:6) [[paper]](https://arxiv.org/pdf/2204.10703.pdf) [[code]](https://github.com/thu-coai/ConPer) [Persona-Guided Planning] [Zhexin Zhang, Jiaxin Wen, Jian Guan, Minlie Huang]
@@ -70,12 +74,12 @@ Eg. Title (ACL-2023, Citations:0) [paper] [code] .. [summary] [authors]
 - Telling Stories through Multi-User Dialogue by Modeling Character Relations (ACL-2021, Citations:9) [[paper]](https://arxiv.org/pdf/2105.15054v1.pdf) [通过建模角色关系通过多用户对话讲故事]
 
 
-### Style
+### Writing Style
 - 🔥 StoryTrans: Non-Parallel Story Author-Style Transfer with Discourse Representations and Content Enhancing (ACL-2023, Citations:0) [[paper]](https://arxiv.org/pdf/2208.13423.pdf) [Author-Style Transfer] [Xuekai Zhu, Jian Guan, Minlie Huang, Juan Liu]
 - Stylized story generation with style-guided planning (ACL-2021, Citations:16) [[paper]](https://arxiv.org/pdf/2105.08625.pdf) [style-guided planning] [Xiangzhe Kong, Jialiang Huang, Ziquan Tung, Jian Guan, Minlie Huang]
 
 
-### Storyline Sketch Outline
+### Story Outlining
 - 🔥 DOC: Improving Long Story Coherence With Detailed Outline Control (ACL-2023, Citations:4) [[paper]](https://arxiv.org/pdf/2212.10077.pdf) [Detailed Outline] [Kevin Yang, Dan Klein, Nanyun Peng, Yuandong Tian]
 - TaleBrush: Sketching Stories with Generative Pretrained Language Models (CHI-2022, Citations:39) [[paper]](http://www.cond.org/talebrush.pdf)  [使用草图引导叙事]
 - Neural Story Planning (Arxiv-2022, Citations:1) [[paper]](https://arxiv.org/pdf/2212.08718.pdf) [Planning] [Anbang Ye, Christopher Cui, Taiwei Shi, Mark O. Riedl]
@@ -85,18 +89,18 @@ Eg. Title (ACL-2023, Citations:0) [paper] [code] .. [summary] [authors]
 - Hierarchical Neural Story Generation (ACL-2018, Citations:929) [[paper]](https://arxiv.org/pdf/1805.04833.pdf) [[code]](https://github.com/kevalnagda/StoryGeneration) [[Writing prompt]](https://www.kaggle.com/ratthachat/writing-prompts) [分层故事生成]
 
 
-### Prompt
+### Prompt Design
 - 🔥 CoRRPUS: Code-based Structured Prompting for Neurosymbolic Story Understanding (ACL Findings-2023, Citations:2) [[paper]](https://arxiv.org/pdf/2212.10754.pdf) [Code-based Structured Prompting] [Yijiang River Dong, Lara J. Martin, Chris Callison-Burch]
 - Re3: Generating longer stories with recursive reprompting and revision (EMNLP-2022, Citations:27) [[paper]](https://arxiv.org/pdf/2210.06774.pdf) [recursive reprompting and revision] [Kevin Yang, Yuandong Tian, Nanyun Peng, Dan Klein]
 - Go Back in Time: Generating Flashbacks in Stories with Event Temporal Prompts (NAACL-2022, Citations:5) [[paper]](https://arxiv.org/pdf/2205.01898.pdf) [Flashbacks via Temporal Event] [Rujun Han, Hong Chen, Yufei Tian, Nanyun Peng]
 
-### PLM LLM
+### Language Models
 - 🔥 RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text (ArXiv-2023, Citations:0) [[paper]](https://arxiv.org/pdf/2305.13304.pdf) [[code]](https://github.com/aiwaves-cn/RecurrentGPT) [自然语言模拟LSTM机制，拓展生成长度且保证长期记忆]
 - Controllable Story Generation with External Knowledge Using Large-Scale Language Models (EMNLP-2020, Citations:80) [[paper]](https://arxiv.org/pdf/2010.00840.pdf)  [使用LLM的新框架 结合外部知识]
 - A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation (TACL-2020, Citations:167) [[paper]](https://arxiv.org/pdf/2001.05139.pdf)  [结合Commonsense]
 
-### Evaluation
-- 🔥 Can Large Language Models Be an Alternative to Human Evaluations? (ArXiv-2023, Citations:8) [[paper]](https://arxiv.org/pdf/2305.01937.pdf)  [对比人类和LLM对文本生成的质量]
+### Evaluation Methods
+- 🔥🀄 Can Large Language Models Be an Alternative to Human Evaluations? (ACL-2023, Citations:9) [[paper]](https://arxiv.org/pdf/2305.01937.pdf)  [Comparing the quality of human and LLM evaluations of text generation] [Cheng-Han Chiang, Hung-yi Lee]
 - 🔥 DeltaScore: Evaluating Story Generation with Differentiating Perturbations (ArXiv-2023, Citations:1) [[paper]](https://arxiv.org/pdf/2303.08991.pdf) [通过微分扰动从细粒度（错别字和相关性）评价故事生成]
 - StoryER: Automatic Story Evaluation via Ranking, Rating and Reasoning (EMNLP-2022, Citations:4) [[paper]](https://arxiv.org/pdf/2210.08459.pdf) [Automatic Story Evaluation] [Hong Chen, Duc Minh Vo, Hiroya Takamura, Yusuke Miyao, Hideki Nakayama]
 - A Benchmark for Understanding and Generating Dialogue between Characters in Stories (ArXiv-2022, Citations:0) [[paper]](https://arxiv.org/pdf/2209.08524.pdf) [Dialogue Benchmark] [Jianzhu Yao, Ziqi Liu, Jian Guan, Minlie Huang]
@@ -107,7 +111,7 @@ Eg. Title (ACL-2023, Citations:0) [paper] [code] .. [summary] [authors]
 - Union: An unreferenced metric for evaluating open-ended story generation (EMNLP-2020, Citations:38) [[paper]](https://arxiv.org/pdf/2009.07602.pdf) [unreferenced metric] [Jian Guan, Minlie Huang]
 
 
-### Application
+### Applications
 - Generating Interactive Worlds with Text (ArXiv-2019, Citations:22) [[paper]](https://arxiv.org/pdf/1911.09194.pdf)  [文本交互式生成游戏世界]
 - Learning to Speak and Act in a Fantasy Text Adventure Game (ACL-2019, Citations:132) [[paper]](https://arxiv.org/pdf/1903.03094.pdf)  [文本冒险游戏交互]
 - TextWorld: A Learning Environment for Text-based Game (IJCAI-2018, Citations:202) [[paper]](https://arxiv.org/pdf/1806.11532)  [自动或手动生成交互文本游戏]
@@ -119,12 +123,12 @@ Eg. Title (ACL-2023, Citations:0) [paper] [code] .. [summary] [authors]
 - A corpus for understanding and generating moral stories (NAACL-2022, Citations:3) [[paper]](https://arxiv.org/pdf/2305.08152.pdf) [moral stories] [Jian Guan, Ziqi Liu, Minlie Huang]
 
 
-## PublicData
-- [ROC Stories](https://cs.rochester.edu/nlp/rocstories/) is a collection of 100,000 five-sentence stories and 3,742 Story Cloze Test stories that capture a rich set of causal and temporal commonsense relations between daily events, and can be used for story generation.
-- [CommonGen](https://inklab.usc.edu/CommonGen/) is constructed through a combination of crowdsourced and existing caption corpora, consists of 79k commonsense descriptions over 35k unique concept-sets.
-- [CMU Movie Summary Corpus](http://www.cs.cmu.edu/~ark/personas/) provides links to a dataset of movie plot summaries and associated metadata.
-- [Scifi TV Show Plot Summaries & Events](https://huggingface.co/datasets/lara-martin/Scifi_TV_Shows) is a collection of long-running (80+ episodes) science fiction TV show synopses, scraped from Fandom.com wikis.
-- [The LIGHT project](https://github.com/facebookresearch/ParlAI/tree/main/projects/light) is a large-scale fantasy text adventure game research platform for training agents that can both talk and act, interacting either with other models or with humans.
-- [The TextWorld project](https://github.com/microsoft/TextWorld) is a  sandbox learning environment for the training and evaluation of reinforcement learning (RL) agents on text-based games.
+## Public Data
+- [ROC Stories](https://cs.rochester.edu/nlp/rocstories/) is a compilation of 100,000 five-sentence stories and 3,742 Story Cloze Test stories, capturing a rich array of causal and temporal commonsense connections between everyday events, making it suitable for story generation tasks.
+- [CommonGen](https://inklab.usc.edu/CommonGen/) was developed by combining crowdsourced and existing caption corpora, containing 79k commonsense descriptions across 35k distinct concept-sets.
+- [CMU Movie Summary Corpus](http://www.cs.cmu.edu/~ark/personas/) offers access to a dataset containing movie plot summaries and related metadata.
+- [Scifi TV Show Plot Summaries & Events](https://huggingface.co/datasets/lara-martin/Scifi_TV_Shows) is a collection of plot synopses for long-running (80+ episodes) science fiction TV shows, sourced from Fandom.com wikis.
+- [The LIGHT project](https://github.com/facebookresearch/ParlAI/tree/main/projects/light) serves as a large-scale fantasy text adventure game research platform, designed to train agents capable of both talking and acting, while interacting with other models or humans.
+- [The TextWorld project](https://github.com/microsoft/TextWorld) is a sandbox learning environment aimed at training and evaluating reinforcement learning (RL) agents on text-based games.
 
 
