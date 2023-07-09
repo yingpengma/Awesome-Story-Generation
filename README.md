@@ -123,7 +123,8 @@ Eg. Title (ACL-2023, Citations:0) [paper] [code] .. [summary] [authors]
 - 🔥 StoryWars: A Dataset and Instruction Tuning Baselines for Collaborative Story Understanding and Generation (ACL-2023, Citations:0) [[paper]](https://arxiv.org/pdf/2305.08152.pdf) [协作写作数据集]
 - PASTA: A Dataset for Modeling Participant States in Narratives (Arxiv-2022, Citations:0) [[paper]](https://arxiv.org/pdf/2208.00329.pdf) [Modeling Participant States] [Sayontan Ghosh, Mahnaz Koupaee, Isabella Chen, Francis Ferraro, Nathanael Chambers, Niranjan Balasubramanian]
 - SummScreen: A Dataset for Abstractive Screenplay Summarization (ACL-2022, Citations:48) [[paper]](https://arxiv.org/pdf/2104.07091) [[code]](https://github.com/mingdachen/SummScreen) [Screenplay Summarization] [Mingda Chen, Zewei Chu, Sam Wiseman, Kevin Gimpel]
-- A corpus for understanding and generating moral stories (NAACL-2022, Citations:3) [[paper]](https://arxiv.org/pdf/2305.08152.pdf) [moral stories] [Jian Guan, Ziqi Liu, Minlie Huang]
+- A corpus for understanding and generating moral stories (NAACL-2022, Citations:3) [[paper]](https://arxiv.org/pdf/2204.09438.pdf) [moral stories] [Jian Guan, Ziqi Liu, Minlie Huang]
+- A Corpus and Evaluation Framework for Deeper Understanding of Commonsense Stories (Arxiv-2016, Citations:134) [[paper]](https://arxiv.org/pdf/1604.01696) [Story Cloze dataset] [Nasrin Mostafazadeh, Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra, Lucy Vanderwende, Pushmeet Kohli, James Allen]
 
 
 ## Public Data
