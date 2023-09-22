@@ -114,6 +114,7 @@ Eg. Title (ACL-2023, Citations:0) [paper] [code] .. [summary] [authors]
 
 
 ### Applications
+- TropeTwist: Trope-based Narrative Structure Generation (FDG-2022, Citations:6) [[paper]](https://arxiv.org/abs/2204.09672) [narrative structure in games] [Alberto Alvarez, Jose Font]
 - Generating Interactive Worlds with Text (ArXiv-2019, Citations:22) [[paper]](https://arxiv.org/pdf/1911.09194.pdf)  [文本交互式生成游戏世界]
 - Learning to Speak and Act in a Fantasy Text Adventure Game (ACL-2019, Citations:132) [[paper]](https://arxiv.org/pdf/1903.03094.pdf)  [文本冒险游戏交互]
 - TextWorld: A Learning Environment for Text-based Game (IJCAI-2018, Citations:202) [[paper]](https://arxiv.org/pdf/1806.11532)  [自动或手动生成交互文本游戏]
