@@ -27,7 +27,7 @@ All papers are sorted in **chronological order**, with the most recent ones appe
 
 We would like to extend our heartfelt gratitude to 「 [**Awesome-story-generation**](https://github.com/Whorra/Awesome-story-generation) 」,  「 [**PaperForONLG**](https://github.com/thu-coai/PaperForONLG/tree/main) 」 for their invaluable assistance and contributions.
 
-If you have any suggestions or questions, please do not hesitate to reach out to me: 
+Open issues and make PRs freely! If you have any suggestions or questions, please do not hesitate to reach out to me:
 
 `mayingpeng33 [AT] gmail [DOT] com`
 
