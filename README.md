@@ -5,6 +5,7 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Related Repository](#related-repository)
 - [Papers](#papers)
   - [Literature Review](#literature-review)
   - [Plot Development](#plot-development)
@@ -25,11 +26,15 @@ This repository collects an extensive list of awesome papers about **Story Gener
 
 All papers are sorted in **chronological order**, with the most recent ones appearing at the top.
 
-We would like to extend our heartfelt gratitude to 「 [**Awesome-story-generation**](https://github.com/Whorra/Awesome-story-generation) 」,  「 [**PaperForONLG**](https://github.com/thu-coai/PaperForONLG/tree/main) 」 for their invaluable assistance and contributions.
+We would like to extend our heartfelt gratitude to 「 [**Awesome-story-generation**](https://github.com/Whorra/Awesome-story-generation) 」,  「 [**PaperForONLG**](https://github.com/thu-coai/PaperForONLG) 」 for their invaluable assistance and contributions.
 
 Open issues and make PRs freely! If you have any suggestions or questions, please do not hesitate to reach out to me:
 
 `mayingpeng33 [AT] gmail [DOT] com`
+
+## Related Repository
+|**[Awesome-LLM-Characters](https://github.com/yingpengma/Awesome-LLM-Characters)**|
+|:---:|
 
 ## Papers
 
