@@ -1,5 +1,7 @@
 <h1 align="center">Awesome-Story-Generation</h1>
 
+<div align="center">Contributed by <a href="https://yingpengma.github.io/">Yingpeng Ma</a></div>
+
 ## Table of Contents
 
 - [Introduction](#introduction)
