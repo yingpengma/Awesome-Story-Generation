@@ -48,6 +48,7 @@ Eg. `ACL-2023` **Title** [paper] [code] .. [authors]
 - `ArXiv-2021` **Automatic Story Generation: Challenges and Attempts** [[paper]](https://arxiv.org/abs/2102.12634) [Amal Alabdulkarim, Siyan Li, Xiangyu Peng]
 
 ### Plot Development
+- `ArXiv-2023` **End to End Story Plot Generator** [[paper]](https://arxiv.org/abs/2310.08796) [Hanlin Zhu, Andrew Cohen, Danqing Wang, Kevin Yang, Xiaomeng Yang, Jiantao Jiao, Yuandong Tian]
 - `ACL WNU-2022` **Uncovering Surprising Event Boundaries in Narratives** [[paper]](https://aclanthology.org/2022.wnu-1.1/)  [Zhilin Wang, Anna Jafarpour, Maarten Sap] 
 - `AAAI-2020` **Story Realization: Expanding Plot Events into Sentences** [[paper]](https://arxiv.org/abs/1909.03480v2)  [[code]](https://github.com/rajammanabrolu/StoryRealization)   [Prithviraj Ammanabrolu, Ethan Tien, Wesley Cheung, Zhaochen Luo, William Ma, Lara J. Martin, Mark O. Riedl]
 - `AAAI-2018` **Event Representations for Automated Story Generation with Deep Neural Nets** [[paper]](https://arxiv.org/abs/1706.01331)  [[code]](https://github.com/lara-martin/ASTER)   [Lara J. Martin, Prithviraj Ammanabrolu, Xinyu Wang, William Hancock, Shruti Singh, Brent Harrison, Mark O. Riedl]
@@ -99,6 +100,8 @@ Eg. `ACL-2023` **Title** [paper] [code] .. [authors]
 
 
 ### Story Outlining
+- `ArXiv-2023` **EIPE-text: Evaluation-Guided Iterative Plan Extraction for Long-Form Narrative Text Generation** [[paper]](https://arxiv.org/abs/2310.08185) [Wang You, Wenshan Wu, Yaobo Liang, Shaoguang Mao, Chenfei Wu, Maosong Cao, Yuzhe Cai, Yiduo Guo, Yan Xia, Furu Wei, Nan Duan]
+- `ArXiv-2023` **Enhancing Generation through Summarization Duality and Explicit Outline Control** [[paper]](https://arxiv.org/abs/2305.14459) [Yunzhe Li, Qian Chen, Weixiang Yan, Wen Wang, Qinglin Zhang, Hari Sundaram]
 - `ACL-2023` **DOC: Improving Long Story Coherence With Detailed Outline Control** [[paper]](https://arxiv.org/abs/2212.10077) [Kevin Yang, Dan Klein, Nanyun Peng, Yuandong Tian]
 - `CHI-2022` **TaleBrush: Sketching Stories with Generative Pretrained Language Models** [[paper]](http://www.cond.org/talebrush.pdf)  [John Joon Young Chung, Wooseok Kim, Kang Min Yoo, Hwaran Lee, Eytan Adar, Minsuk Chang]
 - `ArXiv-2022` **Neural Story Planning** [[paper]](https://arxiv.org/abs/2212.08718) [Anbang Ye, Christopher Cui, Taiwei Shi, Mark O. Riedl]
@@ -134,6 +137,8 @@ update
 
 ### Evaluation Methods
 - `ArXiv-2023` **Learning Personalized Story Evaluation** [[paper]](https://arxiv.org/abs/2310.03304) [Danqing Wang, Kevin Yang, Hanlin Zhu, Xiaomeng Yang, Andrew Cohen, Lei Li, Yuandong Tian]
+- `ArXiv-2023` **BooookScore: A systematic exploration of book-length summarization in the era of LLMs**[[paper]](https://arxiv.org/abs/2310.00785)[Yapei Chang, Kyle Lo, Tanya Goyal, Mohit Iyyer]
+- `ArXiv-2023` **TIGERScore: Towards Building Explainable Metric for All Text Generation Tasks**[[paper]](https://arxiv.org/abs/2310.00752)[Dongfu Jiang, Yishan Li, Ge Zhang, Wenhao Huang, Bill Yuchen Lin, Wenhu Chen]
 - `ArXiv-2023` **Art or Artifice? Large Language Models and the False Promise of Creativity** [[paper]](https://arxiv.org/abs/2309.14556) [Tuhin Chakrabarty, Philippe Laban, Divyansh Agarwal, Smaranda Muresan, Chien-Sheng Wu]
 - `ACL-2023` **HAUSER: Towards Holistic and Automatic Evaluation of Simile Generation** [[paper]](https://arxiv.org/abs/2306.07554) [Qianyu He, Yikai Zhang, Jiaqing Liang, Yuncheng Huang, Yanghua Xiao, Yunwen Chen]
 - `ACL-2023` **Can Large Language Models Be an Alternative to Human Evaluations?** [[paper]](https://arxiv.org/abs/2305.01937) [Cheng-Han Chiang, Hung-yi Lee]
@@ -151,6 +156,7 @@ update
 
 
 ### Applications
+- `UIST-2023` **Storyfier: Exploring Vocabulary Learning Support with Text Generation Models**[[paper]](https://arxiv.org/abs/2308.03864)[Zhenhui Peng, Xingbo Wang, Qiushi Han, Junkai Zhu, Xiaojuan Ma, Huamin Qu]
 - `FDG-2022` **TropeTwist: Trope-based Narrative Structure Generation** [[paper]](https://arxiv.org/abs/2204.09672) [Alberto Alvarez, Jose Font]
 - `AAAI-2020` **Generating Interactive Worlds with Text** [[paper]](https://arxiv.org/abs/1911.09194)  [Angela Fan, Jack Urbanek, Pratik Ringshia, Emily Dinan, Emma Qian, Siddharth Karamcheti, Shrimai Prabhumoye, Douwe Kiela, Tim Rocktaschel, Arthur Szlam, Jason Weston]
 - `EMNLP-2019` **Learning to Speak and Act in a Fantasy Text Adventure Game** [[paper]](https://arxiv.org/abs/1903.03094)  [Jack Urbanek, Angela Fan, Siddharth Karamcheti, Saachi Jain, Samuel Humeau, Emily Dinan, Tim Rocktäschel, Douwe Kiela, Arthur Szlam, Jason Weston]
