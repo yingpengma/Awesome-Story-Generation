@@ -84,7 +84,6 @@ Eg. `ACL-2023` **Title** [paper] [code] .. [authors]
 - `ACL-2018` **Towards Controllable Story Generation** [[paper]](https://aclanthology.org/W18-1505.pdf) 
 
 ### Characterization
-- `ArXiv-2023` **RoleLLM: Benchmarking, Eliciting, and Enhancing Role-Playing Abilities of Large Language Models**[[paper]](https://arxiv.org/abs/2310.00746)[Zekun Moore Wang, Zhongyuan Peng, Haoran Que, Jiaheng Liu, Wangchunshu Zhou, Yuhan Wu, Hongcheng Guo, Ruitong Gan, Zehao Ni, Man Zhang, Zhaoxiang Zhang, Wanli Ouyang, Ke Xu, Wenhu Chen, Jie Fu, Junran Peng]
 - `EMNLP-2022` **Towards Inter-character Relationship-driven Story Generation** [[paper]](https://arxiv.org/abs/2211.00676)
 - `COLING-2022` **CHAE: Fine-Grained Controllable Story Generation with Characters, Actions and Emotions** [[paper]](https://arxiv.org/abs/2210.05221) [Xinpeng Wang, Han Jiang, Zhihua Wei, Shanlin Zhou]
 - `ArXiv-2022` **An Ion Exchange Mechanism Inspired Story Ending Generator for Different Characters** [[paper]](https://arxiv.org/abs/2209.00200) [Xinyu Jiang, Qi Zhang, Chongyang Shi, Kaiying Jiang, Liang Hu, Shoujin Wang]
