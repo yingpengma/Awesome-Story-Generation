@@ -8,6 +8,7 @@
 - [Related Repository](#related-repository)
 - [Papers](#papers)
   - [Literature Review](#literature-review)
+  - [Language Models](#language-models)
   - [Plot Development](#plot-development)
   - [Improving Storytelling](#improving-storytelling)
   - [Controllability](#controllability)
@@ -15,7 +16,6 @@
   - [Writing Style](#writing-style)
   - [Story Outlining](#story-outlining)
   - [Prompt Design](#prompt-design)
-  - [Language Models](#language-models)
   - [Evaluation Methods](#evaluation-methods)
   - [Applications](#applications)
   - [Datasets](#datasets)
@@ -47,13 +47,27 @@ Eg. `ACL-2023` **Title** [paper] [code] .. [authors]
 - `ArXiv-2022` **Survey: Automatic Movie Plot and Script Generation** [[paper]](https://www.cfilt.iitb.ac.in/resources/surveys/2022/prerak-ampsg-survey-27jun22.pdf)  [Prerak Gandhi, Pushpak Bhattacharyya]
 - `ArXiv-2021` **Automatic Story Generation: Challenges and Attempts** [[paper]](https://arxiv.org/abs/2102.12634) [Amal Alabdulkarim, Siyan Li, Xiangyu Peng]
 
+### Language Models
+- `ArXiv-2023` **RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text** [[paper]](https://arxiv.org/abs/2305.13304) [[code]](https://github.com/aiwaves-cn/RecurrentGPT) [Wangchunshu Zhou, Yuchen Eleanor Jiang, Peng Cui, Tiannan Wang, Zhenxin Xiao, Yifan Hou, Ryan Cotterell, Mrinmaya Sachan]
+- `INLG-2023` **The Next Chapter: A Study of Large Language Models in Storytelling** [[paper]](https://arxiv.org/abs/2301.09790) [Zhuohan Xie, Trevor Cohn, Jey Han Lau]
+- `ArXiv-2022` **Little Red Riding Hood Goes Around the Globe:Crosslingual Story Planning and Generation with Large Language Models** [[paper]](https://arxiv.org/abs/2212.10471) [Evgeniia Razumovskaia, Joshua Maynez, Annie Louis, Mirella Lapata, Shashi Narayan]
+- `ArXiv-2022` **Future Sight: Dynamic Story Generation with Large Pretrained Language Models** [[paper]](https://arxiv.org/abs/2212.09947) [Brian D. Zimmerman, Gaurav Sahu, Olga Vechtomova]
+- `CHI-2022` **Co-Writing Screenplays and Theatre Scripts with Language Models: An Evaluation by Industry Professionals** [[paper]](https://arxiv.org/abs/2209.14958)  [Piotr Mirowski, Kory W. Mathewson, Jaylen Pittman, Richard Evans]
+- `ArXiv-2022` **Plot Writing From Pre-Trained Language Models** [[paper]](https://arxiv.org/abs/2206.03021) [Yiping Jin, Vishakha Kadam, Dittaya Wanvarie]
+- `EMNLP-2020` **MEGATRON-CNTRL: Controllable story generation with external knowledge using large-scale language models** [[paper]](https://arxiv.org/abs/2010.00840)  [Peng Xu, Mostofa Patwary, Mohammad Shoeybi, Raul Puri, Pascale Fung, Anima Anandkumar, Bryan Catanzaro]
+- `TACL-2020` **A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation** [[paper]](https://arxiv.org/abs/2001.05139)  [Jian Guan, Fei Huang, Zhihao Zhao, Xiaoyan Zhu, Minlie Huang]
+
+
 ### Plot Development
 - `ArXiv-2023` **End to End Story Plot Generator** [[paper]](https://arxiv.org/abs/2310.08796) [Hanlin Zhu, Andrew Cohen, Danqing Wang, Kevin Yang, Xiaomeng Yang, Jiantao Jiao, Yuandong Tian]
+- `AAAI Workshop-2023` **Conveying the Predicted Future to Users: A Case Study of Story Plot Prediction** [[paper]](https://arxiv.org/abs/2302.09122)  [Chieh-Yang Huang, Saniya Naphade, Kavya Laalasa Karanam, Ting-Hao 'Kenneth' Huang] 
 - `ACL WNU-2022` **Uncovering Surprising Event Boundaries in Narratives** [[paper]](https://aclanthology.org/2022.wnu-1.1/)  [Zhilin Wang, Anna Jafarpour, Maarten Sap] 
 - `AAAI-2020` **Story Realization: Expanding Plot Events into Sentences** [[paper]](https://arxiv.org/abs/1909.03480v2)  [[code]](https://github.com/rajammanabrolu/StoryRealization)   [Prithviraj Ammanabrolu, Ethan Tien, Wesley Cheung, Zhaochen Luo, William Ma, Lara J. Martin, Mark O. Riedl]
 - `AAAI-2018` **Event Representations for Automated Story Generation with Deep Neural Nets** [[paper]](https://arxiv.org/abs/1706.01331)  [[code]](https://github.com/lara-martin/ASTER)   [Lara J. Martin, Prithviraj Ammanabrolu, Xinyu Wang, William Hancock, Shruti Singh, Brent Harrison, Mark O. Riedl]
 
 ### Improving Storytelling
+- `EMNLP Findings-2023` **Affective and Dynamic Beam Search for Story Generation** [[paper]](https://arxiv.org/abs/2310.15079) [Tenghao Huang, Ehsan Qasemi, Bangzheng Li, He Wang, Faeze Brahman, Muhao Chen, Snigdha Chaturvedi]
+- `EMNLP Findings-2023` **GROVE: A Retrieval-augmented Complex Story Generation Framework with A Forest of Evidence** [[paper]](https://arxiv.org/abs/2310.05388) [Zhihua Wen, Zhiliang Tian, Wei Wu, Yuxin Yang, Yanqi Shi, Zhen Huang, Dongsheng Li]
 - `ArXiv-2023` **Creativity Support in the Age of Large Language Models: An Empirical Study Involving Emerging Writers** [[paper]](https://arxiv.org/abs/2309.12570) [Tuhin Chakrabarty, Vishakh Padmakumar, Faeze Brahman, Smaranda Muresan]
 - `ACL-2023` **Open-ended Long Text Generation via Masked Language Modeling** [[paper]](https://aclanthology.org/2023.acl-long.13/) [Xiaobo Liang, Zecheng Tang, Juntao Li, Min Zhang]
 - `ArXiv-2022` **Creative Writing with an AI-Powered Writing Assistant: Perspectives from Professional Writers** [[paper]](https://arxiv.org/abs/2211.05030) [Daphne Ippolito, Ann Yuan, Andy Coenen, Sehmon Burnam]
@@ -100,6 +114,7 @@ Eg. `ACL-2023` **Title** [paper] [code] .. [authors]
 
 
 ### Story Outlining
+- `EMNLP Findings-2023` **Improving Pacing in Long-Form Story Planning** [[paper]](https://arxiv.org/abs/2311.04459) [Yichen Wang, Kevin Yang, Xiaoming Liu, Dan Klein]
 - `ArXiv-2023` **EIPE-text: Evaluation-Guided Iterative Plan Extraction for Long-Form Narrative Text Generation** [[paper]](https://arxiv.org/abs/2310.08185) [Wang You, Wenshan Wu, Yaobo Liang, Shaoguang Mao, Chenfei Wu, Maosong Cao, Yuzhe Cai, Yiduo Guo, Yan Xia, Furu Wei, Nan Duan]
 - `ArXiv-2023` **Enhancing Generation through Summarization Duality and Explicit Outline Control** [[paper]](https://arxiv.org/abs/2305.14459) [Yunzhe Li, Qian Chen, Weixiang Yan, Wen Wang, Qinglin Zhang, Hari Sundaram]
 - `ACL-2023` **DOC: Improving Long Story Coherence With Detailed Outline Control** [[paper]](https://arxiv.org/abs/2212.10077) [Kevin Yang, Dan Klein, Nanyun Peng, Yuandong Tian]
@@ -124,16 +139,6 @@ Eg. `ACL-2023` **Title** [paper] [code] .. [authors]
 update 
 -->
 
-
-### Language Models
-- `ArXiv-2023` **RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text** [[paper]](https://arxiv.org/abs/2305.13304) [[code]](https://github.com/aiwaves-cn/RecurrentGPT) [Wangchunshu Zhou, Yuchen Eleanor Jiang, Peng Cui, Tiannan Wang, Zhenxin Xiao, Yifan Hou, Ryan Cotterell, Mrinmaya Sachan
-]
-- `INLG-2023` **The Next Chapter: A Study of Large Language Models in Storytelling** [[paper]](https://arxiv.org/abs/2301.09790) [Zhuohan Xie, Trevor Cohn, Jey Han Lau]
-- `ArXiv-2023` **Little Red Riding Hood Goes Around the Globe:Crosslingual Story Planning and Generation with Large Language Models** [[paper]](https://arxiv.org/abs/2212.10471) [Evgeniia Razumovskaia, Joshua Maynez, Annie Louis, Mirella Lapata, Shashi Narayan]
-- `CHI-2022` **Co-Writing Screenplays and Theatre Scripts with Language Models: An Evaluation by Industry Professionals** [[paper]](https://arxiv.org/abs/2209.14958)  [Piotr Mirowski, Kory W. Mathewson, Jaylen Pittman, Richard Evans]
-- `ArXiv-2022` **Plot Writing From Pre-Trained Language Models** [[paper]](https://arxiv.org/abs/2206.03021) [Yiping Jin, Vishakha Kadam, Dittaya Wanvarie]
-- `EMNLP-2020` **MEGATRON-CNTRL: Controllable story generation with external knowledge using large-scale language models** [[paper]](https://arxiv.org/abs/2010.00840)  [Peng Xu, Mostofa Patwary, Mohammad Shoeybi, Raul Puri, Pascale Fung, Anima Anandkumar, Bryan Catanzaro]
-- `TACL-2020` **A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation** [[paper]](https://arxiv.org/abs/2001.05139)  [Jian Guan, Fei Huang, Zhihao Zhao, Xiaoyan Zhu, Minlie Huang]
 
 ### Evaluation Methods
 - `ArXiv-2023` **Learning Personalized Story Evaluation** [[paper]](https://arxiv.org/abs/2310.03304) [Danqing Wang, Kevin Yang, Hanlin Zhu, Xiaomeng Yang, Andrew Cohen, Lei Li, Yuandong Tian]
