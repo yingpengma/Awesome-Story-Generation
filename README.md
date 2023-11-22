@@ -164,6 +164,7 @@ update
 
 
 ### Applications
+- `ArXiv-2023` **NarrativePlay: Interactive Narrative Understanding**  [[paper]](https://arxiv.org/abs/2310.01459)   [Runcong Zhao, Wenjia Zhang, Jiazheng Li, Lixing Zhu, Yanran Li, Yulan He, Lin Gui]
 - `AAAI-2023` **SceneCraft: Automating Interactive Narrative Scene Generation in Digital Games with Large Language Models**[[paper]](https://ojs.aaai.org/index.php/AIIDE/article/view/27504) [Vikram Kumaran, Jonathan Rowe, Bradford Mott, James Lester]
 - `UIST-2023` **Storyfier: Exploring Vocabulary Learning Support with Text Generation Models**[[paper]](https://arxiv.org/abs/2308.03864) [Zhenhui Peng, Xingbo Wang, Qiushi Han, Junkai Zhu, Xiaojuan Ma, Huamin Qu]
 - `FDG-2022` **TropeTwist: Trope-based Narrative Structure Generation** [[paper]](https://arxiv.org/abs/2204.09672) [Alberto Alvarez, Jose Font]
