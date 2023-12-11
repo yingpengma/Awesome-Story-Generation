@@ -28,7 +28,9 @@ This repository collects an extensive list of awesome papers about **Story Gener
 
 All papers are sorted in **chronological order**, with the most recent ones appearing at the top.
 
-Open issues and make PRs freely! If you have any suggestions or questions, please do not hesitate to reach out to me:
+Due to limited energy and time, omissions and errors may occur. If you notice any issues or mistakes anywhere, feel free to open issues and make PRs!
+
+If you have any suggestions or questions, please do not hesitate to reach out to me:
 
 `mayingpeng33 [AT] gmail [DOT] com`
 
