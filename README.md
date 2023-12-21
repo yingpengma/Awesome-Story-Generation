@@ -72,6 +72,7 @@ Eg. `ACL-2023` **Title** [paper] [code] .. [authors]
 - `AAAI-2018` **Event Representations for Automated Story Generation with Deep Neural Nets** [[paper]](https://arxiv.org/abs/1706.01331)  [[code]](https://github.com/lara-martin/ASTER)   [Lara J. Martin, Prithviraj Ammanabrolu, Xinyu Wang, William Hancock, Shruti Singh, Brent Harrison, Mark O. Riedl] [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/47a26b0c5d27b99da175e0a719f42d707f97ec3d?fields=citationCount)]()
 
 ### Improving Storytelling
+- `CoNLL Workshop-2023` **BabyStories: Can Reinforcement Learning Teach Baby Language Models to Write Better Stories?** [[paper]](https://arxiv.org/abs/2310.16681) [Xingmeng Zhao, Tongnian Wang, Sheri Osborn, Anthony Rios]  [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/74a5c1ddb657a7dab8fc3930f9100b2fafa682dd?fields=citationCount)]()
 - `EMNLP Findings-2023` **Affective and Dynamic Beam Search for Story Generation** [[paper]](https://arxiv.org/abs/2310.15079) [Tenghao Huang, Ehsan Qasemi, Bangzheng Li, He Wang, Faeze Brahman, Muhao Chen, Snigdha Chaturvedi]
 - `EMNLP Findings-2023` **GROVE: A Retrieval-augmented Complex Story Generation Framework with A Forest of Evidence** [[paper]](https://arxiv.org/abs/2310.05388) [Zhihua Wen, Zhiliang Tian, Wei Wu, Yuxin Yang, Yanqi Shi, Zhen Huang, Dongsheng Li]
 - `ArXiv-2023` **Creativity Support in the Age of Large Language Models: An Empirical Study Involving Emerging Writers** [[paper]](https://arxiv.org/abs/2309.12570) [Tuhin Chakrabarty, Vishakh Padmakumar, Faeze Brahman, Smaranda Muresan]
@@ -147,6 +148,7 @@ update
 
 
 ### Evaluation
+- `ArXiv-2023` **Experimental Narratives: A Comparison of Human Crowdsourced Storytelling and AI Storytelling** [[paper]](https://arxiv.org/abs/2310.12902) [Nina Begus] [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/db599a0ffcaf891bda55b62dafe348c3cc88ec6e?fields=citationCount)]()
 - `ArXiv-2023` **EIPE-text: Evaluation-Guided Iterative Plan Extraction for Long-Form Narrative Text Generation** [[paper]](https://arxiv.org/abs/2310.08185) [Wang You, Wenshan Wu, Yaobo Liang, Shaoguang Mao, Chenfei Wu, Maosong Cao, Yuzhe Cai, Yiduo Guo, Yan Xia, Furu Wei, Nan Duan]
 - `ArXiv-2023` **Learning Personalized Story Evaluation** [[paper]](https://arxiv.org/abs/2310.03304) [Danqing Wang, Kevin Yang, Hanlin Zhu, Xiaomeng Yang, Andrew Cohen, Lei Li, Yuandong Tian]
 - `ArXiv-2023` **BooookScore: A systematic exploration of book-length summarization in the era of LLMs**[[paper]](https://arxiv.org/abs/2310.00785)[Yapei Chang, Kyle Lo, Tanya Goyal, Mohit Iyyer]
@@ -169,7 +171,7 @@ update
 
 ### Application
 - `ArXiv-2023` **NarrativePlay: Interactive Narrative Understanding**  [[paper]](https://arxiv.org/abs/2310.01459)   [Runcong Zhao, Wenjia Zhang, Jiazheng Li, Lixing Zhu, Yanran Li, Yulan He, Lin Gui]
-- `AAAI-2023` **SceneCraft: Automating Interactive Narrative Scene Generation in Digital Games with Large Language Models**[[paper]](https://ojs.aaai.org/index.php/AIIDE/article/view/27504) [Vikram Kumaran, Jonathan Rowe, Bradford Mott, James Lester]
+- `AAAI-2023` **SceneCraft: Automating Interactive Narrative Scene Generation in Digital Games with Large Language Models** [[paper]](https://ojs.aaai.org/index.php/AIIDE/article/view/27504) [Vikram Kumaran, Jonathan Rowe, Bradford Mott, James Lester]
 - `UIST-2023` **Storyfier: Exploring Vocabulary Learning Support with Text Generation Models**[[paper]](https://arxiv.org/abs/2308.03864) [Zhenhui Peng, Xingbo Wang, Qiushi Han, Junkai Zhu, Xiaojuan Ma, Huamin Qu]
 - `FDG-2022` **TropeTwist: Trope-based Narrative Structure Generation** [[paper]](https://arxiv.org/abs/2204.09672) [Alberto Alvarez, Jose Font]
 - `AAAI-2020` **Generating Interactive Worlds with Text** [[paper]](https://arxiv.org/abs/1911.09194)  [Angela Fan, Jack Urbanek, Pratik Ringshia, Emily Dinan, Emma Qian, Siddharth Karamcheti, Shrimai Prabhumoye, Douwe Kiela, Tim Rocktaschel, Arthur Szlam, Jason Weston] [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/4b891175d01123422d64b12cc5b15a50de98bf87?fields=citationCount)]()
@@ -178,6 +180,7 @@ update
 
 
 ### Dataset
+- `ArXiv-2023` **STONYBOOK: A System and Resource for Large-Scale Analysis of Novels** [[paper]](https://arxiv.org/abs/2311.03614) [Charuta Pethe, Allen Kim, Rajesh Prabhakar, Tanzir Pial, Steven Skiena] [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/402a7b3947116b46fa4e1ca5c6f57bd595f50bf2?fields=citationCount)]()
 - `ACL-2023` **StoryWars: A Dataset and Instruction Tuning Baselines for Collaborative Story Understanding and Generation** [[paper]](https://arxiv.org/abs/2305.08152) [Yulun Du, Lydia Chilton]
 - `INLG-2023` **Long Story Generation Challenge** [[paper]](https://aclanthology.org/2023.inlg-genchal.2/) [Nikolay Mikhaylovskiy]
 - `ArXiv-2022` **PASTA: A Dataset for Modeling Participant States in Narratives** [[paper]](https://arxiv.org/abs/2208.00329) [Sayontan Ghosh, Mahnaz Koupaee, Isabella Chen, Francis Ferraro, Nathanael Chambers, Niranjan Balasubramanian]
