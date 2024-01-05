@@ -47,6 +47,7 @@ Eg. `ACL-2023` **Title** [paper] [code] .. [authors]
 
 ### Literature Review
 - `ArXiv-2023` **Are NLP Models Good at Tracing Thoughts: An Overview of Narrative Understanding** [[paper]](https://arxiv.org/abs/2310.18783) [Lixing Zhu, Runcong Zhao, Lin Gui, Yulan He]
+- `ACM Computing Surveys-2023` **A Survey of Controllable Text Generation Using Transformer-based Pre-trained Language Models** [[paper]](https://arxiv.org/abs/2201.05337) [Hanqing Zhang, Haolin Song, Shaoyu Li, Ming Zhou, Dawei Song]
 - `Neurocomputing-2023` **Open-world story generation with structured knowledge enhancement: A comprehensive survey** [[paper]](https://arxiv.org/abs/2212.04634) [Yuxin Wang, Jieru Lin, Zhiwei Yu, Wei Hu, Börje F. Karlsson]
 - `NeurIPS-2022` **Factuality Enhanced Language Models for Open-Ended Text Generation** [[paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/df438caa36714f69277daa92d608dd63-Paper-Conference.pdf)   [Nayeon Lee, Wei Ping, Peng Xu, Mostofa Patwary, Mohammad Shoeybi, Bryan Catanzaro]
 - `ArXiv-2022` **Survey: Automatic Movie Plot and Script Generation** [[paper]](https://www.cfilt.iitb.ac.in/resources/surveys/2022/prerak-ampsg-survey-27jun22.pdf)  [Prerak Gandhi, Pushpak Bhattacharyya]
@@ -170,6 +171,7 @@ update
 
 
 ### Application
+- `ArXiv-2023` **Inspo: Writing Stories with a Flock of AIs and Humans**  [[paper]](https://arxiv.org/abs/2311.16521)  [Chieh-Yang Huang, Sanjana Gautam, Shannon McClellan Brooks, Ya-Fang Lin, Ting-Hao 'Kenneth' Huang]
 - `ArXiv-2023` **NarrativePlay: Interactive Narrative Understanding**  [[paper]](https://arxiv.org/abs/2310.01459)   [Runcong Zhao, Wenjia Zhang, Jiazheng Li, Lixing Zhu, Yanran Li, Yulan He, Lin Gui]
 - `AAAI-2023` **SceneCraft: Automating Interactive Narrative Scene Generation in Digital Games with Large Language Models** [[paper]](https://ojs.aaai.org/index.php/AIIDE/article/view/27504) [Vikram Kumaran, Jonathan Rowe, Bradford Mott, James Lester]
 - `UIST-2023` **Storyfier: Exploring Vocabulary Learning Support with Text Generation Models**[[paper]](https://arxiv.org/abs/2308.03864) [Zhenhui Peng, Xingbo Wang, Qiushi Han, Junkai Zhu, Xiaojuan Ma, Huamin Qu]
