@@ -75,18 +75,12 @@ Eg. `ACL-2023` **Title** [paper] [code] .. [authors]  [![](https://img.shields.i
 - `AAAI-2020` **Story Realization: Expanding Plot Events into Sentences** [[paper]](https://arxiv.org/abs/1909.03480v2)  [[code]](https://github.com/rajammanabrolu/StoryRealization)   [Prithviraj Ammanabrolu, Ethan Tien, Wesley Cheung, Zhaochen Luo, William Ma, Lara J. Martin, Mark O. Riedl] [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/a4dd44938eaf534259aaf4bcb875bb0ab8431c4d?fields=citationCount)]()
 - `AAAI-2018` **Event Representations for Automated Story Generation with Deep Neural Nets** [[paper]](https://arxiv.org/abs/1706.01331)  [[code]](https://github.com/lara-martin/ASTER)   [Lara J. Martin, Prithviraj Ammanabrolu, Xinyu Wang, William Hancock, Shruti Singh, Brent Harrison, Mark O. Riedl] [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/47a26b0c5d27b99da175e0a719f42d707f97ec3d?fields=citationCount)]()
 
-<!--
-update 
--->
-
-
 ### Better Storytelling
 - `ArXiv-2023` **LongStory: Coherent, Complete and Length Controlled Long story Generation** [[paper]](https://arxiv.org/abs/2311.15208) [Kyeongman Park, Nakyeong Yang, Kyomin Jung]  [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/0bcb53691c6e0e4f39152aa4b5255e624c6f85ed?fields=citationCount)]()
 - `CoNLL Workshop-2023` **BabyStories: Can Reinforcement Learning Teach Baby Language Models to Write Better Stories?** [[paper]](https://arxiv.org/abs/2310.16681) [Xingmeng Zhao, Tongnian Wang, Sheri Osborn, Anthony Rios]  [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/74a5c1ddb657a7dab8fc3930f9100b2fafa682dd?fields=citationCount)]()
 - `EMNLP Findings-2023` **Affective and Dynamic Beam Search for Story Generation** [[paper]](https://arxiv.org/abs/2310.15079) [Tenghao Huang, Ehsan Qasemi, Bangzheng Li, He Wang, Faeze Brahman, Muhao Chen, Snigdha Chaturvedi] b7aff63b893ae0f5178c894b515d1cab00ba97b7
 - `EMNLP Findings-2023` **GROVE: A Retrieval-augmented Complex Story Generation Framework with A Forest of Evidence** [[paper]](https://arxiv.org/abs/2310.05388) [Zhihua Wen, Zhiliang Tian, Wei Wu, Yuxin Yang, Yanqi Shi, Zhen Huang, Dongsheng Li]
 - `ACL-2023` **Open-ended Long Text Generation via Masked Language Modeling** [[paper]](https://aclanthology.org/2023.acl-long.13/) [Xiaobo Liang, Zecheng Tang, Juntao Li, Min Zhang]
-- `ArXiv-2022` **Creative Writing with an AI-Powered Writing Assistant: Perspectives from Professional Writers** [[paper]](https://arxiv.org/abs/2211.05030) [Daphne Ippolito, Ann Yuan, Andy Coenen, Sehmon Burnam]
 - `EMNLP-2022` **EtriCA: Event-triggered context-aware story generation augmented by cross attention** [[paper]](https://arxiv.org/abs/2210.12463) [Chen Tang, Chenghua Lin, Henglin Huang, Frank Guerin, Zhihao Zhang]
 - `AACL-2022` **Improving Chinese Story Generation via Awareness of Syntactic Dependencies and Semantics** [[paper]](https://arxiv.org/abs/2210.10618) [Henglin Huang, Chen Tang, Tyler Loakman, Frank Guerin, Chenghua Lin]
 - `ArXiv-2022` **Generating Coherent Narratives by Learning Dynamic and Discrete Entity States with a Contrastive Framework** [[paper]](https://arxiv.org/abs/2208.03985)   [Jian Guan, Zhenyu Yang, Rongsheng Zhang, Zhipeng Hu, Minlie Huang]
@@ -172,6 +166,7 @@ update
 - `ACL-2023` **Can Large Language Models Be an Alternative to Human Evaluations?** [[paper]](https://arxiv.org/abs/2305.01937) [Cheng-Han Chiang, Hung-yi Lee]
 - `ArXiv-2023` **Exploring the Use of Large Language Models for Reference-Free Text Quality Evaluation: An Empirical Study** [[paper]](https://arxiv.org/abs/2304.00723) [Yi Chen, Rui Wang, Haiyun Jiang, Shuming Shi, Ruifeng Xu]
 - `ArXiv-2023` **DeltaScore: Evaluating Story Generation with Differentiating Perturbations** [[paper]](https://arxiv.org/abs/2303.08991) [Zhuohan Xie, Miao Li, Trevor Cohn, Jey Han Lau]
+- `ArXiv-2022` **Creative Writing with an AI-Powered Writing Assistant: Perspectives from Professional Writers** [[paper]](https://arxiv.org/abs/2211.05030) [Daphne Ippolito, Ann Yuan, Andy Coenen, Sehmon Burnam]  [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/ec31364e266ac691da29be7d2309fc2a4f8e0ee6?fields=citationCount)]()
 - `EMNLP-2022` **Automatic Comment Generation for Chinese Student Narrative Essays** [[paper]](https://aclanthology.org/2022.emnlp-demos.21/) [Zhexin Zhang, Jian Guan, Guowei Xu, Yixiang Tian, Minlie Huang]
 - `EMNLP-2022` **StoryER: Automatic Story Evaluation via Ranking, Rating and Reasoning** [[paper]](https://arxiv.org/abs/2210.08459) [Hong Chen, Duc Minh Vo, Hiroya Takamura, Yusuke Miyao, Hideki Nakayama]
 - `ArXiv-2022` **A Benchmark for Understanding and Generating Dialogue between Characters in Stories** [[paper]](https://arxiv.org/abs/2209.08524) [Jianzhu Yao, Ziqi Liu, Jian Guan, Minlie Huang]
