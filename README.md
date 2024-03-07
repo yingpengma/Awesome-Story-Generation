@@ -2,6 +2,10 @@
 
 <div align="center">Contributed by <a href="https://yingpengma.github.io/">Yingpeng Ma</a></div>
 
+## 
+
+🔥 The citation count feature may currently show "rate limited" errors due to high traffic on the Semantic Scholar API. This is temporary, and normal service should resume soon. Thank you for your patience.
+
 ## Table of Contents
 
 - [Introduction](#introduction)
