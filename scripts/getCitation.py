@@ -4,6 +4,7 @@ import os
 
 api_key = os.environ.get('API_KEY')
 headers = {'x-api-key': api_key}
+print(f'Current working directory: {os.getcwd()}')
 
 json_data = {}
 
@@ -22,6 +23,8 @@ except Exception as e:
     print(f'An error occurred: {e}')
 finally:
     json_output = json.dumps(json_data, indent=2)
+    print('json_output')
     file_path = 'citationCount.json'
     with open(file_path, 'w') as file:
         file.write(json_output)
+    print(f'File written: {file_path}')
