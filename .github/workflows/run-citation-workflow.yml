@@ -23,6 +23,6 @@ jobs:
 
       - name: Run getCitation.py script
         env:
-          API_KEY: ${{ secrets.MY_PRIVATE_API_KEY }}  # 设置环境变量
+          API_KEY: ${{ secrets.MY_PRIVATE_API_KEY }}
         run: |
-          python getCitation.py
+          python scripts/getCitation.py
