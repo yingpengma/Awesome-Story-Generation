@@ -28,8 +28,10 @@ jobs:
           python getCitation.py
         working-directory: ./scripts
 
-      - name: Upload citationCount.json
-        uses: actions/upload-artifact@v2
-        with:
-          name: citationCount
-          path: scripts/citationCount.json
+      - name: Commit and push if changes
+        run: |
+          git config --global user.email "mayingpeng33@gmail.com"
+          git config --global user.name "yingpengma"
+          git add -f scripts/citationCount.json
+          # Only commit if there were changes
+          git diff --staged --quiet || (git commit -m "Update citationCount.json" && git push)
