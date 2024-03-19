@@ -3,7 +3,7 @@ name: Run getCitation Script
 on:
   schedule:
     # 每小时执行一次
-    - cron: '54 * * * *'
+    - cron: '05 * * * *'
 
 jobs:
   run-script:
@@ -23,6 +23,6 @@ jobs:
 
       - name: Run getCitation.py script
         env:
-          API_KEY: ${{ secrets.MY_PRIVATE_API_KEY }}
+          API_KEY: ${{ secrets.API_KEY }}
         run: |
           python scripts/getCitation.py
