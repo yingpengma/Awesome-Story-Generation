@@ -2,8 +2,7 @@ name: Run getCitation Script
 
 on:
   schedule:
-    # 每小时执行一次
-    - cron: '05 * * * *'
+    - cron: '00 * * * *'
   workflow_dispatch:  
 
 jobs:
