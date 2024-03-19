@@ -26,3 +26,4 @@ jobs:
           API_KEY: ${{ secrets.API_KEY }}
         run: |
           python scripts/getCitation.py
+        working-directory: ./scripts
