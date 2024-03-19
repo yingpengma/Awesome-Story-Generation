@@ -11,5 +11,5 @@ r = requests.post(
 
 json_data = json.dumps(r.json(), indent=2)
 # print(json_data)
-with open('citationCount.json', 'w') as file:
+with open('./scripts/citationCount.json', 'w') as file:
     file.write(json_data)
