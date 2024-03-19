@@ -27,3 +27,9 @@ jobs:
         run: |
           python getCitation.py
         working-directory: ./scripts
+
+      - name: Upload citationCount.json
+        uses: actions/upload-artifact@v2
+        with:
+          name: citationCount
+          path: scripts/citationCount.json
