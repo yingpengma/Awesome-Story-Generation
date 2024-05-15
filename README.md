@@ -219,12 +219,11 @@ Eg. `ACL-2023` **Title** [paper] [code] .. [authors]  [![](https://img.shields.i
 - `NAACL-2016` **A Corpus and Evaluation Framework for Deeper Understanding of Commonsense Stories** [[paper]](https://arxiv.org/abs/1604.01696) [Nasrin Mostafazadeh, Nathanael Chambers, Xiaodong He, Devi Parikh, Dhruv Batra, Lucy Vanderwende, Pushmeet Kohli, James Allen] [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/2a0114dc4d8ee374506be68bda20c8cd78200c66?fields=citationCount)]()
 
 
-## Public Data
+## Public Resources
+- [Understanding AI for Stories](https://isamu-website.medium.com/understanding-ai-for-stories-d0c1cd7b7bdc) serves as a survey that delves into the application of AI in the realm of story generation, shedding light on its potential as well as the challenges that it encounters.
 - [ROC Stories](https://cs.rochester.edu/nlp/rocstories/) is a compilation of 100,000 five-sentence stories and 3,742 Story Cloze Test stories, capturing a rich array of causal and temporal commonsense connections between everyday events, making it suitable for story generation tasks.
 - [CommonGen](https://inklab.usc.edu/CommonGen/) was developed by combining crowdsourced and existing caption corpora, containing 79k commonsense descriptions across 35k distinct concept-sets.
 - [CMU Movie Summary Corpus](http://www.cs.cmu.edu/~ark/personas/) offers access to a dataset containing movie plot summaries and related metadata.
 - [Scifi TV Show Plot Summaries & Events](https://huggingface.co/datasets/lara-martin/Scifi_TV_Shows) is a collection of plot synopses for long-running (80+ episodes) science fiction TV shows, sourced from Fandom.com wikis.
-- [The LIGHT project](https://github.com/facebookresearch/ParlAI/tree/main/projects/light) serves as a large-scale fantasy text adventure game research platform, designed to train agents capable of both talking and acting, while interacting with other models or humans.
-- [The TextWorld project](https://github.com/microsoft/TextWorld) is a sandbox learning environment aimed at training and evaluating reinforcement learning (RL) agents on text-based games.
 
 ![Star History Chart](https://api.star-history.com/svg?repos=yingpengma/Awesome-Story-Generation&type=Date)
