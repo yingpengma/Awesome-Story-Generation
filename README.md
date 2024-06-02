@@ -49,7 +49,7 @@ If you have any suggestions or questions, please do not hesitate to reach out to
 
 ## Papers
 
-Eg. `ACL-2023` **Title** [paper] [code] .. [authors]  [![](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https://api.semanticscholar.org/graph/v1/paper/fad03a833345b38323d97ee4818d341d6ba4fbdf?fields=citationCount)]()
+Eg. `ACL-2023` **Title** [paper] [code] .. [authors]  [![](https://img.shields.io/badge/citation-count-blue)]()
 
 
 ### Literature Review
