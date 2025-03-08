@@ -1,96 +1,114 @@
 import json
 import requests
-import time
 from datetime import datetime
 
-def batch_get_citations(paper_titles, original_data, batch_size=10):
-    """批量获取多篇论文的引用数，使用正确的API格式"""
+def update_paper_citation(title, paper_data, file_path, retry_limit=3):
+    """获取单篇论文的引用数，并立即更新JSON文件"""
     base_url = "https://api.semanticscholar.org/graph/v1/paper/search"
     headers = {
         "Content-Type": "application/json",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
     }
     
-    # 存储结果的字典
-    results = {}
-    not_found_info = {}  # 存储未找到论文的详细原因
+    old_citation = paper_data["papers"][title]["citations"]
+    print(f"\n论文: '{title}'")
     
-    # 将论文标题分批处理
-    batches = [paper_titles[i:i+batch_size] for i in range(0, len(paper_titles), batch_size)]
-    
-    print("\n" + "="*80)
-    print("开始批量查询过程")
-    print("="*80)
-    
-    for batch_index, batch in enumerate(batches):
-        print(f"\n批次 {batch_index+1}/{len(batches)} - 处理 {len(batch)} 篇论文:")
-        
-        # 逐个处理每篇论文而不是使用batch接口
-        for i, title in enumerate(batch):
-            print(f"\n论文 {batch_index*batch_size + i + 1}: '{title}'")
-            old_citation = original_data["papers"][title]["citations"]
+    for attempt in range(retry_limit):
+        try:
+            # 使用search接口查询论文
+            params = {
+                "query": title,
+                "fields": "title,citationCount,url",
+                "limit": 10  # 获取几个匹配结果以提高找到的概率
+            }
             
-            try:
-                # 使用search接口查询论文
-                params = {
-                    "query": title,
-                    "fields": "title,citationCount,url",
-                    "limit": 5  # 获取几个匹配结果以提高找到的概率
-                }
-                
-                response = requests.get(base_url, params=params, headers=headers)
-                response.raise_for_status()
-                data = response.json()
-                
-                # 检查是否有搜索结果
-                if not data.get("data") or len(data["data"]) == 0:
-                    reason = "API返回空结果"
-                    not_found_info[title] = reason
-                    print(f"  ❌ 未找到: {reason}")
+            response = requests.get(base_url, params=params, headers=headers)
+            
+            # 特殊处理429错误，直接跳过不显示
+            if response.status_code == 429:
+                if attempt < retry_limit - 1:
+                    print(f"  ⚠️ 第{attempt+1}次尝试: 跳过并重试...")
+                    continue
+                else:
+                    print(f"  ❌ 已达到最大重试次数，跳过此论文")
+                    return False, "已达到最大重试次数"
+            
+            response.raise_for_status()
+            data = response.json()
+            
+            # 检查是否有搜索结果
+            if not data.get("data") or len(data["data"]) == 0:
+                if attempt < retry_limit - 1:
+                    print(f"  ⚠️ 第{attempt+1}次尝试: API返回空结果，重试...")
+                    continue
+                else:
+                    print(f"  ❌ 未找到: API返回空结果")
+                    return False, "API返回空结果"
+            
+            # 尝试从结果中找到完全匹配的论文标题
+            found = False
+            for paper in data["data"]:
+                if 'title' not in paper or 'citationCount' not in paper:
                     continue
                 
-                # 尝试从结果中找到完全匹配的论文标题
-                found = False
-                for paper in data["data"]:
-                    if 'title' not in paper or 'citationCount' not in paper:
-                        continue
+                # 检查标题是否完全匹配（忽略大小写）
+                if paper['title'].lower() == title.lower():
+                    new_citation = paper['citationCount']
                     
-                    # 检查标题是否完全匹配（忽略大小写）
-                    if paper['title'].lower() == title.lower():
-                        new_citation = paper['citationCount']
-                        results[title] = new_citation
-                        
-                        # 显示引用变化
-                        change = new_citation - old_citation
-                        change_symbol = "+" if change > 0 else ""
-                        
-                        print(f"  ✅ 更新成功: {old_citation} → {new_citation} ({change_symbol}{change})")
-                        if 'url' in paper and paper['url']:
-                            print(f"  📄 论文链接: {paper['url']}")
-                        found = True
-                        break
-                
-                if not found:
-                    reason = f"标题不完全匹配: API返回的标题与查询不匹配"
-                    not_found_info[title] = reason
-                    print(f"  ❌ 未找到: {reason}")
-                    print(f"  📝 备注: 找到了{len(data['data'])}个结果，但没有标题完全匹配的")
-                
-                # 添加延迟以避免API速率限制
-                # time.sleep(1)
-                
-            except requests.exceptions.RequestException as e:
-                error_msg = f"API请求错误: {str(e)}"
-                print(f"  ❌ {error_msg}")
-                not_found_info[title] = error_msg
-                # time.sleep(3)  # 出错后等待更长时间
+                    # 显示引用变化
+                    change = new_citation - old_citation
+                    change_symbol = "+" if change > 0 else ""
+                    
+                    print(f"  ✅ 更新成功: {old_citation} → {new_citation} ({change_symbol}{change})")
+                    if 'url' in paper and paper['url']:
+                        print(f"  📄 论文链接: {paper['url']}")
+                    
+                    # 立即更新数据
+                    paper_data["papers"][title]["citations"] = new_citation
+                    current_time = datetime.now().strftime("%Y-%m-%d-%H:%M:%S")
+                    paper_data["papers"][title]["last_updated"] = current_time
+                    
+                    # 立即保存到文件
+                    with open(file_path, 'w', encoding='utf-8') as file:
+                        json.dump(paper_data, file, indent=2, ensure_ascii=False)
+                    print(f"  💾 数据已保存到文件")
+                    
+                    found = True
+                    return True, new_citation
             
-        # 每批次之间添加额外延迟
-        if batch_index < len(batches) - 1:
-            print(f"\n等待5秒以避免API限制...")
-            # time.sleep(5)
+            if not found:
+                if attempt < retry_limit - 1:
+                    print(f"  ⚠️ 第{attempt+1}次尝试: 标题不完全匹配，重试...")
+                    continue
+                else:
+                    print(f"  ❌ 未找到: 标题不完全匹配")
+                    print(f"  📝 备注: 找到了{len(data['data'])}个结果，但没有标题完全匹配的")
+                    return False, "标题不完全匹配"
+                
+        except requests.exceptions.HTTPError as e:
+            if "429" in str(e):  # 不显示429错误
+                if attempt < retry_limit - 1:
+                    print(f"  ⚠️ 第{attempt+1}次尝试: 跳过并重试...")
+                    continue
+                else:
+                    print(f"  ❌ 已达到最大重试次数，跳过此论文")
+                    return False, "已达到最大重试次数"
+            else:
+                if attempt < retry_limit - 1:
+                    print(f"  ⚠️ 第{attempt+1}次尝试: HTTP错误，重试...")
+                    continue
+                else:
+                    print(f"  ❌ API请求错误")
+                    return False, f"HTTP错误"
+        except requests.exceptions.RequestException:
+            if attempt < retry_limit - 1:
+                print(f"  ⚠️ 第{attempt+1}次尝试: 请求异常，重试...")
+                continue
+            else:
+                print(f"  ❌ API请求错误")
+                return False, "请求异常"
     
-    return results, not_found_info
+    return False, "超过最大重试次数"
 
 def update_citations_file(file_path):
     """更新citations.json文件中的引用数并详细记录整个过程"""
@@ -102,7 +120,7 @@ def update_citations_file(file_path):
         print(f"读取文件错误: {e}")
         return
     
-    # 对论文标题进行排序，先按引用量升序，相同引用量按更新日期升序
+    # 对论文标题进行排序，只按更新日期升序（最久未更新的排在前面）
     paper_info = []
     for title, info in data["papers"].items():
         # 对于没有last_updated字段的论文，设置一个默认值
@@ -113,15 +131,15 @@ def update_citations_file(file_path):
             "last_updated": last_updated
         })
     
-    # 按引用量和更新日期排序
-    sorted_papers = sorted(paper_info, key=lambda x: (x["citations"], x["last_updated"]))
+    # 只按更新日期排序（最旧的在前，最新的在后）
+    sorted_papers = sorted(paper_info, key=lambda x: x["last_updated"])
     
     # 提取排序后的标题列表
     paper_titles_ordered = [paper["title"] for paper in sorted_papers]
     
     # 输出排序信息
     print("\n" + "="*80)
-    print("论文排序信息（按引用量升序，相同引用量按更新日期升序）")
+    print("论文排序信息（按最后更新时间升序排列，最久未更新的排在前面）")
     print("="*80)
     for i, paper in enumerate(sorted_papers):
         print(f"{i+1}. '{paper['title']}' - 引用: {paper['citations']}, 最后更新: {paper['last_updated']}")
@@ -144,56 +162,35 @@ def update_citations_file(file_path):
     print(f"\n开始更新 {len(paper_titles_ordered)} 篇论文的引用数...")
     print(f"时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     
-    # 批量获取引用数
-    citation_results, not_found_info = batch_get_citations(paper_titles_ordered, sorted_data)
-    
-    # 更新数据并创建报告
-    update_count = 0
+    # 逐个更新引用数并立即保存
     updated_papers = []
     skipped_papers = []
     
-    for title in paper_titles_ordered:
-        if title in citation_results:
-            old_citation = sorted_data["papers"][title]["citations"]
-            new_citation = citation_results[title]
-            
-            # 只在找到了新引用时才更新数据和时间戳
-            sorted_data["papers"][title]["citations"] = new_citation
-            
-            # 使用更精确的时间格式 YYYY-MM-DD-HH:MM:SS
-            current_time = datetime.now().strftime("%Y-%m-%d-%H:%M:%S")
-            sorted_data["papers"][title]["last_updated"] = current_time
-            
-            update_count += 1
-            
-            # 记录更新信息
-            change = new_citation - old_citation
-            change_str = f"+{change}" if change > 0 else str(change)
+    for index, title in enumerate(paper_titles_ordered):
+        print(f"\n处理论文 {index+1}/{len(paper_titles_ordered)}")
+        success, result = update_paper_citation(title, sorted_data, file_path)
+        
+        if success:
             updated_papers.append({
-                "title": title, 
-                "old": old_citation, 
-                "new": new_citation, 
-                "change": change_str,
-                "updated_time": current_time
+                "title": title,
+                "old": sorted_data["papers"][title]["citations"] - result,
+                "new": sorted_data["papers"][title]["citations"],
+                "change": f"+{result}" if result > 0 else str(result),
+                "updated_time": sorted_data["papers"][title]["last_updated"]
             })
         else:
-            # 记录未更新信息，但不修改原数据
             skipped_papers.append({
                 "title": title,
-                "reason": not_found_info.get(title, "未知原因")
+                "reason": result
             })
-    
-    # 再次保存更新后的数据
-    with open(file_path, 'w', encoding='utf-8') as file:
-        json.dump(sorted_data, file, indent=2, ensure_ascii=False)
     
     # 创建详细报告
     print("\n" + "="*80)
     print("更新摘要报告")
     print("="*80)
     print(f"总论文数: {len(paper_titles_ordered)}")
-    print(f"成功更新: {update_count} ({(update_count/len(paper_titles_ordered)*100):.1f}%)")
-    print(f"更新失败: {len(paper_titles_ordered) - update_count} ({((len(paper_titles_ordered) - update_count)/len(paper_titles_ordered)*100):.1f}%)")
+    print(f"成功更新: {len(updated_papers)} ({(len(updated_papers)/len(paper_titles_ordered)*100):.1f}%)")
+    print(f"更新失败: {len(skipped_papers)} ({(len(skipped_papers)/len(paper_titles_ordered)*100):.1f}%)")
     
     if updated_papers:
         print("\n" + "="*80)
