@@ -4,7 +4,9 @@
 
 ##
 
-🔥 Previously, we couldn't display citation counts for all papers due to Semantic Scholar API limitations. Now we've solved this issue and can show citations for all papers. Cheers!
+🔥 Previously, we couldn't display citation counts for all papers due to Semantic Scholar API limitations. Now we've solved this issue and can show citations for all papers. Cheers!🍻
+
+Thanks to all the fellow enthusiasts in story generation for your stars! We'll gradually add new papers from recent months to this repo!😊
 
 ## Table of Contents
 
