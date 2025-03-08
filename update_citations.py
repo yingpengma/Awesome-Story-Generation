@@ -37,8 +37,10 @@ def update_citations():
         old_badge = badge_match.group(0)
         new_badge = f'[![](https://img.shields.io/badge/citation-{paper_info["citations"]}-blue)]()'        
         
-        # 替换badge
-        md_content = md_content.replace(old_badge, new_badge)
+        # 只替换当前论文位置后的第一个badge
+        before_match = md_content[:match_pos + badge_match.start()]
+        after_match = md_content[match_pos + badge_match.end():]
+        md_content = before_match + new_badge + after_match
         print(f'成功更新论文 "{paper_title}" 的引用数为 {paper_info["citations"]}')
     
     # 保存更新后的README.md
