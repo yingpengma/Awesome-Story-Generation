@@ -2,14 +2,12 @@ import json
 import re
 
 def update_citations():
-    # 读取citations.json文件
     try:
         with open('citations.json', 'r', encoding='utf-8') as f:
             citations_data = json.load(f)
     except Exception as e:
         raise Exception(f'读取citations.json失败: {str(e)}')
 
-    # 读取README.md文件
     try:
         with open('README.md', 'r', encoding='utf-8') as f:
             md_content = f.read()
