@@ -3,6 +3,130 @@
     "With Greater Text Comes Greater Necessity: Inference-Time Training Helps Long Text Generation": {
       "citations": 15,
       "last_updated": "2025-03-08"
+    },
+    "RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text": {
+      "citations": 53,
+      "last_updated": "2025-03-08"
+    },
+    "StoryVerse: Towards Co-authoring Dynamic Plot with LLM-based Character Simulation via Narrative Planning": {
+      "citations": 6,
+      "last_updated": "2025-03-08"
+    },
+    "Navigating the Path of Writing: Outline-guided Text Generation with Large Language Models": {
+      "citations": 6,
+      "last_updated": "2025-03-08"
+    },
+    "EIPE-text: Evaluation-Guided Iterative Plan Extraction for Long-Form Narrative Text Generation": {
+      "citations": 7,
+      "last_updated": "2025-03-08"
+    },  
+    "Enhancing Generation through Summarization Duality and Explicit Outline Control": {
+      "citations": 0,
+      "last_updated": "2025-03-08"
+    },
+    "Strategies for Structuring Story Generation": {
+      "citations": 210,
+      "last_updated": "2025-03-08"
+    },
+    "Plan-And-Write: Towards Better Automatic Storytelling": {
+      "citations": 391,
+      "last_updated": "2025-03-08"
+    },
+    "MEGATRON-CNTRL: Controllable story generation with external knowledge using large-scale language models": {
+      "citations": 125,
+      "last_updated": "2025-03-08"
+    },
+    "owards Controllable Story Generation": {
+      "citations": 140,
+      "last_updated": "2025-03-08"
+    },
+    "Story Ending Generation with Incremental Encoding and Commonsense Knowledge": {
+      "citations": 160,
+      "last_updated": "2025-03-08"
+    },
+    "Experimental Narratives: A Comparison of Human Crowdsourced Storytelling and AI Storytelling": {
+      "citations": 13,
+      "last_updated": "2025-03-08"
+    },
+    "Learning Personalized Story Evaluation": {
+      "citations": 7,
+      "last_updated": "2025-03-08"
+    },
+    "Art or Artifice? Large Language Models and the False Promise of Creativity": {
+      "citations": 75,
+      "last_updated": "2025-03-08"
+    },
+    "DeltaScore: Evaluating Story Generation with Differentiating Perturbations": {
+      "citations": 3,
+      "last_updated": "2025-03-08"
+    },
+    "Openmeva: A benchmark for evaluating open-ended story generation metrics": {
+      "citations": 54,
+      "last_updated": "2025-03-08"
+    },
+    "Union: An unreferenced metric for evaluating open-ended story generation": {
+      "citations": 66,
+      "last_updated": "2025-03-08"
+    },
+    "Do Massively Pretrained Language Models Make Better Storytellers?": {
+      "citations": 163,
+      "last_updated": "2025-03-08"
+    },
+    "CollabStory: Multi-LLM Collaborative Story Generation and Authorship Analysis": {
+      "citations": 3,
+      "last_updated": "2025-03-08"
+    },
+    "paper18": {
+      "citations": 1000,
+      "last_updated": "2025-03-08"
+    },
+    "paper19": {
+      "citations": 1000,
+      "last_updated": "2025-03-08"
+    },
+    "paper20": {
+      "citations": 1000,
+      "last_updated": "2025-03-08"
+    },
+    "paper21": {
+      "citations": 1000,
+      "last_updated": "2025-03-08"
+    },
+    "paper22": {
+      "citations": 1000,
+      "last_updated": "2025-03-08"
+    },
+    "paper23": {
+      "citations": 1000,
+      "last_updated": "2025-03-08"
+    },
+    "paper24": {
+      "citations": 1000,
+      "last_updated": "2025-03-08"
+    },
+    "paper25": {
+      "citations": 1000,
+      "last_updated": "2025-03-08"
+    },
+    "paper26": {
+      "citations": 1000,
+      "last_updated": "2025-03-08"
+    },
+    "paper27": {
+      "citations": 1000,
+      "last_updated": "2025-03-08"
+    },
+    "paper28": {
+      "citations": 1000,
+      "last_updated": "2025-03-08"
+    },
+    "paper29": {
+      "citations": 1000,
+      "last_updated": "2025-03-08"
+    },
+    "paper30": {
+      "citations": 1000,
+      "last_updated": "2025-03-08"
     }
   }
 }
