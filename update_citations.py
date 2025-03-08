@@ -17,7 +17,7 @@ def update_citations():
     # 遍历citations.json中的每个论文
     for paper_title, paper_info in citations_data['papers'].items():
         # 在markdown中查找完全匹配的论文标题
-        matches = [m.start() for m in re.finditer(re.escape(paper_title), md_content)]
+        matches = [m.start() for m in re.finditer(r'\*\*' + re.escape(paper_title) + r'\*\*', md_content)]
         
         # 检查匹配数量
         if len(matches) == 0:
