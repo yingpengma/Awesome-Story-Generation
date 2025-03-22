@@ -110,6 +110,8 @@ Eg. `ACL-2023` **Title** [paper] [code] .. [authors]  [![](https://img.shields.i
 
 
 ### Writing Style
+- `ArXiv-2025` **Pastiche Novel Generation Creating: Fan Fiction You Love in Your Favorite Author's Style** [[paper]](https://arxiv.org/abs/2502.15616) [Xueran Han, Yuhan Liu, Mingzhe Li, Wei Liu, Sen Hu, Rui Yan, Zhiqiang Xu, Xiuying Chen]
+- `ArXiv-2025` **Whose story is it? Personalizing story generation by inferring author styles** [[paper]](https://arxiv.org/abs/2502.13028) [Nischal Ashok Kumar, Chau Minh Pham, Mohit Iyyer, Andrew Lan] 
 - `ArXiv-2024` **CAT-LLM: Prompting Large Language Models with Text Style Definition for Chinese Article-style Transfer** [[paper]](https://arxiv.org/abs/2401.05707) [Zhen Tao, Dinghao Xi, Zhiyu Li, Liumin Tang, Wei Xu] [![](https://img.shields.io/badge/citation-8-blue)]()
 - `ArXiv-2023` **Learning to Generate Text in Arbitrary Writing Styles** [[paper]](https://arxiv.org/abs/2312.17242) [Aleem Khan, Andrew Wang, Sophia Hager, Nicholas Andrews] [![](https://img.shields.io/badge/citation-4-blue)]()
 - `ACL-2023` **StoryTrans: Non-Parallel Story Author-Style Transfer with Discourse Representations and Content Enhancing** [[paper]](https://arxiv.org/abs/2208.13423) [Xuekai Zhu, Jian Guan, Minlie Huang, Juan Liu] [![](https://img.shields.io/badge/citation-6-blue)]()
