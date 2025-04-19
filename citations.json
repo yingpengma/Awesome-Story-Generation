@@ -1,484 +1,324 @@
 {
   "papers": {
-    "A corpus for understanding and generating moral stories": {
-      "citations": 6,
-      "last_updated": "2025-03-09-00:41:04"
-    },
-    "Large Language Models Fall Short: Understanding Complex Relationships in Detective Narratives": {
-      "citations": 8,
-      "last_updated": "2025-03-09-00:41:06"
-    },
-    "Do Language Models Enjoy Their Own Stories? Prompting Large Language Models for Automatic Story Evaluation": {
-      "citations": 9,
-      "last_updated": "2025-03-08-23:28:16"
-    },
-    "GROVE: A Retrieval-augmented Complex Story Generation Framework with A Forest of Evidence": {
-      "citations": 10,
-      "last_updated": "2025-03-08-23:28:16"
-    },
-    "EtriCA: Event-triggered context-aware story generation augmented by cross attention": {
-      "citations": 18,
-      "last_updated": "2025-03-08-23:28:16"
-    },
-    "Goal-Directed Story Generation: Augmenting Generative Language Models with Reinforcement Learning": {
-      "citations": 20,
-      "last_updated": "2025-03-08-23:28:16"
-    },
-    "Persona-Guided Planning for Controlling the Protagonist’s Persona in Story Generation": {
-      "citations": 24,
-      "last_updated": "2025-03-08-23:28:16"
-    },
-    "The Value, Benefits, and Concerns of Generative AI-Powered Assistance in Writing": {
-      "citations": 25,
-      "last_updated": "2025-03-08-23:28:16"
-    },
-    "Plug-and-Blend: A Framework for Controllable Story Generation with Blended Control Codes": {
-      "citations": 25,
-      "last_updated": "2025-03-08-23:28:16"
-    },
-    "Automatic Story Generation": {
-      "citations": 27,
-      "last_updated": "2025-03-08-23:28:16"
-    },
-    "Automatic Story Generation: Challenges and Attempts": {
-      "citations": 45,
-      "last_updated": "2025-03-08-23:28:16"
-    },
-    "RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text": {
-      "citations": 53,
-      "last_updated": "2025-03-08-23:28:16"
-    },
-    "Openmeva: A benchmark for evaluating open-ended story generation metrics": {
-      "citations": 54,
-      "last_updated": "2025-03-08-23:28:16"
-    },
-    "Automated Storytelling via Causal, Commonsense Plot Ordering": {
-      "citations": 65,
-      "last_updated": "2025-03-08-23:28:16"
-    },
-    "Union: An unreferenced metric for evaluating open-ended story generation": {
-      "citations": 66,
-      "last_updated": "2025-03-08-23:28:16"
-    },
-    "Art or Artifice? Large Language Models and the False Promise of Creativity": {
-      "citations": 75,
-      "last_updated": "2025-03-08-23:28:16"
-    },
-    "A Plug-and-Play Method for Controlled Text Generation": {
-      "citations": 85,
-      "last_updated": "2025-03-08-23:28:16"
-    },
-    "Controllable Neural Story Plot Generation via Reward Shaping": {
-      "citations": 87,
-      "last_updated": "2025-03-08-23:28:16"
-    },
-    "Content Planning for Neural Story Generation with Aristotelian Rescoring": {
-      "citations": 123,
-      "last_updated": "2025-03-08-23:28:16"
-    },
-    "Towards Controllable Story Generation": {
-      "citations": 140,
-      "last_updated": "2025-03-08-23:28:16"
-    },
-    "Do Massively Pretrained Language Models Make Better Storytellers?": {
-      "citations": 163,
-      "last_updated": "2025-03-08-23:28:16"
-    },
-    "Plan-And-Write: Towards Better Automatic Storytelling": {
-      "citations": 391,
-      "last_updated": "2025-03-08-23:28:16"
-    },
-    "Clseg: Contrastive learning of story ending generation": {
-      "citations": 2,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "LiFi: Lightweight Controlled Text Generation with Fine-Grained Control Codes": {
+    "Generating Long-form Story Using Dynamic Hierarchical Outlining with Memory-Enhancement": {
       "citations": 3,
-      "last_updated": "2025-03-08-23:38:20"
+      "last_updated": "2025-04-19-18:33:22"
     },
-    "LongStory: Coherent, Complete and Length Controlled Long story Generation": {
-      "citations": 4,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "What is Wrong with Language Models that Can Not Tell a Story?": {
-      "citations": 5,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Navigating the Path of Writing: Outline-guided Text Generation with Large Language Models": {
-      "citations": 6,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Genre-controllable story generation via supervised contrastive learning": {
-      "citations": 6,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Neural Story Planning": {
-      "citations": 7,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Towards Inter-character Relationship-driven Story Generation": {
-      "citations": 8,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "CAT-LLM: Prompting Large Language Models with Text Style Definition for Chinese Article-style Transfer": {
-      "citations": 8,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "RLCD: Reinforcement Learning from Contrast Distillation for Language Model Alignment": {
-      "citations": 9,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Reading Subtext: Evaluating Large Language Models on Short Story Summarization with Writers": {
-      "citations": 9,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Improving Chinese Story Generation via Awareness of Syntactic Dependencies and Semantics": {
-      "citations": 11,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Affective and Dynamic Beam Search for Story Generation": {
-      "citations": 11,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Towards Coherent and Consistent Use of Entities in Narrative Generation": {
-      "citations": 11,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Event Transition Planning for Open-ended Text Generation": {
-      "citations": 12,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Outline to Story: Fine-grained Controllable Story Generation from Cascaded Events": {
-      "citations": 12,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Experimental Narratives: A Comparison of Human Crowdsourced Storytelling and AI Storytelling": {
-      "citations": 13,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Guiding Neural Story Generation with Reader Models": {
-      "citations": 14,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Telling Stories through Multi-User Dialogue by Modeling Character Relations": {
-      "citations": 15,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "With Greater Text Comes Greater Necessity: Inference-Time Training Helps Long Text Generation": {
-      "citations": 15,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Go Back in Time: Generating Flashbacks in Stories with Event Temporal Prompts": {
-      "citations": 18,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Unsupervised Enrichment of Persona-grounded Dialog with Background Stories": {
-      "citations": 19,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "GraphPlan: Story Generation by Planning with Event Graph": {
-      "citations": 23,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Stylized story generation with style-guided planning": {
-      "citations": 25,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "The Next Chapter: A Study of Large Language Models in Storytelling": {
-      "citations": 33,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Improving Neural Story Generation by Targeted Common Sense Grounding": {
-      "citations": 46,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Bringing Stories Alive: Generating Interactive Fiction Worlds": {
-      "citations": 47,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Learning to Control the Fine-grained Sentiment for Story Ending Generation": {
-      "citations": 49,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Transformer-based Conditional Variational Autoencoder for Controllable Story Generation": {
-      "citations": 57,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "DOC: Improving Long Story Coherence With Detailed Outline Control": {
-      "citations": 63,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Story Realization: Expanding Plot Events into Sentences": {
-      "citations": 66,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "AutoAgents: A Framework for Automatic Agent Generation": {
-      "citations": 71,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Long text generation by modeling sentence-level and discourse-level coherence": {
-      "citations": 73,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "SummScreen: A Dataset for Abstractive Screenplay Summarization": {
-      "citations": 90,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "A Skeleton-Based Model for Promoting Coherence Among Sentences in Narrative Story Generation": {
-      "citations": 104,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Story Ending Generation with Incremental Encoding and Commonsense Knowledge": {
-      "citations": 160,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Re3: Generating longer stories with recursive reprompting and revision": {
-      "citations": 172,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Event Representations for Automated Story Generation with Deep Neural Nets": {
-      "citations": 223,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "A Knowledge-Enhanced Pretraining Model for Commonsense Story Generation": {
-      "citations": 233,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Can Large Language Models Be an Alternative to Human Evaluations?": {
-      "citations": 481,
-      "last_updated": "2025-03-08-23:38:20"
-    },
-    "Improving Pacing in Long-Form Story Planning": {
-      "citations": 14,
-      "last_updated": "2025-03-09-00:20:44"
-    },
-    "Controlling keywords and their positions in text generation": {
-      "citations": 1,
-      "last_updated": "2025-03-09-00:21:01"
-    },
-    "MoPS: Modular Story Premise Synthesis for Open-Ended Automatic Story Generation": {
+    "Collective Critics for Creative Story Generation": {
       "citations": 2,
-      "last_updated": "2025-03-09-00:21:02"
-    },
-    "Creative Natural Language Generation": {
-      "citations": 2,
-      "last_updated": "2025-03-09-00:21:03"
-    },
-    "Plot Writing From Pre-Trained Language Models": {
-      "citations": 2,
-      "last_updated": "2025-03-09-00:21:08"
-    },
-    "DeltaScore: Evaluating Story Generation with Differentiating Perturbations": {
-      "citations": 3,
-      "last_updated": "2025-03-09-00:21:10"
-    },
-    "Psychology-guided Controllable Story Generation": {
-      "citations": 3,
-      "last_updated": "2025-03-09-00:21:12"
+      "last_updated": "2025-04-19-18:22:35"
     },
     "SWAG: Storytelling With Action Guidance": {
-      "citations": 3,
-      "last_updated": "2025-03-09-00:21:14"
-    },
-    "Conveying the Predicted Future to Users: A Case Study of Story Plot Prediction": {
-      "citations": 3,
-      "last_updated": "2025-03-09-00:21:14"
-    },
-    "Coherent Long Text Generation by Contrastive Soft Prompt": {
-      "citations": 3,
-      "last_updated": "2025-03-09-00:21:15"
-    },
-    "PASTA: A Dataset for Modeling Participant States in Narratives": {
-      "citations": 3,
-      "last_updated": "2025-03-09-00:21:15"
-    },
-    "HAUSER: Towards Holistic and Automatic Evaluation of Simile Generation": {
       "citations": 4,
-      "last_updated": "2025-03-09-00:21:18"
+      "last_updated": "2025-04-19-18:22:58"
     },
-    "TVStoryGen: A Dataset for Generating Stories with Character Descriptions": {
-      "citations": 4,
-      "last_updated": "2025-03-09-00:21:19"
-    },
-    "CMDAG: A Chinese Metaphor Dataset with Annotated Grounds as CoT for Boosting Metaphor Generation": {
-      "citations": 5,
-      "last_updated": "2025-03-09-00:21:24"
-    },
-    "StoryWars: A Dataset and Instruction Tuning Baselines for Collaborative Story Understanding and Generation": {
-      "citations": 5,
-      "last_updated": "2025-03-09-00:21:25"
-    },
-    "StoryDB: Broad Multi-language Narrative Dataset": {
-      "citations": 5,
-      "last_updated": "2025-03-09-00:21:26"
-    },
-    "Creating Suspenseful Stories: Iterative Planning with Large Language Models": {
-      "citations": 6,
-      "last_updated": "2025-03-09-00:21:28"
-    },
-    "StoryVerse: Towards Co-authoring Dynamic Plot with LLM-based Character Simulation via Narrative Planning": {
-      "citations": 6,
-      "last_updated": "2025-03-09-00:21:33"
+    "Echoes in AI: Quantifying Lack of Plot Diversity in LLM Outputs": {
+      "citations": 3,
+      "last_updated": "2025-04-19-18:23:33"
     },
     "LOT: A story-centric benchmark for evaluating Chinese long text understanding and generation": {
       "citations": 30,
-      "last_updated": "2025-03-09-00:22:49"
+      "last_updated": "2025-04-19-18:24:01"
+    },
+    "BooookScore: A systematic exploration of book-length summarization in the era of LLMs": {
+      "citations": 98,
+      "last_updated": "2025-04-19-18:24:27"
+    },
+    "The Value, Benefits, and Concerns of Generative AI-Powered Assistance in Writing": {
+      "citations": 36,
+      "last_updated": "2025-04-19-18:25:07"
+    },
+    "A Cognitive Writing Perspective for Constrained Long-Form Text Generation": {
+      "citations": 0,
+      "last_updated": "2025-04-19-18:25:10"
+    },
+    "Agents' Room: Narrative Generation through Multi-step Collaboration": {
+      "citations": 6,
+      "last_updated": "2025-04-19-18:25:10"
+    },
+    "HoLLMwood: Unleashing the Creativity of Large Language Models in Screenwriting via Role Playing": {
+      "citations": 5,
+      "last_updated": "2025-04-19-18:25:11"
+    },
+    "MLD-EA: Check and Complete Narrative Coherence by Introducing Emotions and Actions": {
+      "citations": 0,
+      "last_updated": "2025-04-19-18:25:12"
+    },
+    "MoPS: Modular Story Premise Synthesis for Open-Ended Automatic Story Generation": {
+      "citations": 5,
+      "last_updated": "2025-04-19-18:25:12"
+    },
+    "Multigenre AI-powered Story Composition": {
+      "citations": 0,
+      "last_updated": "2025-04-19-18:25:14"
     },
     "Returning to the Start: Generating Narratives with Related Endpoints": {
       "citations": 1,
-      "last_updated": "2025-03-09-00:23:00"
+      "last_updated": "2025-04-19-18:25:15"
     },
-    "Novelty: Optimizing StreamingLLM for Novel Plot Generation": {
+    "CAT-LLM: Prompting Large Language Models with Text Style Definition for Chinese Article-style Transfer": {
+      "citations": 9,
+      "last_updated": "2025-04-19-18:25:20"
+    },
+    "STORYSUMM: Evaluating Faithfulness in Story Summarization": {
+      "citations": 4,
+      "last_updated": "2025-04-19-18:25:28"
+    },
+    "Reading Subtext: Evaluating Large Language Models on Short Story Summarization with Writers": {
+      "citations": 13,
+      "last_updated": "2025-04-19-18:25:35"
+    },
+    "Of Human Criteria and Automatic Metrics: A Benchmark of the Evaluation of Story Generation": {
+      "citations": 49,
+      "last_updated": "2025-04-19-18:25:38"
+    },
+    "CLAUSE-ATLAS: A Corpus of Narrative Information to Scale up Computational Literary Analysis": {
       "citations": 0,
-      "last_updated": "2025-03-09-00:23:21"
-    },
-    "Enhancing Generation through Summarization Duality and Explicit Outline Control": {
-      "citations": 0,
-      "last_updated": "2025-03-09-00:23:23"
-    },
-    "Future Sight: Dynamic Story Generation with Large Pretrained Language Models": {
-      "citations": 0,
-      "last_updated": "2025-03-09-00:23:37"
-    },
-    "Little Red Riding Hood Goes Around the Globe:Crosslingual Story Planning and Generation with Large Language Models": {
-      "citations": 7,
-      "last_updated": "2025-03-09-00:26:10"
-    },
-    "A Corpus and Evaluation Framework for Deeper Understanding of Commonsense Stories": {
-      "citations": 168,
-      "last_updated": "2025-03-09-00:26:10"
-    },
-    "What makes the story forward? inferring commonsense explanations as prompts for future event generation": {
-      "citations": 0,
-      "last_updated": "2025-03-09-00:27:01"
-    },
-    "End-to-End Story Plot Generator": {
-      "citations": 5,
-      "last_updated": "2025-03-09-00:27:01"
-    },
-    "Comparison of Evaluation Metrics for Short Story Generation": {
-      "citations": 0,
-      "last_updated": "2025-03-09-00:27:02"
-    },
-    "Reflections & Resonance: Two-Agent Partnership for Advancing LLM-based Story Annotation": {
-      "citations": 0,
-      "last_updated": "2025-03-09-00:27:03"
+      "last_updated": "2025-04-19-18:25:41"
     },
     "STONYBOOK: A System and Resource for Large-Scale Analysis of Novels": {
       "citations": 0,
-      "last_updated": "2025-03-09-00:27:04"
+      "last_updated": "2025-04-19-18:25:43"
     },
-    "Open-world story generation with structured knowledge enhancement: A comprehensive survey": {
-      "citations": 14,
-      "last_updated": "2025-03-09-00:29:24"
+    "StoryWars: A Dataset and Instruction Tuning Baselines for Collaborative Story Understanding and Generation": {
+      "citations": 7,
+      "last_updated": "2025-04-19-18:25:44"
     },
-    "Weaver: Foundation Models for Creative Writing": {
+    "TVStoryGen: A Dataset for Generating Stories with Character Descriptions": {
+      "citations": 4,
+      "last_updated": "2025-04-19-18:25:45"
+    },
+    "What Makes a Good Story and How Can We Measure It? A Comprehensive Survey of Story Evaluation": {
+      "citations": 4,
+      "last_updated": "2025-04-19-18:25:52"
+    },
+    "Are NLP Models Good at Tracing Thoughts: An Overview of Narrative Understanding": {
+      "citations": 4,
+      "last_updated": "2025-04-19-18:25:55"
+    },
+    "Navigating the Path of Writing: Outline-guided Text Generation with Large Language Models": {
+      "citations": 6,
+      "last_updated": "2025-04-19-18:26:02"
+    },
+    "Creating Suspenseful Stories: Iterative Planning with Large Language Models": {
+      "citations": 7,
+      "last_updated": "2025-04-19-18:26:02"
+    },
+    "IBSEN: Director-Actor Agent Collaboration for Controllable and Interactive Drama Script Generation": {
+      "citations": 11,
+      "last_updated": "2025-04-19-18:26:03"
+    },
+    "StoryVerse: Towards Co-authoring Dynamic Plot with LLM-based Character Simulation via Narrative Planning": {
+      "citations": 6,
+      "last_updated": "2025-04-19-18:26:06"
+    },
+    "AutoAgents: A Framework for Automatic Agent Generation": {
+      "citations": 86,
+      "last_updated": "2025-04-19-18:26:07"
+    },
+    "Learning to Reason for Long-Form Story Generation": {
+      "citations": 0,
+      "last_updated": "2025-04-19-18:26:10"
+    },
+    "Improving Pacing in Long-Form Story Planning": {
       "citations": 15,
-      "last_updated": "2025-03-09-00:29:26"
+      "last_updated": "2025-04-19-18:26:13"
     },
-    "Open-ended Long Text Generation via Masked Language Modeling": {
-      "citations": 17,
-      "last_updated": "2025-03-09-00:29:27"
+    "End-to-End Story Plot Generator": {
+      "citations": 5,
+      "last_updated": "2025-04-19-18:26:15"
     },
-    "StoryER: Automatic Story Evaluation via Ranking, Rating and Reasoning": {
-      "citations": 18,
-      "last_updated": "2025-03-09-00:29:29"
+    "GROVE: A Retrieval-augmented Complex Story Generation Framework with A Forest of Evidence": {
+      "citations": 12,
+      "last_updated": "2025-04-19-18:26:16"
     },
-    "Cue Me In: Content-Inducing Approaches to Interactive Story Generation": {
-      "citations": 19,
-      "last_updated": "2025-03-09-00:29:29"
-    },
-    "Draft and Edit: Automatic Storytelling Through Multi-Pass Hierarchical Conditional Variational Autoencoder": {
-      "citations": 24,
-      "last_updated": "2025-03-09-00:29:30"
-    },
-    "Inferring the Reader: Guiding Automated Story Generation with Commonsense Reasoning": {
-      "citations": 36,
-      "last_updated": "2025-03-09-00:29:31"
-    },
-    "Of Human Criteria and Automatic Metrics: A Benchmark of the Evaluation of Story Generation": {
-      "citations": 44,
-      "last_updated": "2025-03-09-00:29:31"
-    },
-    "STORIUM: A Dataset and Evaluation Platform for Machine-in-the-Loop Story Generation": {
-      "citations": 85,
-      "last_updated": "2025-03-09-00:29:32"
-    },
-    "Hierarchical Neural Story Generation": {
-      "citations": 1515,
-      "last_updated": "2025-03-09-00:29:36"
-    },
-    "Great Expectations: Unsupervised Inference of Suspense, Surprise and Salience in Storytelling": {
+    "SCORE: Story Coherence and Retrieval Enhancement for AI Narratives": {
       "citations": 1,
-      "last_updated": "2025-03-09-00:29:37"
+      "last_updated": "2025-04-19-18:26:17"
     },
-    "An Ion Exchange Mechanism Inspired Story Ending Generator for Different Characters": {
-      "citations": 1,
-      "last_updated": "2025-03-09-00:29:39"
+    "Crafting Narrative Closures: Zero-Shot Learning with SSM Mamba for Short Story Ending Generation": {
+      "citations": 0,
+      "last_updated": "2025-04-19-18:26:18"
     },
-    "Strategies for Structuring Story Generation": {
-      "citations": 210,
-      "last_updated": "2025-03-09-00:30:32"
+    "RLCD: Reinforcement Learning from Contrast Distillation for Language Model Alignment": {
+      "citations": 16,
+      "last_updated": "2025-04-19-18:26:21"
     },
-    "A Benchmark for Understanding and Generating Dialogue between Characters in Stories": {
-      "citations": 1,
-      "last_updated": "2025-03-09-00:30:34"
+    "RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text": {
+      "citations": 57,
+      "last_updated": "2025-04-19-18:26:22"
     },
-    "Coherent Story Generation with Structured Knowledge": {
-      "citations": 2,
-      "last_updated": "2025-03-09-00:30:35"
+    "Towards Enhanced Immersion and Agency for LLM-based Interactive Drama": {
+      "citations": 0,
+      "last_updated": "2025-04-19-18:26:24"
     },
-    "Story-level Text Style Transfer: A Proposal": {
-      "citations": 2,
-      "last_updated": "2025-03-09-00:30:36"
+    "Pastiche Novel Generation Creating: Fan Fiction You Love in Your Favorite Author's Style": {
+      "citations": 0,
+      "last_updated": "2025-04-19-18:26:25"
     },
-    "CollabStory: Multi-LLM Collaborative Story Generation and Authorship Analysis": {
-      "citations": 3,
-      "last_updated": "2025-03-09-00:30:37"
+    "MirrorStories: Reflecting Diversity through Personalized Narrative Generation with Large Language Models": {
+      "citations": 0,
+      "last_updated": "2025-04-19-18:26:26"
     },
     "Learning to Generate Text in Arbitrary Writing Styles": {
       "citations": 4,
-      "last_updated": "2025-03-09-00:30:37"
+      "last_updated": "2025-04-19-18:26:27"
     },
-    "CHAE: Fine-Grained Controllable Story Generation with Characters, Actions and Emotions": {
-      "citations": 5,
-      "last_updated": "2025-03-09-00:30:38"
+    "LongEval: A Comprehensive Analysis of Long-Text Generation Through a Plan-based Paradigm": {
+      "citations": 2,
+      "last_updated": "2025-04-19-18:26:29"
     },
-    "Automated Story Generation as Question-Answering": {
-      "citations": 6,
-      "last_updated": "2025-03-09-00:30:41"
-    },
-    "StoryTrans: Non-Parallel Story Author-Style Transfer with Discourse Representations and Content Enhancing": {
-      "citations": 6,
-      "last_updated": "2025-03-09-00:30:42"
-    },
-    "Narrative Plan Generation with Self-Supervised Learning": {
-      "citations": 5,
-      "last_updated": "2025-03-09-00:30:56"
+    "Do Language Models Enjoy Their Own Stories? Prompting Large Language Models for Automatic Story Evaluation": {
+      "citations": 12,
+      "last_updated": "2025-04-19-18:26:36"
     },
     "Learning Personalized Alignment for Evaluating Open-ended Text Generation": {
       "citations": 7,
-      "last_updated": "2025-03-09-00:34:53"
+      "last_updated": "2025-04-19-18:26:41"
     },
-    "Controllable Story Generation with External Knowledge Using Large-Scale Language Models": {
-      "citations": 125,
-      "last_updated": "2025-03-09-00:34:55"
+    "HAUSER: Towards Holistic and Automatic Evaluation of Simile Generation": {
+      "citations": 4,
+      "last_updated": "2025-04-19-18:26:42"
     },
-    "BooookScore: A systematic exploration of book-length summarization in the era of LLMs": {
-      "citations": 84,
-      "last_updated": "2025-03-09-00:38:23"
+    "Can Large Language Models Be an Alternative to Human Evaluations?": {
+      "citations": 530,
+      "last_updated": "2025-04-19-18:26:44"
+    },
+    "DeltaScore: Evaluating Story Generation with Differentiating Perturbations": {
+      "citations": 4,
+      "last_updated": "2025-04-19-18:26:46"
+    },
+    "StoryER: Automatic Story Evaluation via Ranking, Rating and Reasoning": {
+      "citations": 19,
+      "last_updated": "2025-04-19-18:26:46"
+    },
+    "Union: An unreferenced metric for evaluating open-ended story generation": {
+      "citations": 68,
+      "last_updated": "2025-04-19-18:26:51"
+    },
+    "The GPT-WritingPrompts Dataset: A Comparative Analysis of Character Portrayal in Short Stories": {
+      "citations": 1,
+      "last_updated": "2025-04-19-18:26:54"
+    },
+    "CollabStory: Multi-LLM Collaborative Story Generation and Authorship Analysis": {
+      "citations": 5,
+      "last_updated": "2025-04-19-18:26:55"
+    },
+    "Large Language Models Fall Short: Understanding Complex Relationships in Detective Narratives": {
+      "citations": 9,
+      "last_updated": "2025-04-19-18:26:56"
+    },
+    "Reflections & Resonance: Two-Agent Partnership for Advancing LLM-based Story Annotation": {
+      "citations": 0,
+      "last_updated": "2025-04-19-18:26:57"
+    },
+    "StoryDB: Broad Multi-language Narrative Dataset": {
+      "citations": 5,
+      "last_updated": "2025-04-19-18:27:03"
+    },
+    "SummScreen: A Dataset for Abstractive Screenplay Summarization": {
+      "citations": 92,
+      "last_updated": "2025-04-19-18:27:04"
     },
     "TIGERScore: Towards Building Explainable Metric for All Text Generation Tasks": {
-      "citations": 46,
-      "last_updated": "2025-03-09-00:38:24"
+      "citations": 54,
+      "last_updated": "2025-04-19-18:27:07"
+    },
+    "Whose story is it? Personalizing story generation by inferring author styles": {
+      "citations": 0,
+      "last_updated": "2025-04-19-18:27:26"
+    },
+    "CoKe: Customizable Fine-Grained Story Evaluation via Chain-of-Keyword Rationalization": {
+      "citations": 0,
+      "last_updated": "2025-04-19-18:27:27"
+    },
+    "Evaluating Creative Short Story Generation in Humans and Large Language Models": {
+      "citations": 3,
+      "last_updated": "2025-04-19-18:27:29"
+    },
+    "CS4: Measuring the Creativity of Large Language Models Automatically by Controlling the Number of Story-Writing Constraints": {
+      "citations": 2,
+      "last_updated": "2025-04-19-18:27:30"
+    },
+    "Pron vs Prompt: Can Large Language Models already Challenge a World-Class Fiction Author at Creative Text Writing?": {
+      "citations": 10,
+      "last_updated": "2025-04-19-18:27:33"
+    },
+    "Openmeva: A benchmark for evaluating open-ended story generation metrics": {
+      "citations": 58,
+      "last_updated": "2025-04-19-18:27:38"
+    },
+    "STORIUM: A Dataset and Evaluation Platform for Machine-in-the-Loop Story Generation": {
+      "citations": 85,
+      "last_updated": "2025-04-19-18:27:39"
+    },
+    "Guiding and Diversifying LLM-Based Story Generation via Answer Set Programming": {
+      "citations": 4,
+      "last_updated": "2025-04-19-18:27:48"
+    },
+    "Finding Flawed Fictions: Evaluating Complex Reasoning in Language Models via Plot Hole Detection": {
+      "citations": 0,
+      "last_updated": "2025-04-19-18:27:50"
+    },
+    "With Greater Text Comes Greater Necessity: Inference-Time Training Helps Long Text Generation": {
+      "citations": 16,
+      "last_updated": "2025-04-19-18:27:54"
+    },
+    "Small Language Models can Outperform Humans in Short Creative Writing: A Study Comparing SLMs with Humans and LLMs": {
+      "citations": 6,
+      "last_updated": "2025-04-19-18:27:56"
+    },
+    "FACTTRACK: Time-Aware World State Tracking in Story Outlines": {
+      "citations": 0,
+      "last_updated": "2025-04-19-18:27:58"
+    },
+    "A Confederacy of Models: a Comprehensive Evaluation of LLMs on Creative Writing": {
+      "citations": 58,
+      "last_updated": "2025-04-19-18:27:59"
+    },
+    "BookWorm: A Dataset for Character Description and Analysis": {
+      "citations": 1,
+      "last_updated": "2025-04-19-18:28:02"
+    },
+    "CMDAG: A Chinese Metaphor Dataset with Annotated Grounds as CoT for Boosting Metaphor Generation": {
+      "citations": 5,
+      "last_updated": "2025-04-19-18:28:03"
+    },
+    "A corpus for understanding and generating moral stories": {
+      "citations": 8,
+      "last_updated": "2025-04-19-18:28:04"
+    },
+    "Ex3: Automatic Novel Writing by Extracting, Excelsior and Expanding": {
+      "citations": 2,
+      "last_updated": "2025-04-19-18:28:08"
     },
     "EIPE-text: Evaluation-Guided Iterative Plan Extraction for Long-Form Narrative Text Generation": {
       "citations": 7,
-      "last_updated": "2025-03-09-00:38:25"
+      "last_updated": "2025-04-19-18:28:09"
     },
-    "Generating Coherent Narratives by Learning Dynamic and Discrete Entity States with a Contrastive Framework": {
-      "citations": 8,
-      "last_updated": "2025-03-09-00:38:27"
+    "A Corpus and Evaluation Framework for Deeper Understanding of Commonsense Stories": {
+      "citations": 691,
+      "last_updated": "2025-04-20-18:15:35"
+    },
+    "R^2: A LLM BASED NOVEL-TO-SCREENPLAY GENERATION FRAMEWORK WITH CAUSAL PLOT GRAPHS": {
+      "citations": 0,
+      "last_updated": "2025-04-20-18:15:35"
+    },
+    "Are Large Language Models Capable of Generating Human-Level Narratives?": {
+      "citations": 19,
+      "last_updated": "2025-04-20-18:15:35"
+    },
+    "Measuring Psychological Depth in Language Models": {
+      "citations": 3,
+      "last_updated": "2025-04-20-18:15:35"
+    },
+    "Art or Artifice? Large Language Models and the False Promise of Creativity": {
+      "citations": 89,
+      "last_updated": "2025-04-20-18:15:35"
+    },
+    "Weaver: Foundation Models for Creative Writing": {
+      "citations": 17,
+      "last_updated": "2025-04-20-18:32:11"
     }
   }
 }
