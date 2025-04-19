@@ -1,4 +1,4 @@
-<h1 align="center">Awesome-Story-Generation</h1>
+<h1 align="center">Old Version</h1>
 
 <div align="center">Contributed by <a href="https://yingpengma.github.io/">Yingpeng Ma</a>, <a href="https://mantle2048.github.io/">Yan Ma</a></div>
 
