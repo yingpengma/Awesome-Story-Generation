@@ -1,14 +1,9 @@
 {
   "papers": {
-    "R^2: A LLM BASED NOVEL-TO-SCREENPLAY GENERATION FRAMEWORK WITH CAUSAL PLOT GRAPHS": {
-      "title": "R2: A LLM Based Novel-to-Screenplay Generation Framework with Causal Plot Graphs",
+    "STORY2GAME: Generating (Almost) Everything in an Interactive Fiction Game": {
+      "title": "STORY2GAME: Generating (Almost) Everything in an Interactive Fiction Game",
       "citations": 0,
-      "last_updated": "2025-07-12-04:19:39"
-    },
-    "CAT-LLM: Prompting Large Language Models with Text Style Definition for Chinese Article-style Transfer": {
-      "title": "CAT-LLM: Style-enhanced Large Language Models with Text Style Definition for Chinese Article-style Transfer",
-      "citations": 13,
-      "last_updated": "2025-07-12-04:19:42"
+      "last_updated": "2025-07-12-16:14:05"
     },
     "What Makes a Good Story and How Can We Measure It? A Comprehensive Survey of Story Evaluation": {
       "title": "What Makes a Good Story and How Can We Measure It? A Comprehensive Survey of Story Evaluation",
@@ -399,6 +394,16 @@
       "title": "STONYBOOK: A System and Resource for Large-Scale Analysis of Novels",
       "citations": 1,
       "last_updated": "2025-07-12-04:16:27"
+    },
+    "R^2: A LLM BASED NOVEL-TO-SCREENPLAY GENERATION FRAMEWORK WITH CAUSAL PLOT GRAPHS": {
+      "title": "R2: A LLM Based Novel-to-Screenplay Generation Framework with Causal Plot Graphs",
+      "citations": 0,
+      "last_updated": "2025-07-12-04:19:39"
+    },
+    "CAT-LLM: Prompting Large Language Models with Text Style Definition for Chinese Article-style Transfer": {
+      "title": "CAT-LLM: Style-enhanced Large Language Models with Text Style Definition for Chinese Article-style Transfer",
+      "citations": 13,
+      "last_updated": "2025-07-12-04:19:42"
     }
   }
 }
