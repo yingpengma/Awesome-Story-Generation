@@ -62,6 +62,7 @@ Eg. `ACL-20XX` **Title** [paper] [code] .. [authors]  [![](https://img.shields.i
 - `ArXiv-2023` **EIPE-text: Evaluation-Guided Iterative Plan Extraction for Long-Form Narrative Text Generation** [[paper]](https://arxiv.org/abs/2310.08185) [Wang You, Wenshan Wu, Yaobo Liang, Shaoguang Mao, Chenfei Wu, Maosong Cao, Yuzhe Cai, Yiduo Guo, Yan Xia, Furu Wei, Nan Duan] [Prompt Engineering] [![](https://img.shields.io/badge/citation-9-blue)]() 
 
 ### Multi Agent
+- `ArXiv-2025` **HAMLET: Hyperadaptive Agent-based Modeling for Live Embodied Theatrics** [[paper]](https://arxiv.org/abs/2507.15518) [Sizhou Chen, Shufan Jiang, Chi Zhang, Xiao-Lei Zhang, Xuelong Li] [![](https://img.shields.io/badge/citation-0-blue)]()
 - `ArXiv-2025` **A Cognitive Writing Perspective for Constrained Long-Form Text Generation** [[paper]](https://arxiv.org/abs/2502.12568) [Kaiyang Wan, Honglin Mu, Rui Hao, Haoran Luo, Tianle Gu, Xiuying Chen] [![](https://img.shields.io/badge/citation-1-blue)]()
 - `ICLR-2025` **Agents' Room: Narrative Generation through Multi-step Collaboration** [[paper]](https://arxiv.org/abs/2410.02603) [Fantine Huot, Reinald Kim Amplayo, Jennimaria Palomaki, Alice Shoshana Jakobovits, Elizabeth Clark, Mirella Lapata] [![](https://img.shields.io/badge/citation-16-blue)]()
 - `ACL-2024` **IBSEN: Director-Actor Agent Collaboration for Controllable and Interactive Drama Script Generation** [[paper]](https://arxiv.org/abs/2407.01093) [Senyu Han, Lu Chen, Li-Min Lin, Zhengshan Xu, Kai Yu] [![](https://img.shields.io/badge/citation-16-blue)]()
