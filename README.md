@@ -100,6 +100,7 @@ Eg. `ACL-20XX` **Title** [paper] [code] .. [authors]  [![](https://img.shields.i
 - `ArXiv-2023` **Learning to Generate Text in Arbitrary Writing Styles** [[paper]](https://arxiv.org/abs/2312.17242) [Aleem Khan, Andrew Wang, Sophia Hager, Nicholas Andrews] [Style] [![](https://img.shields.io/badge/citation-6-blue)]() 
 
 ### Evaluation
+- `ICCV AISTORY Workshop-2025` **Re:Verse -- Can Your VLM Read a Manga?** [[paper]](https://arxiv.org/abs/2508.08508) [Aaditya Baranwal, Madhav Kataria, Naitik Agrawal, Yogesh S Rawat, Shruti Vyas] [![](https://img.shields.io/badge/citation-0-blue)]()
 - `ArXiv-2025` **CoKe: Customizable Fine-Grained Story Evaluation via Chain-of-Keyword Rationalization** [[paper]](https://arxiv.org/abs/2503.17136) [Brihi Joshi, Sriram Venkatapathy, Mohit Bansal, Nanyun Peng, Haw-Shiuan Chang] [![](https://img.shields.io/badge/citation-0-blue)]()
 - `ArXiv-2025` **LongEval: A Comprehensive Analysis of Long-Text Generation Through a Plan-based Paradigm** [[paper]](https://arxiv.org/abs/2502.19103) [Siwei Wu, Yizhi Li, Xingwei Qu, Rishi Ravikumar, Yucheng Li, Tyler Loakman, Shanghaoran Quan, Xiaoyong Wei, Riza Batista-Navarro, Chenghua Lin] [![](https://img.shields.io/badge/citation-4-blue)]()
 - `ArXiv-2025` **Echoes in AI: Quantifying Lack of Plot Diversity in LLM Outputs** [[paper]](https://arxiv.org/abs/2501.00273) [Weijia Xu, Nebojsa Jojic, Sudha Rao, Chris Brockett, Bill Dolan] [![](https://img.shields.io/badge/citation-7-blue)]()
