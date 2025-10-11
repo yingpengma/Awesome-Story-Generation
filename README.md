@@ -18,6 +18,7 @@ For those interested in previous research before LLM era, an archived version is
   - [Overview](#overview)
   - [Plan And Write](#plan-and-write)
   - [Multi Agent](#multi-agent)
+  - [Multimodality](#multimodality)
   - [Better Storytelling](#better-storytelling)
   - [More Controllable](#more-controllable)
   - [More Personalized](#more-personalized)
@@ -49,10 +50,12 @@ Eg. `ACL-20XX` **Title** [paper] [code] .. [authors]  [![](https://img.shields.i
 ### Overview
 - `ArXiv-2024` **What Makes a Good Story and How Can We Measure It? A Comprehensive Survey of Story Evaluation** [[paper]](https://arxiv.org/abs/2408.14622) [Dingyi Yang, Qin Jin] [![](https://img.shields.io/badge/citation-7-blue)]()
 - `CHI-2024` **The Value, Benefits, and Concerns of Generative AI-Powered Assistance in Writing** [[paper]](https://arxiv.org/abs/2403.12004) [Zhuoyan Li, Chen Liang, Jing Peng, Ming Yin] [Mainly about ChatGPT, not including other models] [![](https://img.shields.io/badge/citation-59-blue)]() 
-- `ArXiv-2024` **Weaver: Foundation Models for Creative Writing** [[paper]](https://arxiv.org/abs/2401.17268) [Tiannan Wang, Jiamin Chen, Qingrui Jia, Shuai Wang, Ruoyu Fang, ... , Yuchen Eleanor Jiang, Wangchunshu Zhou] [Foundation Models which focus on writing capabilities] [![](https://img.shields.io/badge/citation-20-blue)]() 
+- `ArXiv-2024` **Weaver: Foundation Models for Creative Writing** [[paper]](https://arxiv.org/abs/2401.17268) [Tiannan Wang, Jiamin Chen, Qingrui Jia, Shuai Wang, Ruoyu Fang, ... , Yuchen Eleanor Jiang, Wangchunshu Zhou] [Foundation Models which focus on writing capabilities] [![](https://img.shields.io/badge/citation-20-blue)]()
+- `Neurocomputing-2023` **Open-world Story Generation with Structured Knowledge Enhancement: A Comprehensive Survey** [[paper]](https://arxiv.org/abs/2212.04634) [Yuxin Wang, Jieru Lin, Zhiwei Yu, Wei Hu, Börje F. Karlsson] [![](https://img.shields.io/badge/citation-39-blue)]()
 - `EMNLP Findings-2023` **Are NLP Models Good at Tracing Thoughts: An Overview of Narrative Understanding** [[paper]](https://arxiv.org/abs/2310.18783) [Lixing Zhu, Runcong Zhao, Lin Gui, Yulan He] [![](https://img.shields.io/badge/citation-5-blue)]()
 
 ### Plan And Write
+- `ArXiv-2025` **Learning to Reason for Long-Form Story Generation** [[paper]](https://arxiv.org/abs/2503.22828v2) [Alexander Gurung, Mirella Lapata] [![](https://img.shields.io/badge/citation-7-blue)]()
 - `NAACL-2025` **Generating Long-form Story Using Dynamic Hierarchical Outlining with Memory-Enhancement** [[paper]](https://arxiv.org/abs/2412.13575) [Qianyue Wang, Jinwu Hu, Zhengping Li, Yufeng Wang, daiyuan li, Yu Hu, Mingkui Tan] [![](https://img.shields.io/badge/citation-6-blue)]()
 - `EMNLP-2024` **Collective Critics for Creative Story Generation** [[paper]](https://arxiv.org/abs/2410.02428) [Minwook Bae, Hyounghun Kim] [![](https://img.shields.io/badge/citation-3-blue)]()
 - `ACL-2024` **Ex3: Automatic Novel Writing by Extracting, Excelsior and Expanding** [[paper]](https://arxiv.org/abs/2408.08506) [Lei Huang, Jiaming Guo, Guanhua He, Xishan Zhang, Rui Zhang, Shaohui Peng, Shaoli Liu, Tianshi Chen] [![](https://img.shields.io/badge/citation-2-blue)]()
@@ -68,7 +71,11 @@ Eg. `ACL-20XX` **Title** [paper] [code] .. [authors]  [![](https://img.shields.i
 - `ACL-2024` **IBSEN: Director-Actor Agent Collaboration for Controllable and Interactive Drama Script Generation** [[paper]](https://arxiv.org/abs/2407.01093) [Senyu Han, Lu Chen, Li-Min Lin, Zhengshan Xu, Kai Yu] [![](https://img.shields.io/badge/citation-16-blue)]()
 - `EMNLP Findings-2024` **HoLLMwood: Unleashing the Creativity of Large Language Models in Screenwriting via Role Playing** [[paper]](https://arxiv.org/abs/2406.11683) [Jing Chen, Xinyu Zhu, Cheng Yang, Chufan Shi, Yadong Xi, Yuxiang Zhang, Junjie Wang, Jiashu Pu, Rongsheng Zhang, Yujiu Yang, Tian Feng] [![](https://img.shields.io/badge/citation-9-blue)]()
 - `FDG-2024` **StoryVerse: Towards Co-authoring Dynamic Plot with LLM-based Character Simulation via Narrative Planning** [[paper]](https://arxiv.org/abs/2405.13042) [Yi Wang, Qian Zhou, David Ledo] [virtual characters] [![](https://img.shields.io/badge/citation-14-blue)]() 
-- `IJCAI-2024` **AutoAgents: A Framework for Automatic Agent Generation** [[paper]](https://arxiv.org/abs/2309.17288) [Guangyao Chen, Siwei Dong, Yu Shu, Ge Zhang, Jaward Sesay, Börje F. Karlsson, Jie Fu, Yemin Shi] [Prompt Engineering] [![](https://img.shields.io/badge/citation-129-blue)]() 
+- `IJCAI-2024` **AutoAgents: A Framework for Automatic Agent Generation** [[paper]](https://arxiv.org/abs/2309.17288) [Guangyao Chen, Siwei Dong, Yu Shu, Ge Zhang, Jaward Sesay, Börje F. Karlsson, Jie Fu, Yemin Shi] [Prompt Engineering] [![](https://img.shields.io/badge/citation-129-blue)]()
+
+### Multimodality
+- `ArXiv-2024` **SEED-Story: Multimodal Long Story Generation with Large Language Model** [[paper]](https://arxiv.org/abs/2407.08683) [Shuai Yang, Yuying Ge, Yang Li, Yukang Chen, Yixiao Ge, Ying Shan, Yingcong Chen] [![](https://img.shields.io/badge/citation-55-blue)]()
+- `CVPR-2023` **Make-A-Story: Visual Memory Conditioned Consistent Story Generation** [[paper]](https://arxiv.org/abs/2211.13319) [Tanzila Rahman, Hsin-Ying Lee, Jian Ren, Sergey Tulyakov, Shweta Mahajan, Leonid Sigal] [![](https://img.shields.io/badge/citation-84-blue)]()
 
 ### Better Storytelling
 - `ArXiv-2025` **Finding Flawed Fictions: Evaluating Complex Reasoning in Language Models via Plot Hole Detection** [[paper]](https://arxiv.org/abs/2504.11900) [Kabir Ahuja, Melanie Sclar, Yulia Tsvetkov] [![](https://img.shields.io/badge/citation-4-blue)]()
