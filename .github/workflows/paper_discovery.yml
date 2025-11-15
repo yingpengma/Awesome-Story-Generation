@@ -1,0 +1,32 @@
+name: Automated Paper Discovery
+
+on:
+  schedule:
+    # Runs at 00:00 UTC every day
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Discover new papers
+        env:
+          # The GITHUB_TOKEN is required for the script to create pull requests
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CI: true # Set CI environment variable
+        run: python discover_papers.py

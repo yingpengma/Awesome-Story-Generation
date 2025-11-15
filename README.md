@@ -37,6 +37,16 @@ Your contributions matter! Please help keep this list current and accurate by op
 
 Contact: `mayingpeng33 [AT] gmail [DOT] com`
 
+## Automated Paper Discovery
+
+This repository uses a GitHub Action to automatically discover new papers and open pull requests. The workflow, defined in `.github/workflows/paper_discovery.yml`, runs daily and performs the following steps:
+
+1.  **Searches for new papers:** The `discover_papers.py` script queries the Semantic Scholar API for new publications based on the keywords defined in `config.ini`.
+2.  **Creates a Pull Request:** If new, unlisted papers are found, the script will automatically create a new branch and open a pull request with the paper's details.
+3.  **Human Review:** These pull requests need to be reviewed and merged manually. This ensures that only relevant papers are added to the collection.
+
+You can customize the search by editing the keywords in the `[discovery]` section of the `config.ini` file.
+
 <!--
 ## Related Repository
 |**[Awesome-LLM-Characters](https://github.com/yingpengma/Awesome-LLM-Characters)**|
