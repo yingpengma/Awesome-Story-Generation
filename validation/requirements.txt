@@ -1,0 +1,35 @@
+# RAG Story Generation - Validation Phase Requirements
+
+# LLM APIs
+openai>=1.12.0
+anthropic>=0.18.0
+
+# Vector Database & Embeddings
+chromadb>=0.4.22
+sentence-transformers>=2.3.0
+
+# PDF Processing
+PyMuPDF>=1.23.0
+pdfplumber>=0.10.0
+
+# Web Scraping (for ArXiv papers)
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Data Processing
+pandas>=2.1.0
+numpy>=1.24.0
+
+# Agent Framework
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.20
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0
+tqdm>=4.66.0
+rich>=13.7.0
+
+# Evaluation
+scikit-learn>=1.3.0

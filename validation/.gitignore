@@ -1,0 +1,23 @@
+# Environment
+.env
+venv/
+*.pyc
+__pycache__/
+
+# Data and Results
+data/
+results/
+*.json
+!configs/*.yaml
+
+# ChromaDB
+chroma_db/
+*.sqlite3
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp

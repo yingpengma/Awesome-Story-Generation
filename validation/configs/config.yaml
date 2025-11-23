@@ -1,0 +1,89 @@
+# RAG Story Generation - Validation Configuration
+
+# API Keys (set in .env file)
+openai_api_key: ${OPENAI_API_KEY}
+anthropic_api_key: ${ANTHROPIC_API_KEY}
+
+# Model Configuration
+models:
+  embedding: "text-embedding-3-large"  # OpenAI embedding model
+  generation: "gpt-4o"  # Story generation model
+  generation_fast: "gpt-4o-mini"  # Fast/cheap model for testing
+  evaluation: "gpt-4o"  # For LLM-as-judge evaluation
+
+# RAG Configuration
+rag:
+  vector_db: "chromadb"
+  collection_name: "story_generation_papers"
+  chunk_size: 1000
+  chunk_overlap: 200
+  top_k: 5  # Number of papers to retrieve
+
+# Paper Processing
+papers:
+  # Top 10 papers to manually extract for validation
+  priority_papers:
+    - "Creating Suspenseful Stories: Iterative Planning with Large Language Models"
+    - "Agents' Room: Narrative Generation through Multi-step Collaboration"
+    - "Measuring Psychological Depth in Language Models"
+    - "Improving Pacing in Long-Form Story Planning"
+    - "IBSEN: Director-Actor Agent Collaboration for Controllable and Interactive Drama Script Generation"
+    - "MoPS: Modular Story Premise Synthesis for Open-Ended Automatic Story Generation"
+    - "SWAG: Storytelling With Action Guidance"
+    - "Are Large Language Models Capable of Generating Human-Level Narratives?"
+    - "SCORE: Story Coherence and Retrieval Enhancement for AI Narratives"
+    - "RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text"
+
+  # Sections to extract
+  sections_priority:
+    - "abstract"
+    - "methodology"
+    - "approach"
+    - "prompts"
+    - "examples"
+
+# Story Generation
+generation:
+  max_length: 2000  # Words for validation stories
+  temperature: 0.7
+  test_prompts:
+    - genre: "mystery"
+      topic: "A detective investigates a disappearance in a small coastal town"
+      requirements: "suspenseful, plot twists, complex character psychology"
+
+    - genre: "romance"
+      topic: "Two rivals in a competitive cooking show"
+      requirements: "slow-burn tension, emotional depth, witty dialogue"
+
+    - genre: "sci-fi"
+      topic: "First contact with an alien species through dreams"
+      requirements: "world-building, philosophical themes, sense of wonder"
+
+    - genre: "thriller"
+      topic: "A cybersecurity expert discovers a conspiracy"
+      requirements: "fast-paced, technical accuracy, mounting tension"
+
+    - genre: "fantasy"
+      topic: "A librarian discovers magic is real when books start coming to life"
+      requirements: "creative magic system, character growth, adventure"
+
+# Evaluation
+evaluation:
+  criteria:
+    - coherence
+    - creativity
+    - character_depth
+    - plot_structure
+    - engagement
+    - genre_appropriateness
+
+  scale: 10  # 1-10 rating scale
+
+  # Number of comparisons per test prompt
+  num_comparisons: 5  # Generate 5 pairs (RAG vs baseline) per prompt
+
+# Validation Phase Goals
+validation:
+  success_threshold: 0.60  # RAG must win 60%+ of comparisons
+  min_quality_score: 6.0  # Average quality score must be 6+/10
+  max_cost_per_story: 5.00  # Must stay under $5 in API costs
