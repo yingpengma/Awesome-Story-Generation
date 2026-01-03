@@ -78,6 +78,7 @@ Eg. `ACL-20XX` **Title** [paper] [code] .. [authors]  [![](https://img.shields.i
 - `CVPR-2023` **Make-A-Story: Visual Memory Conditioned Consistent Story Generation** [[paper]](https://arxiv.org/abs/2211.13319) [Tanzila Rahman, Hsin-Ying Lee, Jian Ren, Sergey Tulyakov, Shweta Mahajan, Leonid Sigal] [![](https://img.shields.io/badge/citation-84-blue)]()
 
 ### Better Storytelling
+- `ArXiv-2025` **All Stories Are One Story: Emotional Arc Guided Procedural Game Level Generation** [[paper]](https://arxiv.org/abs/2508.02132) [Yunge Wen, Chenliang Huang, Hangyu Zhou, Zhuo Zeng, Chun Ming Louis Po, Julian Togelius, Timothy Merino, Sam Earle] [![](https://img.shields.io/badge/citation-2-blue)]()
 - `ArXiv-2025` **Finding Flawed Fictions: Evaluating Complex Reasoning in Language Models via Plot Hole Detection** [[paper]](https://arxiv.org/abs/2504.11900) [Kabir Ahuja, Melanie Sclar, Yulia Tsvetkov] [![](https://img.shields.io/badge/citation-4-blue)]()
 - `ArXiv-2025` **Learning to Reason for Long-Form Story Generation** [[paper]](https://arxiv.org/abs/2503.22828) [Alexander Gurung, Mirella Lapata] [![](https://img.shields.io/badge/citation-3-blue)]()
 - `ArXiv-2024` **MLD-EA: Check and Complete Narrative Coherence by Introducing Emotions and Actions** [[paper]](https://arxiv.org/abs/2412.02897) [Jinming Zhang, Yunfei Long] [![](https://img.shields.io/badge/citation-1-blue)]()
@@ -88,6 +89,7 @@ Eg. `ACL-20XX` **Title** [paper] [code] .. [authors]  [![](https://img.shields.i
 
 ### More Controllable
 - `ArXiv-2025` **SCORE: Story Coherence and Retrieval Enhancement for AI Narratives** [[paper]](https://arxiv.org/abs/2503.23512) [Qiang Yi, Yangfan He, Jianhui Wang, Xinyuan Song, Shiyao Qian, Miao Zhang, Li Sun, Tianyu Shi] [![](https://img.shields.io/badge/citation-17-blue)]()
+- `AIIDE-2024` **NarrativeGenie: Generating Narrative Beats and Dynamic Storytelling with Large Language Models** [[paper]](https://ojs.aaai.org/index.php/AIIDE/article/view/31868) [Vikram Kumaran, Jonathan Rowe, James Lester] [![](https://img.shields.io/badge/citation-16-blue)]()
 - `ArXiv-2024` **Crafting Narrative Closures: Zero-Shot Learning with SSM Mamba for Short Story Ending Generation** [[paper]](https://arxiv.org/abs/2410.10848) [Divyam Sharma, Divya Santhanam] [![](https://img.shields.io/badge/citation-0-blue)]()
 - `ACL-2024` **MoPS: Modular Story Premise Synthesis for Open-Ended Automatic Story Generation** [[paper]](https://arxiv.org/abs/2406.05690)  [[code]](https://github.com/GAIR-NLP/MoPS) [Yan Ma, Yu Qiao, Pengfei Liu] [![](https://img.shields.io/badge/citation-6-blue)]()
 - `ArXiv-2024` **Multigenre AI-powered Story Composition** [[paper]](https://arxiv.org/abs/2405.06685v2) [Edirlei Soares de Lima, Margot M. E. Neggers, Antonio L. Furtado] [![](https://img.shields.io/badge/citation-1-blue)]()
