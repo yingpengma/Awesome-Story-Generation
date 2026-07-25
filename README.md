@@ -162,5 +162,6 @@ Eg. `ACL-20XX` **Title** [paper] [code] .. [authors]  [![](https://img.shields.i
 - [CommonGen](https://inklab.usc.edu/CommonGen/) was developed by combining crowdsourced and existing caption corpora, containing 79k commonsense descriptions across 35k distinct concept-sets.
 - [CMU Movie Summary Corpus](http://www.cs.cmu.edu/~ark/personas/) offers access to a dataset containing movie plot summaries and related metadata.
 - [Scifi TV Show Plot Summaries & Events](https://huggingface.co/datasets/lara-martin/Scifi_TV_Shows) is a collection of plot synopses for long-running (80+ episodes) science fiction TV shows, sourced from Fandom.com wikis.
+- [Professional Screenwriting AI Evaluation & Correction Dataset](https://github.com/myfilms79/screenwriting-ai-evaluation-corrections) is a practitioner-reviewed evaluation resource for screenplay and narrative AI, containing 175 judgment cards and 155 graduated rubric dimensions spanning 12 craft dimensions and 10 failure types, with a free gated sample on Hugging Face.
 
 ![Star History Chart](https://api.star-history.com/svg?repos=yingpengma/Awesome-Story-Generation&type=Date)
