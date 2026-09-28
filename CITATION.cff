@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you find this list useful, please cite it as below."
+title: "Awesome-Story-Generation: A Curated List of Papers on Story Generation in the Era of Large Language Models"
+type: dataset
+authors:
+  - family-names: Ma
+    given-names: Yingpeng
+  - family-names: Ma
+    given-names: Yan
+repository-code: "https://github.com/yingpengma/Awesome-Story-Generation"
+url: "https://github.com/yingpengma/Awesome-Story-Generation"
+license: CC-BY-4.0
+date-released: 2023-06-19
+keywords:
+  - story generation
+  - storytelling
+  - large language models
+  - interactive narrative

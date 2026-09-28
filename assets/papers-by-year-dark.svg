@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="290" viewBox="0 0 640 290" font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+<rect width="640" height="290" rx="12" fill="#1a1a19"/>
+<rect x="48" y="22" width="10" height="10" rx="2" fill="#3987e5"/>
+<text x="63" y="31" font-size="11.5" fill="#c3c2b7">Beyond Text</text>
+<rect x="151.2" y="22" width="10" height="10" rx="2" fill="#d95926"/>
+<text x="166.2" y="31" font-size="11.5" fill="#c3c2b7">Text Stories</text>
+<rect x="260.6" y="22" width="10" height="10" rx="2" fill="#199e70"/>
+<text x="275.6" y="31" font-size="11.5" fill="#c3c2b7">Evaluation</text>
+<rect x="357.6" y="22" width="10" height="10" rx="2" fill="#c98500"/>
+<text x="372.6" y="31" font-size="11.5" fill="#c3c2b7">Co-creation</text>
+<line x1="48" x2="616" y1="246.0" y2="246.0" stroke="#383835" stroke-width="1"/>
+<text x="40" y="250.0" font-size="11" text-anchor="end" fill="#898781" style="font-variant-numeric:tabular-nums">0</text>
+<line x1="48" x2="616" y1="200.5" y2="200.5" stroke="#2c2c2a" stroke-width="1"/>
+<text x="40" y="204.5" font-size="11" text-anchor="end" fill="#898781" style="font-variant-numeric:tabular-nums">25</text>
+<line x1="48" x2="616" y1="155.0" y2="155.0" stroke="#2c2c2a" stroke-width="1"/>
+<text x="40" y="159.0" font-size="11" text-anchor="end" fill="#898781" style="font-variant-numeric:tabular-nums">50</text>
+<line x1="48" x2="616" y1="109.5" y2="109.5" stroke="#2c2c2a" stroke-width="1"/>
+<text x="40" y="113.5" font-size="11" text-anchor="end" fill="#898781" style="font-variant-numeric:tabular-nums">75</text>
+<line x1="48" x2="616" y1="64.0" y2="64.0" stroke="#2c2c2a" stroke-width="1"/>
+<text x="40" y="68.0" font-size="11" text-anchor="end" fill="#898781" style="font-variant-numeric:tabular-nums">100</text>
+<rect x="107.0" y="216.9" width="24" height="29.1" fill="#3987e5"/>
+<rect x="107.0" y="206.0" width="24" height="8.9" fill="#d95926"/>
+<rect x="107.0" y="193.2" width="24" height="10.7" fill="#199e70"/>
+<path d="M107.0,191.2 V187.7 Q107.0,184.1 110.5,184.1 H127.5 Q131.0,184.1 131.0,187.7 V191.2 Z" fill="#c98500"/>
+<text x="119.0" y="176.1" font-size="12.5" font-weight="600" text-anchor="middle" fill="#ffffff">34</text>
+<text x="119.0" y="266" font-size="12" text-anchor="middle" fill="#c3c2b7">2023</text>
+<rect x="249.0" y="222.3" width="24" height="23.7" fill="#3987e5"/>
+<rect x="249.0" y="196.9" width="24" height="23.5" fill="#d95926"/>
+<rect x="249.0" y="182.3" width="24" height="12.6" fill="#199e70"/>
+<path d="M249.0,180.3 V173.6 Q249.0,169.6 253.0,169.6 H269.0 Q273.0,169.6 273.0,173.6 V180.3 Z" fill="#c98500"/>
+<text x="261.0" y="161.6" font-size="12.5" font-weight="600" text-anchor="middle" fill="#ffffff">42</text>
+<text x="261.0" y="266" font-size="12" text-anchor="middle" fill="#c3c2b7">2024</text>
+<rect x="391.0" y="202.3" width="24" height="43.7" fill="#3987e5"/>
+<rect x="391.0" y="169.6" width="24" height="30.8" fill="#d95926"/>
+<rect x="391.0" y="145.9" width="24" height="21.7" fill="#199e70"/>
+<path d="M391.0,143.9 V137.2 Q391.0,133.2 395.0,133.2 H411.0 Q415.0,133.2 415.0,137.2 V143.9 Z" fill="#c98500"/>
+<text x="403.0" y="125.2" font-size="12.5" font-weight="600" text-anchor="middle" fill="#ffffff">62</text>
+<text x="403.0" y="266" font-size="12" text-anchor="middle" fill="#c3c2b7">2025</text>
+<rect x="533.0" y="189.6" width="24" height="56.4" fill="#3987e5"/>
+<rect x="533.0" y="129.5" width="24" height="58.1" fill="#d95926"/>
+<rect x="533.0" y="105.9" width="24" height="21.7" fill="#199e70"/>
+<path d="M533.0,103.9 V82.6 Q533.0,78.6 537.0,78.6 H553.0 Q557.0,78.6 557.0,82.6 V103.9 Z" fill="#c98500"/>
+<text x="545.0" y="70.6" font-size="12.5" font-weight="600" text-anchor="middle" fill="#ffffff">92</text>
+<text x="545.0" y="266" font-size="12" text-anchor="middle" fill="#c3c2b7">2026*</text>
+</svg>

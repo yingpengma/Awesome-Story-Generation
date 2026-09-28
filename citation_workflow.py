@@ -6,6 +6,7 @@
 """
 
 import json
+import os
 import re
 import requests
 from datetime import datetime
@@ -185,13 +186,16 @@ class CitationWorkflow:
             # 如果时间格式解析失败，认为需要更新
             return False
     
-    def update_paper_citation(self, title, paper_data, retry_limit=3):
+    def update_paper_citation(self, title, paper_data, retry_limit=5):
         """获取单篇论文的引用数，并立即更新JSON文件"""
         base_url = "https://api.semanticscholar.org/graph/v1/paper/search"
         headers = {
             "Content-Type": "application/json",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
         }
+        # 可选：设置环境变量 S2_API_KEY 使用 Semantic Scholar API key，提高频率上限
+        if os.environ.get("S2_API_KEY"):
+            headers["x-api-key"] = os.environ["S2_API_KEY"]
         
         old_citation = paper_data["papers"][title]["citations"]
         search_title = paper_data["papers"][title]["title"]  # 使用标题字段搜索
@@ -213,8 +217,9 @@ class CitationWorkflow:
                 # 特殊处理429错误，直接跳过不显示
                 if response.status_code == 429:
                     if attempt < retry_limit - 1:
-                        print(f"   ⚠️ 第{attempt+1}次尝试: 请求频率限制，1秒后重试...")
-                        time.sleep(self.api_delay)  # 固定1秒等待时间
+                        wait = self.api_delay * 3 * (2 ** attempt)  # 指数退避：3、6、12、24秒
+                        print(f"   ⚠️ 第{attempt+1}次尝试: 请求频率限制，{wait}秒后重试...")
+                        time.sleep(wait)
                         continue
                     else:
                         print(f"   ❌ 已达到最大重试次数，跳过此论文")
@@ -476,23 +481,27 @@ class CitationWorkflow:
                     error_count += 1
                     continue
                 
-                # 找到匹配位置后的citation badge
+                # 在论文标题所在的那一行里查找citation badge（badge可以在标题前或标题后）
                 match_pos = matches[0]
+                line_start = md_content.rfind('\n', 0, match_pos) + 1
+                line_end = md_content.find('\n', match_pos)
+                if line_end == -1:
+                    line_end = len(md_content)
                 badge_pattern = r'\[!\[\]\(https://img\.shields\.io/badge/citation-\d+-blue\)\]\(\)'
-                badge_match = re.search(badge_pattern, md_content[match_pos:])
-                
+                badge_match = re.search(badge_pattern, md_content[line_start:line_end])
+
                 if not badge_match:
                     print(f"   ⚠️ 未找到论文的citation badge: {paper_title}")
                     error_count += 1
                     continue
-                
+
                 # 更新citation数量
                 old_badge = badge_match.group(0)
-                new_badge = f'[![](https://img.shields.io/badge/citation-{paper_info["citations"]}-blue)]()'        
-                
-                # 只替换当前论文位置后的第一个badge
-                before_match = md_content[:match_pos + badge_match.start()]
-                after_match = md_content[match_pos + badge_match.end():]
+                new_badge = f'[![](https://img.shields.io/badge/citation-{paper_info["citations"]}-blue)]()'
+
+                # 只替换这一行里的badge
+                before_match = md_content[:line_start + badge_match.start()]
+                after_match = md_content[line_start + badge_match.end():]
                 md_content = before_match + new_badge + after_match
                 
                 print(f"   ✅ 成功更新: '{paper_title[:50]}{'...' if len(paper_title) > 50 else ''}' → {paper_info['citations']} 引用")

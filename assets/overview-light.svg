@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="552" viewBox="0 0 1200 552" font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+<rect width="1200" height="552" rx="16" fill="#fcfcfb"/>
+<rect x="16.0" y="16" width="283.0" height="520" rx="14" fill="#ffffff" stroke="#e6e5df"/>
+<rect x="32.0" y="38" width="32" height="5" rx="2.5" fill="#2a78d6"/>
+<text x="32.0" y="76" font-size="22" font-weight="700" fill="#0b0b0b">Beyond Text</text>
+<text x="32.0" y="118" fill="#0b0b0b"><tspan font-size="36" font-weight="700">84</tspan><tspan font-size="22" fill="#898781" dx="8">papers</tspan></text>
+<text x="32.0" y="164" font-size="22" fill="#52514e">Interactive Drama<tspan font-weight="700" fill="#0b0b0b" dx="8">12</tspan></text>
+<rect x="32.0" y="176" width="251.0" height="8" rx="4" fill="#efeee9"/>
+<rect x="32.0" y="176" width="136.9" height="8" rx="4" fill="#2a78d6"/>
+<text x="32.0" y="228" font-size="22" fill="#52514e">Games<tspan font-weight="700" fill="#0b0b0b" dx="8">16</tspan></text>
+<rect x="32.0" y="240" width="251.0" height="8" rx="4" fill="#efeee9"/>
+<rect x="32.0" y="240" width="182.5" height="8" rx="4" fill="#2a78d6"/>
+<text x="32.0" y="292" font-size="22" fill="#52514e">World Models<tspan font-weight="700" fill="#0b0b0b" dx="8">7</tspan></text>
+<rect x="32.0" y="304" width="251.0" height="8" rx="4" fill="#efeee9"/>
+<rect x="32.0" y="304" width="79.9" height="8" rx="4" fill="#2a78d6"/>
+<text x="32.0" y="356" font-size="22" fill="#52514e">Screenplays<tspan font-weight="700" fill="#0b0b0b" dx="8">11</tspan></text>
+<rect x="32.0" y="368" width="251.0" height="8" rx="4" fill="#efeee9"/>
+<rect x="32.0" y="368" width="125.5" height="8" rx="4" fill="#2a78d6"/>
+<text x="32.0" y="420" font-size="22" fill="#52514e">Visual2Story<tspan font-weight="700" fill="#0b0b0b" dx="8">17</tspan></text>
+<rect x="32.0" y="432" width="251.0" height="8" rx="4" fill="#efeee9"/>
+<rect x="32.0" y="432" width="194.0" height="8" rx="4" fill="#2a78d6"/>
+<text x="32.0" y="484" font-size="22" fill="#52514e">Story2Visual<tspan font-weight="700" fill="#0b0b0b" dx="8">21</tspan></text>
+<rect x="32.0" y="496" width="251.0" height="8" rx="4" fill="#efeee9"/>
+<rect x="32.0" y="496" width="239.6" height="8" rx="4" fill="#2a78d6"/>
+<rect x="311.0" y="16" width="283.0" height="520" rx="14" fill="#ffffff" stroke="#e6e5df"/>
+<rect x="327.0" y="38" width="32" height="5" rx="2.5" fill="#eb6834"/>
+<text x="327.0" y="76" font-size="22" font-weight="700" fill="#0b0b0b">Text Stories</text>
+<text x="327.0" y="118" fill="#0b0b0b"><tspan font-size="36" font-weight="700">71</tspan><tspan font-size="22" fill="#898781" dx="8">papers</tspan></text>
+<text x="327.0" y="164" font-size="22" fill="#52514e">Planning<tspan font-weight="700" fill="#0b0b0b" dx="8">17</tspan></text>
+<rect x="327.0" y="176" width="251.0" height="8" rx="4" fill="#efeee9"/>
+<rect x="327.0" y="176" width="194.0" height="8" rx="4" fill="#eb6834"/>
+<text x="327.0" y="228" font-size="22" fill="#52514e">Coherence<tspan font-weight="700" fill="#0b0b0b" dx="8">9</tspan></text>
+<rect x="327.0" y="240" width="251.0" height="8" rx="4" fill="#efeee9"/>
+<rect x="327.0" y="240" width="102.7" height="8" rx="4" fill="#eb6834"/>
+<text x="327.0" y="292" font-size="22" fill="#52514e">Characters<tspan font-weight="700" fill="#0b0b0b" dx="8">9</tspan></text>
+<rect x="327.0" y="304" width="251.0" height="8" rx="4" fill="#efeee9"/>
+<rect x="327.0" y="304" width="102.7" height="8" rx="4" fill="#eb6834"/>
+<text x="327.0" y="356" font-size="22" fill="#52514e">Creativity<tspan font-weight="700" fill="#0b0b0b" dx="8">17</tspan></text>
+<rect x="327.0" y="368" width="251.0" height="8" rx="4" fill="#efeee9"/>
+<rect x="327.0" y="368" width="194.0" height="8" rx="4" fill="#eb6834"/>
+<text x="327.0" y="420" font-size="22" fill="#52514e">Training<tspan font-weight="700" fill="#0b0b0b" dx="8">19</tspan></text>
+<rect x="327.0" y="432" width="251.0" height="8" rx="4" fill="#efeee9"/>
+<rect x="327.0" y="432" width="216.8" height="8" rx="4" fill="#eb6834"/>
+<rect x="606.0" y="16" width="283.0" height="520" rx="14" fill="#ffffff" stroke="#e6e5df"/>
+<rect x="622.0" y="38" width="32" height="5" rx="2.5" fill="#1baf7a"/>
+<text x="622.0" y="76" font-size="22" font-weight="700" fill="#0b0b0b">Evaluation</text>
+<text x="622.0" y="118" fill="#0b0b0b"><tspan font-size="36" font-weight="700">41</tspan><tspan font-size="22" fill="#898781" dx="8">papers</tspan></text>
+<text x="622.0" y="164" font-size="22" fill="#52514e">Benchmarks<tspan font-weight="700" fill="#0b0b0b" dx="8">14</tspan></text>
+<rect x="622.0" y="176" width="251.0" height="8" rx="4" fill="#efeee9"/>
+<rect x="622.0" y="176" width="159.7" height="8" rx="4" fill="#1baf7a"/>
+<text x="622.0" y="228" font-size="22" fill="#52514e">Metrics<tspan font-weight="700" fill="#0b0b0b" dx="8">10</tspan></text>
+<rect x="622.0" y="240" width="251.0" height="8" rx="4" fill="#efeee9"/>
+<rect x="622.0" y="240" width="114.1" height="8" rx="4" fill="#1baf7a"/>
+<text x="622.0" y="292" font-size="22" fill="#52514e">Analyses<tspan font-weight="700" fill="#0b0b0b" dx="8">17</tspan></text>
+<rect x="622.0" y="304" width="251.0" height="8" rx="4" fill="#efeee9"/>
+<rect x="622.0" y="304" width="194.0" height="8" rx="4" fill="#1baf7a"/>
+<rect x="901.0" y="16" width="283.0" height="520" rx="14" fill="#ffffff" stroke="#e6e5df"/>
+<rect x="917.0" y="38" width="32" height="5" rx="2.5" fill="#eda100"/>
+<text x="917.0" y="76" font-size="22" font-weight="700" fill="#0b0b0b">Co-creation</text>
+<text x="917.0" y="118" fill="#0b0b0b"><tspan font-size="36" font-weight="700">34</tspan><tspan font-size="22" fill="#898781" dx="8">papers</tspan></text>
+<text x="917.0" y="164" font-size="22" fill="#52514e">Tools<tspan font-weight="700" fill="#0b0b0b" dx="8">22</tspan></text>
+<rect x="917.0" y="176" width="251.0" height="8" rx="4" fill="#efeee9"/>
+<rect x="917.0" y="176" width="251.0" height="8" rx="4" fill="#eda100"/>
+<text x="917.0" y="228" font-size="22" fill="#52514e">User Studies<tspan font-weight="700" fill="#0b0b0b" dx="8">12</tspan></text>
+<rect x="917.0" y="240" width="251.0" height="8" rx="4" fill="#efeee9"/>
+<rect x="917.0" y="240" width="136.9" height="8" rx="4" fill="#eda100"/>
+</svg>

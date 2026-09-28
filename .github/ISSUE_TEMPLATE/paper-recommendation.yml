@@ -1,0 +1,61 @@
+name: 📄 Paper recommendation
+description: Suggest a paper for the list
+title: "[Paper] "
+labels: ["paper recommendation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion! Please check [CONTRIBUTING.md](https://github.com/yingpengma/Awesome-Story-Generation/blob/main/CONTRIBUTING.md) for what the list includes.
+  - type: input
+    id: title
+    attributes:
+      label: Paper title
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Paper link
+      description: arXiv, ACL Anthology, OpenReview, or the publisher page
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Venue and year
+      placeholder: e.g. ACL 2025, or arXiv 2026 if not yet published
+    validations:
+      required: true
+  - type: input
+    id: code
+    attributes:
+      label: Official code (optional)
+  - type: dropdown
+    id: section
+    attributes:
+      label: Suggested section
+      options:
+        - Beyond Text / Interactive Drama
+        - Beyond Text / Games
+        - Beyond Text / World Models
+        - Beyond Text / Screenplays
+        - Beyond Text / Visual2Story
+        - Beyond Text / Story2Visual
+        - Text Stories / Planning
+        - Text Stories / Coherence
+        - Text Stories / Characters
+        - Text Stories / Creativity
+        - Text Stories / Training
+        - Evaluation / Benchmarks
+        - Evaluation / Metrics
+        - Evaluation / Analyses
+        - Co-creation / Tools
+        - Co-creation / User Studies
+        - Surveys
+        - Not sure
+  - type: textarea
+    id: summary
+    attributes:
+      label: One-sentence summary (optional)
+      description: What does the paper contribute?
