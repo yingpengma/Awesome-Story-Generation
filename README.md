@@ -705,9 +705,6 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
 **🔗 Related Lists**
 
 - [Awesome LLM Role-Playing with Persona](https://github.com/Neph0s/awesome-llm-role-playing-with-persona): role-playing language agents and persona research.
-- [Awesome-LLM-Role-Play](https://github.com/yingpengma/Awesome-LLM-Role-Play): our companion list on LLM role-playing.
-- [Awesome World Models](https://github.com/knightnemo/Awesome-World-Models): world modeling across games, video, embodied AI and driving.
-- [Awesome Interactive Fiction](https://github.com/tajmone/awesome-interactive-fiction): interactive fiction frameworks, tools and resources.
 
 <a id="contributing"></a>
 
