@@ -42,10 +42,11 @@ Within a topic, papers are sorted by year (most recent first), with 🌟 must-re
 
 ## Entry format
 
-Each entry is a single line:
+Each entry takes two lines: the paper line, then a one-sentence summary as an indented quote:
 
 ```markdown
-- ![ACL 2025](https://img.shields.io/badge/ACL-2025-1f6feb) [![](https://img.shields.io/badge/citation-0-blue)]() **Paper Title** [[paper]](https://arxiv.org/abs/xxxx.xxxxx) [![GitHub stars](https://img.shields.io/github/stars/owner/repo?style=social)](https://github.com/owner/repo)<br><sub>First Author, Second Author, ...</sub><br><sub>💡 One-sentence summary of the contribution.</sub>
+- ![ACL 2025](https://img.shields.io/badge/ACL-2025-1f6feb) [![](https://img.shields.io/badge/citation-0-blue)]() **Paper Title** [[paper]](https://arxiv.org/abs/xxxx.xxxxx) [![GitHub stars](https://img.shields.io/github/stars/owner/repo?style=social)](https://github.com/owner/repo)<br><sub>First Author, Second Author, ...</sub>
+  > One-sentence summary of the contribution.
 ```
 
 - **Venue badge**: `VENUE-YEAR` with the venue family color: NLP `1f6feb`, ML `8250df`, Vision & Graphics `bf3989`, AI `1a7f37`, HCI `bc4c00`, Games `0e8a7d`, arXiv `b31b1b`, other `6e7781`. Write a hyphen inside the venue name as `--` (for example `LREC--COLING`).
@@ -53,6 +54,6 @@ Each entry is a single line:
 - **Citation badge**: keep it exactly as `[![](https://img.shields.io/badge/citation-N-blue)]()`. Any number is fine; a weekly workflow updates the counts from Semantic Scholar.
 - **Authors**: list up to ten, then `et al.`
 - **Summary**: one sentence, at most about 22 words, starting with what the paper contributes ("Proposes ...", "Introduces a benchmark ...", "Finds that ...").
-- The 🌟 must-read mark is assigned by the maintainers.
+- The 🌟 must-read mark goes right before the title and is assigned by the maintainers.
 
 Thank you!
