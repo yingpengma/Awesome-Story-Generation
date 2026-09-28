@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <img src="https://img.shields.io/badge/papers-234-8250df" alt="Papers">
+  <img src="https://img.shields.io/badge/papers-199-8250df" alt="Papers">
   <a href="https://github.com/yingpengma/Awesome-Story-Generation/commits/main"><img src="https://img.shields.io/github/last-commit/yingpengma/Awesome-Story-Generation?color=1f6feb" alt="Last commit"></a>
   <a href="https://github.com/yingpengma/Awesome-Story-Generation/stargazers"><img src="https://img.shields.io/github/stars/yingpengma/Awesome-Story-Generation?style=flat&color=eda100" alt="Stars"></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-1a7f37" alt="PRs welcome"></a>
@@ -31,7 +31,7 @@ A curated list of papers on **story generation and storytelling in the era of la
 
 ## 📰 News
 
-- **[2026-09]** 🎉 **Major update:** 234 papers, a new taxonomy, one-line summaries and 🌟 must-read picks.
+- **[2026-09]** 🎉 **Major update:** 199 papers, a new taxonomy, one-line summaries and 🌟 must-read picks.
 - **[2026-05]** 🔥 Our paper on long-horizon consistency in interactive narratives is accepted to **ICML 2026**! [See it here.](#interactive-drama)
 
 <a id="overview"></a>
@@ -40,7 +40,7 @@ A curated list of papers on **story generation and storytelling in the era of la
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/overview-dark.svg">
-  <img src="assets/overview-light.svg" alt="The list has four sections: Beyond Text (84 papers), Text Stories (71), Evaluation (41) and Co-creation (34), plus 4 surveys." width="100%">
+  <img src="assets/overview-light.svg" alt="The list has four sections: Beyond Text (76 papers), Text Stories (61), Evaluation (31) and Co-creation (27), plus 4 surveys." width="100%">
 </picture>
 
 - **Beyond Text**: interactive drama, games, narrative world models, screenplays, and visual stories.
@@ -54,7 +54,7 @@ Each paper appears exactly once. Human-centered systems and studies go to Co-cre
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/papers-by-year-dark.svg">
-  <img src="assets/papers-by-year-light.svg" alt="Papers per year: 34 in 2023, 42 in 2024, 62 in 2025 and 92 in 2026 through September, excluding 4 surveys." width="75%">
+  <img src="assets/papers-by-year-light.svg" alt="Papers per year: 30 in 2023, 34 in 2024, 50 in 2025 and 81 in 2026 through September, excluding 4 surveys." width="75%">
 </picture>
 </p>
 
@@ -63,10 +63,10 @@ Each paper appears exactly once. Human-centered systems and studies go to Co-cre
 
 | Year | Beyond Text | Text Stories | Evaluation | Co-creation | Total |
 |---|---|---|---|---|---|
-| 2023 | 16 | 6 | 7 | 5 | 34 |
-| 2024 | 13 | 14 | 8 | 7 | 42 |
-| 2025 | 24 | 18 | 13 | 7 | 62 |
-| 2026* | 31 | 33 | 13 | 15 | 92 |
+| 2023 | 15 | 6 | 5 | 4 | 30 |
+| 2024 | 12 | 11 | 8 | 3 | 34 |
+| 2025 | 21 | 15 | 8 | 6 | 50 |
+| 2026* | 28 | 29 | 10 | 14 | 81 |
 
 </details>
 
@@ -76,25 +76,25 @@ Each paper appears exactly once. Human-centered systems and studies go to Co-cre
 - [🗺️ Overview](#overview)
 - [📄 Papers](#papers)
   - [🎭 Beyond Text](#beyond-text)
-    - [🎪 Interactive Drama](#interactive-drama) (12)
+    - [🎪 Interactive Drama](#interactive-drama) (10)
     - [🎲 Games](#games) (16)
-    - [🌐 World Models](#world-models) (7)
-    - [🎞️ Screenplays](#screenplays) (11)
-    - [🖼️ Visual2Story](#visual2story) (17)
+    - [🌐 World Models](#world-models) (6)
+    - [🎞️ Screenplays](#screenplays) (9)
+    - [🖼️ Visual2Story](#visual2story) (14)
     - [🌄 Story2Visual](#story2visual) (21)
   - [✍️ Text Stories](#text-stories)
-    - [🗺️ Planning](#planning) (17)
-    - [🧵 Coherence](#coherence) (9)
-    - [🧑‍🤝‍🧑 Characters](#characters) (9)
+    - [🗺️ Planning](#planning) (12)
+    - [🧵 Coherence](#coherence) (8)
+    - [🧑‍🤝‍🧑 Characters](#characters) (8)
     - [🎨 Creativity](#creativity) (17)
-    - [🎯 Training](#training) (19)
+    - [🎯 Training](#training) (16)
   - [📏 Evaluation](#evaluation)
-    - [🧪 Benchmarks](#benchmarks) (14)
-    - [📐 Metrics](#metrics) (10)
-    - [🔍 Analyses](#analyses) (17)
+    - [🧪 Benchmarks](#benchmarks) (11)
+    - [📐 Metrics](#metrics) (7)
+    - [🔍 Analyses](#analyses) (13)
   - [🤝 Co-creation](#co-creation)
-    - [🛠️ Tools](#tools) (22)
-    - [👥 User Studies](#user-studies) (12)
+    - [🛠️ Tools](#tools) (19)
+    - [👥 User Studies](#user-studies) (8)
   - [📚 Surveys](#surveys) (4)
 - [🧰 Public Resources](#public-resources)
 - [🤝 Contributing](#contributing)
@@ -128,10 +128,6 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
   > Proposes Playwriting-guided Generation and Plot-based Reflection to improve player immersion and agency in LLM-based interactive drama.
 - ![NAACL 2025](https://img.shields.io/badge/NAACL-2025-1f6feb) [![](https://img.shields.io/badge/citation-48-blue)]() 🌟 **CharacterBox: Evaluating the Role-Playing Capabilities of LLMs in Text-Based Virtual Worlds** [[paper]](https://arxiv.org/abs/2412.05631) [![GitHub stars](https://img.shields.io/github/stars/paitesanshi/characterbox?style=social)](https://github.com/paitesanshi/characterbox)<br><sub>Lei Wang, Jian-Xun Lian, Yi Huang, Yanqi Dai, Haoxuan Li, Xu Chen, Xing Xie, Ji-Rong Wen</sub>
   > Introduces a simulation sandbox with character and narrator agents that produces behavior trajectories for fine-grained evaluation of LLM role-playing.
-- ![Complex & Intelligent Systems 2025](https://img.shields.io/badge/Complex%20%26%20Intelligent%20Systems-2025-6e7781) [![](https://img.shields.io/badge/citation-1-blue)]() **ProTriPlay: A trinity framework for professional interactive theater based on LLM** [[paper]](https://doi.org/10.1007/s40747-025-02173-4)<br><sub>Yinglong Yu, Hao Shen, Ming Yang, Yu Wang, Yanyu Liu</sub>
-  > Builds an LLM interactive theater system with director, screenwriter, and actor agents that adapt the plot to player dialogue and object interactions.
-- ![AIIDE 2025](https://img.shields.io/badge/AIIDE-2025-0e8a7d) [![](https://img.shields.io/badge/citation-2-blue)]() **CoDi: A Director-Actor Framework for Goal-Driven Interactive Story Generation with LLMs** [[paper]](https://doi.org/10.1609/aiide.v21i1.36811)<br><sub>Honggu Kim, Taewoo Yoo, Yun-Gyung Cheong</sub>
-  > Extends the director-actor paradigm so a director agent pursues high-level narrative goals by introducing events, selecting NPCs, and specifying outcomes.
 - ![EMNLP 2025](https://img.shields.io/badge/EMNLP-2025-1f6feb) [![](https://img.shields.io/badge/citation-1-blue)]() **OPEN-THEATRE: An Open-Source Toolkit for LLM-based Interactive Drama** [[paper]](https://arxiv.org/abs/2509.16713)<br><sub>Tianyang Xu, Hongqiu Wu, Weiqi Wu, Hai Zhao</sub>
   > Releases Open-Theatre, an open-source toolkit for LLM interactive drama with multi-agent architecture and hierarchical retrieval-based memory for coherent long-term behavior.
 - ![ACL 2025](https://img.shields.io/badge/ACL-2025-1f6feb) [![](https://img.shields.io/badge/citation-6-blue)]() **RolePlot: A Systematic Framework for Evaluating and Enhancing the Plot-Progression Capabilities of Role-Playing Agents** [[paper]](https://aclanthology.org/2025.acl-long.603/)<br><sub>Pinyi Zhang, Si-Yu An, Lingfeng Qiao, Yi-Fei Yu, Jing-Yang Chen, Jie Wang, Di Yin, Xing Sun, Kai Zhang</sub>
@@ -182,8 +178,6 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
 
 #### 🌐 World Models
 
-- ![ArXiv 2026](https://img.shields.io/badge/ArXiv-2026-b31b1b) [![](https://img.shields.io/badge/citation-2-blue)]() **WorldMind: Decoupled Game World Model for State-Aware NPC Behavior** [[paper]](https://arxiv.org/abs/2608.21439) [![GitHub stars](https://img.shields.io/github/stars/TeaWhiteBro/WorldMind?style=social)](https://github.com/TeaWhiteBro/WorldMind)<br><sub>Zhi-Yang Deng, Bo-Ran Zhang, Dan Chen, Ye-Ying Jin</sub>
-  > Adds an explicit state-reconstruction and planning interface to a game world model so NPCs act on the game state before being rendered.
 - ![ArXiv 2026](https://img.shields.io/badge/ArXiv-2026-b31b1b) [![](https://img.shields.io/badge/citation-2-blue)]() **FilmWorld: Agentic Novel-to-Film Generation through Dynamic Cinematic World Modeling** [[paper]](https://arxiv.org/abs/2607.19038)<br><sub>Jia-Long Zuo, Haotong Zuo, Shiwei Zhang, Xiang Wang, Chen Li, Nong Sang, Chang-Xin Gao, Xiang Bai</sub>
   > Frames novel-to-film generation as building a persistent cinematic world model from prose, then rendering long multi-scene films from it.
 - ![ArXiv 2026](https://img.shields.io/badge/ArXiv-2026-b31b1b) [![](https://img.shields.io/badge/citation-1-blue)]() **EvolvingWorld: An Open-Schema Framework for Co-Evolving Role-Play Agents and World Model in Interactive Literary World** [[paper]](https://arxiv.org/abs/2607.17250) [![GitHub stars](https://img.shields.io/github/stars/HKUST-KnowComp/EvolvingWorld?style=social)](https://github.com/HKUST-KnowComp/EvolvingWorld)<br><sub>Qing Zong, Yue (Sophie) Guo, Mengxi Yang, Yiwen Guo, Yangqiu Song</sub>
@@ -201,10 +195,6 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
 
 #### 🎞️ Screenplays
 
-- ![FAccT 2026](https://img.shields.io/badge/FAccT-2026-6e7781) [![](https://img.shields.io/badge/citation-1-blue)]() **Do Language Models Pass the Bechdel Test? Auditing Gender Biases in LLM-Generated Screenplays** [[paper]](https://arxiv.org/abs/2606.24022)<br><sub>Megha N. Govindu, Stephanie T. Wang, Sorelle A. Friedler, D. Metaxa</sub>
-  > Automates the Bechdel test and network analysis on LLM screenplays; human scripts pass more often, but all scripts show some representational bias.
-- ![ArXiv 2026](https://img.shields.io/badge/ArXiv-2026-b31b1b) [![](https://img.shields.io/badge/citation-0-blue)]() **NarrativeWorldBench: A Frontier-Saturated Benchmark and a Latent World Model for Long-Horizon Co-Creative Audio Drama** [[paper]](https://arxiv.org/abs/2606.17391)<br><sub>Logan Mann, Abdur Rahman, M. Saifullah, Taaha Kazi, Vasu Sharma</sub>
-  > Introduces a multi-horizon audio-drama benchmark showing frontier LLMs degrade over long arcs, plus N-VSSM, a Mamba-2 latent world-state model sustaining consistency.
 - ![ArXiv 2026](https://img.shields.io/badge/ArXiv-2026-b31b1b) [![](https://img.shields.io/badge/citation-5-blue)]() **One Sentence, One Drama: Personalized Short-Form Drama Generation via Multi-Agent Systems** [[paper]](https://arxiv.org/abs/2605.22144)<br><sub>Yu-Fei Shi, Wei-Long Yan, Naixuan Huang, Yucheng Chen, Chenyu Zhang, Tao He, Si Yong Yeo, Ming Li</sub>
   > Builds a hierarchical multi-agent pipeline turning a one-sentence idea into a short drama via debate-based scripting, 3D-grounded first frames, and reviewer loops.
 - ![ArXiv 2026](https://img.shields.io/badge/ArXiv-2026-b31b1b) [![](https://img.shields.io/badge/citation-1-blue)]() **Text-to-Stage: Spatial Layouts from Long-form Narratives** [[paper]](https://arxiv.org/abs/2603.17832)<br><sub>Jefferson Hernandez, Swarnadeep Saha, Chenxi Whitehouse, Sanjeel Parekh, Calvin Murdock, Yuliang Li, W. O. Brimijoin, V. Ithapu, I. Ananthabhotla</sub>
@@ -232,8 +222,6 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
   > Presents a character-centric visual storytelling model trained on VIST enriched with visual and textual coreference chains, plus metrics for character richness.
 - ![COLING 2025](https://img.shields.io/badge/COLING-2025-1f6feb) [![](https://img.shields.io/badge/citation-19-blue)]() 🌟 **StoryLLaVA: Enhancing Visual Storytelling with Multi-Modal Large Language Models** [[paper]](https://aclanthology.org/2025.coling-main.266/)<br><sub>Li Yang, Zhihao Xiao, Wen-Xin Huang, Xian Zhong</sub>
   > Proposes a visual storytelling MLLM trained with a topic-driven narrative optimizer for data refinement and preference-based ranked story sampling for alignment.
-- ![ICCV AISTORY Workshop 2025](https://img.shields.io/badge/ICCV%20AISTORY%20Workshop-2025-bf3989) [![](https://img.shields.io/badge/citation-2-blue)]() **Re:Verse -- Can Your VLM Read a Manga?** [[paper]](https://arxiv.org/abs/2508.08508) [![GitHub stars](https://img.shields.io/github/stars/eternal-f1ame/Re-Verse?style=social)](https://github.com/eternal-f1ame/Re-Verse)<br><sub>Aaditya Baranwal, Madhav Kataria, Naitik Agarwal, Y. Rawat, Shruti Vyas</sub>
-  > Introduces a manga benchmark of 308 annotated panels showing VLMs interpret single panels well but fail at temporal causality and cross-panel reasoning.
 - ![ArXiv 2025](https://img.shields.io/badge/ArXiv-2025-b31b1b) [![](https://img.shields.io/badge/citation-16-blue)]() **VIST-GPT: Ushering in the Era of Visual Storytelling with LLMs?** [[paper]](https://arxiv.org/abs/2504.19267)<br><sub>M. Gado, Towhid Taliee, M. Memon, Dmitry Ignatov, R. Timofte</sub>
   > Adapts large multimodal models to visual storytelling on VIST and advocates reference-free metrics RoViST and GROOVIST over BLEU-style evaluation.
 - ![ICCV 2025](https://img.shields.io/badge/ICCV-2025-bf3989) [![](https://img.shields.io/badge/citation-10-blue)]() **From Panels to Prose: Generating Literary Narratives from Comics** [[paper]](https://arxiv.org/abs/2503.23344) [![GitHub stars](https://img.shields.io/github/stars/ragavsachdeva/magi?style=social)](https://github.com/ragavsachdeva/magi)<br><sub>Ragav Sachdeva, Andrew Zisserman</sub>
@@ -242,8 +230,6 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
   > Proposes a human-likeness metric over visual grounding, coherence, and repetition, finding a small upgraded TAPM rivals LLaVA, yet good stories need more.
 - ![ACL 2024](https://img.shields.io/badge/ACL-2024-1f6feb) [![](https://img.shields.io/badge/citation-21-blue)]() **Synchronized Video Storytelling: Generating Video Narrations with Structured Storyline** [[paper]](https://arxiv.org/abs/2405.14040)<br><sub>Dingyi Yang, Chunru Zhan, Ziheng Wang, Biao Wang, Tiezheng Ge, Bo Zheng, Qin Jin</sub>
   > Introduces synchronized video storytelling, generating clip-aligned narrations of fitting length, with the E-SyncVidStory dataset and a storyline-guided VideoNarrator framework.
-- ![LREC-COLING 2024](https://img.shields.io/badge/LREC--COLING-2024-1f6feb) [![](https://img.shields.io/badge/citation-2-blue)]() **TARN-VIST: Topic Aware Reinforcement Network for Visual Storytelling** [[paper]](https://arxiv.org/abs/2403.11550)<br><sub>Wei-Ran Chen, Xin Li, Jiaqi Su, Guiqian Zhu, Ying Li, Yi Ji, Chunping Liu</sub>
-  > Proposes a visual storytelling model that extracts visual and linguistic topic information and uses two topic-consistency reinforcement learning rewards on VIST.
 - ![EACL 2024](https://img.shields.io/badge/EACL-2024-1f6feb) [![](https://img.shields.io/badge/citation-9-blue)]() **SCO-VIST: Social Interaction Commonsense Knowledge-based Visual Storytelling** [[paper]](https://arxiv.org/abs/2402.00319)<br><sub>E. Wang, Caren Han, Josiah Poon</sub>
   > Proposes a visual storytelling framework that builds a social-commonsense plot graph from images and derives storylines via weighted shortest paths with Floyd-Warshall.
 - ![TACL 2023](https://img.shields.io/badge/TACL-2023-1f6feb) [![](https://img.shields.io/badge/citation-60-blue)]() 🌟 **Visual Writing Prompts: Character-Grounded Story Generation with Curated Image Sequences** [[paper]](https://arxiv.org/abs/2301.08571)<br><sub>Xudong Hong, A. Sayeed, K. Mehra, Vera Demberg, B. Schiele</sub>
@@ -260,8 +246,6 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
   > Introduces stylized visual storytelling and a memory-augmented multitask model trained with unpaired style text to generate styled stories from photo streams.
 - ![EACL 2023](https://img.shields.io/badge/EACL-2023-1f6feb) [![](https://img.shields.io/badge/citation-27-blue)]() **Multimodal Event Transformer for Image-guided Story Ending Generation** [[paper]](https://arxiv.org/abs/2301.11357)<br><sub>Yucheng Zhou, Guodong Long</sub>
   > Proposes an event-graph reasoning transformer for image-guided story ending generation, with cross-modal fusion, a multimodal injector, and incoherence detection.
-- ![ACL Findings 2023](https://img.shields.io/badge/ACL%20Findings-2023-1f6feb) [![](https://img.shields.io/badge/citation-10-blue)]() **Visual Coherence Loss for Coherent and Visually Grounded Story Generation** [[paper]](https://aclanthology.org/2023.findings-acl.603/)<br><sub>Xudong Hong, Vera Demberg, A. Sayeed, Qiankun Zheng, B. Schiele</sub>
-  > Proposes a coherence-theory-inspired self-supervised loss and combined object and face features for character representation, plus a character matching metric for visual storytelling.
 
 <a id="story2visual"></a>
 
@@ -318,8 +302,6 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
 
 #### 🗺️ Planning
 
-- ![ArXiv 2026](https://img.shields.io/badge/ArXiv-2026-b31b1b) [![](https://img.shields.io/badge/citation-0-blue)]() **A Multi-Framework Comparison of Outline Stages in Long-Form Generation with LLMs** [[paper]](https://arxiv.org/abs/2608.26177)<br><sub>Yikang Song</sub>
-  > Benchmarks outlines from seven long-form generation frameworks with an anchored LLM judge, finding no framework dominates across chapter and book granularities.
 - ![TASLP 2026](https://img.shields.io/badge/TASLP-2026-6e7781) [![](https://img.shields.io/badge/citation-0-blue)]() **LLM-Driven MCTS for Conditional Story Generation via Logic-Guided Evidence Tree Optimization** [[paper]](https://doi.org/10.1109/TASLPRO.2026.3687020)<br><sub>Hongyan Wu, Zhiliang Tian, Zhen Huang, Nankai Lin, Yi-Ping Song, Zhihua Wen, Menglong Lu, Feng Liu, Dongsheng Li</sub>
   > Proposes a plug-and-play MCTS planner that builds logic-validated evidence chains for retrieval-based conditional story generation to reduce incoherence and thematic drift.
 - ![ACL Findings 2026](https://img.shields.io/badge/ACL%20Findings-2026-1f6feb) [![](https://img.shields.io/badge/citation-0-blue)]() **Planning Beyond Text: Graph-based Reasoning for Complex Narrative Generation** [[paper]](https://arxiv.org/abs/2604.21253)<br><sub>Hanwen Gu, Chao Guo, Junle Wang, Wen-Da Xie, Yi-Sheng Lv</sub>
@@ -336,16 +318,8 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
   > Proposes a multi-agent long story framework and uses it to build a 6,000-story dataset for fine-tuning Llama3.1-8B and GLM4-9B.
 - ![ACL Findings 2025](https://img.shields.io/badge/ACL%20Findings-2025-1f6feb) [![](https://img.shields.io/badge/citation-13-blue)]() **STORYTELLER: An Enhanced Plot-Planning Framework for Coherent and Cohesive Story Generation** [[paper]](https://arxiv.org/abs/2506.02347)<br><sub>Jiaming Li, Yu-Kun Chen, Ziqiang Liu, Minghuan Tan, Lei Zhang, Yunshui Li, Run Luo, Long-Ze Chen, Jing Luo, A. Argha, et al.</sub>
   > Proposes a plot-planning approach using SVO-triplet plot nodes plus interacting storyline and narrative entity knowledge graph modules for coherent story generation.
-- ![EMNLP 2025](https://img.shields.io/badge/EMNLP-2025-1f6feb) [![](https://img.shields.io/badge/citation-20-blue)]() **Beyond Outlining: Heterogeneous Recursive Planning for Adaptive Long-form Writing with Language Models** [[paper]](https://arxiv.org/abs/2503.08275) [![GitHub stars](https://img.shields.io/github/stars/principia-ai/WriteHERE?style=social)](https://github.com/principia-ai/WriteHERE)<br><sub>Ruibin Xiong, Yi-Meng Chen, Dmitrii Khizbullin, Mingchen Zhuge, Jurgen Schmidhuber</sub>
-  > Proposes a writing agent that recursively interleaves retrieval, reasoning, and composition tasks instead of fixed outlining, evaluated on fiction and technical reports.
-- ![ACL Findings 2025](https://img.shields.io/badge/ACL%20Findings-2025-1f6feb) [![](https://img.shields.io/badge/citation-23-blue)]() **A Cognitive Writing Perspective for Constrained Long-Form Text Generation** [[paper]](https://arxiv.org/abs/2502.12568) [![GitHub stars](https://img.shields.io/github/stars/kaiyangwan/cogwriter?style=social)](https://github.com/kaiyangwan/cogwriter)<br><sub>Kaiyang Wan, Hong-Lin Mu, Rui Hao, Haoran Luo, Tianle Gu, Xiuying Chen</sub>
-  > Proposes CogWriter, a training-free framework applying Cognitive Writing Theory via planning, parallel generation, and review agents for constrained long-form text.
-- ![NAACL 2025](https://img.shields.io/badge/NAACL-2025-1f6feb) [![](https://img.shields.io/badge/citation-25-blue)]() **Navigating the Path of Writing: Outline-guided Text Generation with Large Language Models** [[paper]](https://arxiv.org/abs/2404.13919)<br><sub>Yukyung Lee, Soonwon Ka, Bokyung Son, Pilsung Kang, Jaewook Kang</sub>
-  > Proposes WritingPath, which guides LLMs with explicit outlines reflecting user intent, and builds a blog-post dataset and evaluation framework for goal-oriented writing.
 - ![ACL 2024](https://img.shields.io/badge/ACL-2024-1f6feb) [![](https://img.shields.io/badge/citation-13-blue)]() **Ex3: Automatic Novel Writing by Extracting, Excelsior and Expanding** [[paper]](https://arxiv.org/abs/2408.08506) [![GitHub stars](https://img.shields.io/github/stars/Taskii-Lei/Ex3-NovelWriter?style=social)](https://github.com/Taskii-Lei/Ex3-NovelWriter)<br><sub>H. Lei, Jiaming Guo, Guanhua He, Xi-Shan Zhang, Rui Zhang, Shaohui Peng, Shaoli Liu, Tianshi Chen</sub>
   > Proposes Ex3, which extracts structure from raw novels to build instruction data, fine-tunes an LLM, and expands tree-like into arbitrarily long novels.
-- ![AAAI 2024](https://img.shields.io/badge/AAAI-2024-1a7f37) [![](https://img.shields.io/badge/citation-2-blue)]() **Does Robin Hood Use a Lightsaber?: Automated Planning for Storytelling** [[paper]](https://doi.org/10.1609/aaai.v38i21.30411)<br><sub>Nisha Ingrid Simon</sub>
-  > Combines automated planning with LLM text generation, using a planning model as scaffolding to produce more logical, coherent, and believable stories.
 - ![EMNLP Findings 2024](https://img.shields.io/badge/EMNLP%20Findings-2024-1f6feb) [![](https://img.shields.io/badge/citation-11-blue)]() **SWAG: Storytelling With Action Guidance** [[paper]](https://arxiv.org/abs/2402.03483) [![GitHub stars](https://img.shields.io/github/stars/jonnypei/swag-storytelling?style=social)](https://github.com/jonnypei/swag-storytelling)<br><sub>Zeeshan Patel, Karim El-Refai, Jonathan Pei, Tianle Li</sub>
   > Proposes SWAG, framing story writing as search where an auxiliary LLM picks the next action steering the generator toward engaging stories.
 - ![LREC-COLING 2024](https://img.shields.io/badge/LREC--COLING-2024-1f6feb) [![](https://img.shields.io/badge/citation-8-blue)]() **Little Red Riding Hood Goes around the Globe: Crosslingual Story Planning and Generation with Large Language Models** [[paper]](https://arxiv.org/abs/2212.10471)<br><sub>E. Razumovskaia, Joshua Maynez, Annie Louis, Mirella Lapata, Shashi Narayan</sub>
@@ -371,8 +345,6 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
   > Proposes MLD-EA, which uses LLMs with emotion and action cues to detect missing logic in narratives and generate sentences that restore coherence.
 - ![NAACL 2025](https://img.shields.io/badge/NAACL-2025-1f6feb) [![](https://img.shields.io/badge/citation-6-blue)]() **FACTTRACK: Time-Aware World State Tracking in Story Outlines** [[paper]](https://arxiv.org/abs/2407.16347)<br><sub>Zhiheng Lyu, Kevin Yang, Lingpeng Kong, Daniel Klein</sub>
   > Proposes FACTTRACK, which decomposes events into atomic facts with time-aware validity intervals to track world state and detect contradictions in story outlines.
-- ![COLM 2024](https://img.shields.io/badge/COLM-2024-8250df) [![](https://img.shields.io/badge/citation-38-blue)]() **With Greater Text Comes Greater Necessity: Inference-Time Training Helps Long Text Generation** [[paper]](https://arxiv.org/abs/2401.11504) [![GitHub stars](https://img.shields.io/github/stars/temporarylora/temp-lora?style=social)](https://github.com/temporarylora/temp-lora)<br><sub>Yan Wang, D. Ma, Deng Cai</sub>
-  > Proposes Temp-Lora, which stores long context in a temporary LoRA module trained during generation, improving long-text quality while cutting context-window costs.
 - ![ArXiv 2023](https://img.shields.io/badge/ArXiv-2023-b31b1b) [![](https://img.shields.io/badge/citation-103-blue)]() 🌟 **RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text** [[paper]](https://arxiv.org/abs/2305.13304) [![GitHub stars](https://img.shields.io/github/stars/aiwaves-cn/RecurrentGPT?style=social)](https://github.com/aiwaves-cn/RecurrentGPT)<br><sub>Wangchunshu Zhou, Y. Jiang, Peng Cui, Tiannan Wang, Zhenxin Xiao, Yifan Hou, Ryan Cotterell, Mrinmaya Sachan</sub>
   > Proposes RecurrentGPT, which simulates LSTM-style recurrence with natural-language long- and short-term memories so LLMs can interactively generate arbitrarily long text.
 
@@ -382,8 +354,6 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
 
 - ![ArXiv 2026](https://img.shields.io/badge/ArXiv-2026-b31b1b) [![](https://img.shields.io/badge/citation-0-blue)]() **ANIMASK: What the Model Contributes to Role Play in Simulated Story Worlds** [[paper]](https://arxiv.org/abs/2609.16667)<br><sub>Xiu-Cheng Zhang, Zhuo-Ning Xu, Han-Jun Luo, Yankai Chen, Hanan Salam, Xue Liu</sub>
   > Replays story worlds from freeze points with and without personas, finding actor LLMs push characters toward cautious, flatter outcomes than canon.
-- ![ArXiv 2026](https://img.shields.io/badge/ArXiv-2026-b31b1b) [![](https://img.shields.io/badge/citation-1-blue)]() **From Personas to Plot: Character-Grounded Multi-Agent Story Generation for Long-Form Narratives** [[paper]](https://arxiv.org/abs/2607.00918)<br><sub>Aayush Aluru, C. Ho, Muhammad Hammouri, Kerry Luo, Myra Malik, Ryan Lagasse, Arjun Bahuguna, Vasu Sharma</sub>
-  > Proposes multi-agent persona-driven story generation with shared world state plus a graph-based hallucination detector, halving hallucinations in 100-page stories.
 - ![ArXiv 2026](https://img.shields.io/badge/ArXiv-2026-b31b1b) [![](https://img.shields.io/badge/citation-0-blue)]() **Staying In Character: Perspective-Bounded Memory For Book-Based Role-Playing Agents** [[paper]](https://arxiv.org/abs/2606.25632)<br><sub>Xushuo Tang, Junhe Zhang, Zi-Han Yang, Yi-Fu Tang, Sichao Li, Longbin Lai, Zheng-Yi Yang</sub>
   > Proposes a three-layer, perspective-bounded memory for book-based role-playing agents that prevents characters using unknown facts, with a 4,386-question knowledge-boundary benchmark.
 - ![ACL 2026](https://img.shields.io/badge/ACL-2026-1f6feb) [![](https://img.shields.io/badge/citation-0-blue)]() **EvoSpark: Endogenous Interactive Agent Societies for Unified Long-Horizon Narrative Evolution** [[paper]](https://arxiv.org/abs/2604.12776)<br><sub>Shiyu He, Min-Chi Kuang, Mengxian Wang, Bin Hu, Tingxiang Gu</sub>
@@ -442,15 +412,13 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
 
 #### 🎯 Training
 
-- ![ArXiv 2026](https://img.shields.io/badge/ArXiv-2026-b31b1b) [![](https://img.shields.io/badge/citation-0-blue)]() **Scaling Creative Writing Beyond Story-Centric Data with Attribute-Guided Genre Expansion** [[paper]](https://arxiv.org/abs/2608.13947)<br><sub>Hwan Chang, Yongil Kim, Heuiyeen Yeen, Yireun Kim, Jinsik Lee, Hwanhee Lee</sub>
-  > Proposes attribute-guided genre expansion to build a 50K, 13-genre creative writing corpus; fine-tuning on it beats training on story-centric writing data.
 - ![ArXiv 2026](https://img.shields.io/badge/ArXiv-2026-b31b1b) [![](https://img.shields.io/badge/citation-1-blue)]() **Retell, Reward, Repeat: Reinforcement Learning for Narrative Theory-Informed Story Generation** [[paper]](https://doi.org/10.48550/arXiv.2601.17226)<br><sub>David Y. Liu, Xanthe Muston, A. Joshi, Sebastian Sequoiah-Grayson</sub>
   > Shows that reinforcement learning from narrative-theory-informed AI feedback (d-RLAIF) yields more diverse, convention-aligned stories than supervised fine-tuning.
 - ![EMNLP 2026](https://img.shields.io/badge/EMNLP-2026-1f6feb) [![](https://img.shields.io/badge/citation-1-blue)]() **POLARIS: Guiding Small Models to Write Long Stories** [[paper]](https://arxiv.org/abs/2606.04095)<br><sub>Rishanth Rajendhran, Jenna Russell, Mohit Iyyer, J. Wieting</sub>
   > Proposes a GRPO recipe with LLM-judge rewards and injected human reference stories, letting a 9B model write long stories beyond training length.
 - ![EMNLP 2026](https://img.shields.io/badge/EMNLP-2026-1f6feb) [![](https://img.shields.io/badge/citation-1-blue)]() **Narrative Flattening: How Post-Training Compresses Thematic, Affective, and Stylistic Variation in LLM Fiction** [[paper]](https://arxiv.org/abs/2605.27878)<br><sub>Ze-Han Li, Yu-Tong Zhu, Si-Yang Wu, Honglin Bao, James A. Evans</sub>
   > Finds by comparing OLMo checkpoints that post-training compresses thematic, affective, and stylistic variation in fiction, most for professional literary text.
-- ![ArXiv 2026](https://img.shields.io/badge/ArXiv-2026-b31b1b) [![](https://img.shields.io/badge/citation-2-blue)]() **StoryAlign: Evaluating and Training Reward Models for Story Generation** [[paper]](https://arxiv.org/abs/2605.04831)<br><sub>Hao-Tian Xia, Hao Peng, Yunjia Qi, Xiaozhi Wang, Bin Xu, Lei Hou, Juan-Zi Li</sub>
+- ![ICLR 2026](https://img.shields.io/badge/ICLR-2026-8250df) [![](https://img.shields.io/badge/citation-2-blue)]() **StoryAlign: Evaluating and Training Reward Models for Story Generation** [[paper]](https://arxiv.org/abs/2605.04831)<br><sub>Hao-Tian Xia, Hao Peng, Yunjia Qi, Xiaozhi Wang, Bin Xu, Lei Hou, Juan-Zi Li</sub>
   > Introduces StoryRMB, a benchmark exposing weak reward models for story preferences, and StoryReward, trained on 100K preference pairs for best-of-n story selection.
 - ![ACL Findings 2026](https://img.shields.io/badge/ACL%20Findings-2026-1f6feb) [![](https://img.shields.io/badge/citation-1-blue)]() **UniCreative: Unifying Long-form Logic and Short-form Sparkle via Reference-Free Reinforcement Learning** [[paper]](https://arxiv.org/abs/2604.05517)<br><sub>Xiao-Long Wei, Zerun Zhu, Simin Niu, Xingyu Zhang, Peiying Yu, Chang Xiao, Yu-Chen Li, Ji-Cheng Yang, Zhejun Zhao, Chong Meng, et al.</sub>
   > Proposes a reference-free RL framework with an adaptive constraint-aware generative reward model and ACPO policy optimization, unifying long-form and short-form creative writing.
@@ -464,8 +432,6 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
   > Trains an authorship-verification style judge and uses it as a GRPO reward to fine-tune an 8B model for writing like classic authors.
 - ![AAAI 2026](https://img.shields.io/badge/AAAI-2026-1a7f37) [![](https://img.shields.io/badge/citation-11-blue)]() **RLMR: Reinforcement Learning with Mixed Rewards for Creative Writing** [[paper]](https://arxiv.org/abs/2508.18642)<br><sub>Jian-Xing Liao, Tian Zhang, Xiao Feng, Yusong Zhang, Rui Yang, Hao-Rui Wang, Bosi Wen, Ziyi Wang, Run-Zhi Shi</sub>
   > Proposes RL with a dynamically weighted mix of writing-quality and constraint-verification rewards in GRPO, improving both creative quality and instruction following.
-- ![ACL 2026](https://img.shields.io/badge/ACL-2026-1f6feb) [![](https://img.shields.io/badge/citation-10-blue)]() **Writing-RL: Advancing Long-form Writing via Adaptive Curriculum Reinforcement Learning** [[paper]](https://arxiv.org/abs/2506.05760) [![GitHub stars](https://img.shields.io/github/stars/Tongyi-Zhiwen/Writing-RL?style=social)](https://github.com/Tongyi-Zhiwen/Writing-RL)<br><sub>Xuanyu Lei, Chen-Liang Li, Yuning Wu, Kai Liu, Weizhou Shen, Peng Li, Ming Yan, Ji Zhang, Fei Huang, Yang Liu</sub>
-  > Proposes adaptive curriculum RL for long-form writing with margin-aware data selection, pairwise comparison rewards, and dynamic reference scheduling, beating SFT baselines.
 - ![ArXiv 2025](https://img.shields.io/badge/ArXiv-2025-b31b1b) [![](https://img.shields.io/badge/citation-40-blue)]() 🌟 **Learning to Reason for Long-Form Story Generation** [[paper]](https://arxiv.org/abs/2503.22828v2) [![GitHub stars](https://img.shields.io/github/stars/Alex-Gurung/ReasoningNCP?style=social)](https://github.com/Alex-Gurung/ReasoningNCP)<br><sub>Alexander Gurung, Mirella Lapata</sub>
   > Proposes RL for story reasoning via Next-Chapter Prediction, rewarding plans that raise completion likelihood of real book chapters without labeled data.
 - ![ArXiv 2025](https://img.shields.io/badge/ArXiv-2025-b31b1b) [![](https://img.shields.io/badge/citation-49-blue)]() 🌟 **Modifying Large Language Model Post-Training for Diverse Creative Writing** [[paper]](https://arxiv.org/abs/2503.17126) [![GitHub stars](https://img.shields.io/github/stars/mj-storytelling/DiversityTuning?style=social)](https://github.com/mj-storytelling/DiversityTuning)<br><sub>John Joon Young Chung, Vishakh Padmakumar, Melissa Roemmele, Yuqian Sun, Max Kreminski</sub>
@@ -478,8 +444,6 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
   > Introduces Weaver, a 1.8B-34B LLM family pre-trained and aligned for creative and professional writing, with a routing agent balancing quality and cost.
 - ![EMNLP 2024](https://img.shields.io/badge/EMNLP-2024-1f6feb) [![](https://img.shields.io/badge/citation-14-blue)]() **MirrorStories: Reflecting Diversity through Personalized Narrative Generation with Large Language Models** [[paper]](https://arxiv.org/abs/2409.13935)<br><sub>Sarfaroz Yunusov, Hamza Sidat, Ali Emami</sub>
   > Introduces MirrorStories, 1,500 LLM-generated stories personalized to reader identity, and finds they engage readers more than generic human or LLM stories.
-- ![EMNLP Workshop 2024](https://img.shields.io/badge/EMNLP%20Workshop-2024-1f6feb) [![](https://img.shields.io/badge/citation-111-blue)]() **PEARL: Personalizing Large Language Model Writing Assistants with Generation-Calibrated Retrievers** [[paper]](https://arxiv.org/abs/2311.09180)<br><sub>Sheshera Mysore, Zhuoran Lu, Meng-Ting Wan, Long-Qi Yang, Steve Menezes, Tina Baghaee, E. Gonzalez, Jennifer Neville, Tara Safavi</sub>
-  > Proposes Pearl, a personalized writing assistant whose retriever is trained to be generation-calibrated, selecting user documents that most improve personalized LLM outputs.
 
 <a id="evaluation"></a>
 
@@ -493,8 +457,6 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
   > Introduces a benchmark of 2,480 human-labeled story comparisons and 43,827 training pairs for creative writing evaluation, benchmarking LLM judges and reward models.
 - ![ACL Findings 2026](https://img.shields.io/badge/ACL%20Findings-2026-1f6feb) [![](https://img.shields.io/badge/citation-8-blue)]() **Lost in Stories: Consistency Bugs in Long Story Generation by LLMs** [[paper]](https://arxiv.org/abs/2603.05890) [![GitHub stars](https://img.shields.io/github/stars/Picrew/ConStory-Bench?style=social)](https://github.com/Picrew/ConStory-Bench)<br><sub>Junjie Li, Xinru Guo, Yuhao Wu, Roy Ka-Wei Lee, Hong-Zhi Li, Yutao Xie</sub>
   > Introduces a 2,000-prompt benchmark and automated checker for consistency errors in long story generation, analyzing where and which contradictions LLMs make.
-- ![ACL 2026](https://img.shields.io/badge/ACL-2026-1f6feb) [![](https://img.shields.io/badge/citation-1-blue)]() **LitVISTA: A Benchmark for Narrative Orchestration in Literary Text** [[paper]](https://arxiv.org/abs/2601.06445)<br><sub>Mingzhe Lu, Yiwen Wang, Yanbing Liu, Qi You, Chong Liu, Ruize Qin, Haoyu Dong, Wenyu Zhang, Jia-Rui Zhang, Yue Hu, et al.</sub>
-  > Proposes a framework and annotated literary benchmark for narrative orchestration, finding frontier LLMs fail to jointly capture narrative function and structure.
 - ![ACL Findings 2026](https://img.shields.io/badge/ACL%20Findings-2026-1f6feb) [![](https://img.shields.io/badge/citation-0-blue)]() **ChangJuan: A Comprehensive Benchmark for Book-Length Chinese Story Evaluation** [[paper]](https://aclanthology.org/2026.findings-acl.2044/) [![GitHub stars](https://img.shields.io/github/stars/DingyiYang/ChangJuan?style=social)](https://github.com/DingyiYang/ChangJuan)<br><sub>Dingyi Yang, Mingshuo Wang, Qin Jin</sub>
   > Introduces a benchmark of 300 Chinese novels with human ratings and distilled reader viewpoints, plus CLEM, an 8B evaluator for book-length stories.
 - ![EACL 2026](https://img.shields.io/badge/EACL-2026-1f6feb) [![](https://img.shields.io/badge/citation-1-blue)]() **Mary, the Cheeseburger-Eating Vegetarian: Do LLMs Recognize Incoherence in Narratives?** [[paper]](https://arxiv.org/abs/2512.07777)<br><sub>Karin de Langis, Püren Öncel, Ryan Peters, Andrew Elfenbein, Laura K. Allen, Andreas Schramm, Dongyeop Kang</sub>
@@ -505,12 +467,8 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
   > Introduces LongStoryEval, 600 books averaging 121K tokens with reader reviews, compares long-story evaluation methods, and trains NovelCritique, an 8B summary-based evaluator.
 - ![ArXiv 2025](https://img.shields.io/badge/ArXiv-2025-b31b1b) [![](https://img.shields.io/badge/citation-25-blue)]() **Finding Flawed Fictions: Evaluating Complex Reasoning in Language Models via Plot Hole Detection** [[paper]](https://arxiv.org/abs/2504.11900)<br><sub>Kabir Ahuja, Melanie Sclar, Yulia Tsvetkov</sub>
   > Introduces FlawedFictions, a benchmark built by synthesizing plot holes in human stories, to test LLM narrative reasoning via plot hole detection.
-- ![ArXiv 2025](https://img.shields.io/badge/ArXiv-2025-b31b1b) [![](https://img.shields.io/badge/citation-21-blue)]() **LongEval: A Comprehensive Analysis of Long-Text Generation Through a Plan-based Paradigm** [[paper]](https://arxiv.org/abs/2502.19103) [![GitHub stars](https://img.shields.io/github/stars/Wusiwei0410/LongEval?style=social)](https://github.com/Wusiwei0410/LongEval)<br><sub>Siwei Wu, Yizhi Li, Xingwei Qu, R. Ravikumar, Yucheng Li, Tyler Loakman, Shanghaoran Quan, Xiao-Yong Wei, R. Batista-Navarro, Cheng-Hua Lin</sub>
-  > Introduces LongEval, a benchmark comparing direct and plan-based long-text generation, finding LLMs degrade with length while small long-text-trained models stay competitive.
 - ![ACL Findings 2025](https://img.shields.io/badge/ACL%20Findings-2025-1f6feb) [![](https://img.shields.io/badge/citation-1-blue)]() **Towards A "Novel" Benchmark: Evaluating Literary Fiction with Large Language Models** [[paper]](https://aclanthology.org/2025.findings-acl.1114/)<br><sub>Wenqing Wang, Mingqi Gao, Xinyu Hu, Xiaojun Wan</sub>
   > Proposes a ten-metric macro/meso/micro evaluation framework and bilingual annotated fiction dataset, revealing a high-starting, low-ending pattern in LLM-written novels.
-- ![ICLR 2025](https://img.shields.io/badge/ICLR-2025-8250df) [![](https://img.shields.io/badge/citation-57-blue)]() **LongGenBench: Benchmarking Long-Form Generation in Long Context LLMs** [[paper]](https://arxiv.org/abs/2409.02076) [![GitHub stars](https://img.shields.io/github/stars/mozhu621/LongGenBench?style=social)](https://github.com/mozhu621/LongGenBench)<br><sub>Yuhao Wu, Ming Shan Hee, Zhiqing Hu, Roy Ka-Wei Lee</sub>
-  > Introduces a benchmark for instruction-following long-form generation at 16K and 32K tokens, finding all tested LLMs struggle as output length grows.
 - ![NAACL Findings 2025](https://img.shields.io/badge/NAACL%20Findings-2025-1f6feb) [![](https://img.shields.io/badge/citation-50-blue)]() **CollabStory: Multi-LLM Collaborative Story Generation and Authorship Analysis** [[paper]](https://arxiv.org/abs/2406.12665) [![GitHub stars](https://img.shields.io/github/stars/saranya-venkatraman/CollabStory?style=social)](https://github.com/saranya-venkatraman/CollabStory)<br><sub>Saranya Venkatraman, N. Tripto, Dongwon Lee</sub>
   > Introduces CollabStory, a dataset of 32k stories co-written by up to five LLMs, with authorship analysis tasks and baselines for multi-LLM writing.
 - ![ArXiv 2024](https://img.shields.io/badge/ArXiv-2024-b31b1b) [![](https://img.shields.io/badge/citation-28-blue)]() **CS4: Measuring the Creativity of Large Language Models Automatically by Controlling the Number of Story-Writing Constraints** [[paper]](https://arxiv.org/abs/2410.04197) [![GitHub stars](https://img.shields.io/github/stars/anirudhlakkaraju/cs4_benchmark?style=social)](https://github.com/anirudhlakkaraju/cs4_benchmark)<br><sub>Anirudh Atmakuru, Jatin Nainani, Rohith Siddhartha Reddy Bheemreddy, Anirudh Lakkaraju, Zonghai Yao, Hamed Zamani, Haw-Shiuan Chang</sub>
@@ -522,24 +480,18 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
 
 #### 📐 Metrics
 
-- ![ArXiv 2026](https://img.shields.io/badge/ArXiv-2026-b31b1b) [![](https://img.shields.io/badge/citation-0-blue)]() **When Reasoning Supervision Hurts: TTCW-Based Long-Form Literary Review Generation** [[paper]](https://arxiv.org/abs/2605.20364) [![GitHub stars](https://img.shields.io/github/stars/Vince-Liuss/TTCW-based-Review?style=social)](https://github.com/Vince-Liuss/TTCW-based-Review)<br><sub>Jinlong Liu, Mohammed Bahja, Mark D. Lee</sub>
-  > Releases 263K stories with TTCW-based review annotations and finds fine-tuning without reasoning traces outperforms reasoning-supervised training for literary review generation.
 - ![ArXiv 2026](https://img.shields.io/badge/ArXiv-2026-b31b1b) [![](https://img.shields.io/badge/citation-1-blue)]() **Spoiler Alert: Narrative Forecasting as a Metric for Tension in LLM Storytelling** [[paper]](https://arxiv.org/abs/2604.09854)<br><sub>Pei-Qi Sui, Yu-Tong Zhu, Tianyi Cheng, Peter West, R. So, Hoyt Long, Ari Holtzman</sub>
   > Introduces 100-Endings, measuring narrative tension by how often repeated ending predictions fail as a story unfolds, and a pipeline that raises tension.
 - ![ACL 2026](https://img.shields.io/badge/ACL-2026-1f6feb) [![](https://img.shields.io/badge/citation-2-blue)]() **EvolvR: Self-Evolving Pairwise Reasoning for Story Evaluation to Enhance Generation** [[paper]](https://arxiv.org/abs/2508.06046)<br><sub>Xinda Wang, Zhengxu Hou, Yangshijie Zhang, Bingren Yan, Jia-Lin Liu, Chen-Zhuo Zhao, Zhi-Bo Yang, Bin-Bin Yang, Feng Xiao</sub>
   > Trains a pairwise story evaluator on self-synthesized, multi-agent-filtered chain-of-thought data and uses it as a reward model to improve story generation.
 - ![ACL Findings 2025](https://img.shields.io/badge/ACL%20Findings-2025-1f6feb) [![](https://img.shields.io/badge/citation-10-blue)]() **The Reader is the Metric: How Textual Features and Reader Profiles Explain Conflicting Evaluations of AI Creative Writing** [[paper]](https://arxiv.org/abs/2506.03310) [![GitHub stars](https://img.shields.io/github/stars/grmarco/the-reader-is-the-metric?style=social)](https://github.com/grmarco/the-reader-is-the-metric)<br><sub>Guillermo Marco, Julio Gonzalo, Víctor Fresno-Fernández</sub>
   > Finds conflicting evaluations of AI fiction reflect reader differences, clustering 101 annotators into surface-focused and holistic reader profiles via textual feature preferences.
-- ![Applied Sciences 2025](https://img.shields.io/badge/Applied%20Sciences-2025-6e7781) [![](https://img.shields.io/badge/citation-21-blue)]() **Evaluating Creativity: Can LLMs Be Good Evaluators in Creative Writing Tasks?** [[paper]](https://doi.org/10.3390/app15062971)<br><sub>Sungeun Kim, Dongsuk Oh</sub>
-  > Finds that LLMs rate creative texts more consistently than humans but miss nuanced, culturally specific, and context-dependent aspects of creativity.
 - ![TACL 2024](https://img.shields.io/badge/TACL-2024-1f6feb) [![](https://img.shields.io/badge/citation-56-blue)]() 🌟 **Do Language Models Enjoy Their Own Stories? Prompting Large Language Models for Automatic Story Evaluation** [[paper]](https://arxiv.org/abs/2405.13769)<br><sub>Cyril Chhun, Fabian M. Suchanek, Chloé Clavel</sub>
   > Studies LLMs as automatic story evaluators, finding they beat existing metrics at system-level correlation with humans but struggle to explain their ratings.
 - ![EMNLP Findings 2024](https://img.shields.io/badge/EMNLP%20Findings-2024-1f6feb) [![](https://img.shields.io/badge/citation-12-blue)]() **CHIRON: Rich Character Representations in Long-Form Narratives** [[paper]](https://arxiv.org/abs/2406.10190)<br><sub>Alexander Gurung, Mirella Lapata</sub>
   > Proposes character sheet representations built by LLM question-answering and entailment-based fact validation, improving masked-character prediction and measuring character-centricity.
 - ![EMNLP 2024](https://img.shields.io/badge/EMNLP-2024-1f6feb) [![](https://img.shields.io/badge/citation-40-blue)]() **Learning Personalized Alignment for Evaluating Open-ended Text Generation** [[paper]](https://arxiv.org/abs/2310.03304)<br><sub>Danqing Wang, Kevin Yang, Hanlin Zhu, Xiaomeng Yang, Andrew Cohen, Lei Li, Yuandong Tian</sub>
   > Proposes PerSE, a LLaMA-2 based evaluator that infers reader preferences from in-context profiles to give personalized, interpretable scores for open-ended generation.
-- ![ACL 2023](https://img.shields.io/badge/ACL-2023-1f6feb) [![](https://img.shields.io/badge/citation-1099-blue)]() 🌟 **Can Large Language Models Be an Alternative to Human Evaluations?** [[paper]](https://arxiv.org/abs/2305.01937)<br><sub>Cheng-Han Chiang, Hung-yi Lee</sub>
-  > Finds that LLMs given the same instructions as human annotators produce story and adversarial-text ratings consistent with expert human evaluation.
 - ![EMNLP Findings 2023](https://img.shields.io/badge/EMNLP%20Findings-2023-1f6feb) [![](https://img.shields.io/badge/citation-17-blue)]() **DeltaScore: Evaluating Story Generation with Differentiating Perturbations** [[paper]](https://arxiv.org/abs/2303.08991)<br><sub>Zhuohan Xie, Miao Li, Trevor Cohn, Jey Han Lau</sub>
   > Proposes DeltaScore, which evaluates story aspects like fluency and interestingness by measuring likelihood changes under aspect-specific perturbations.
 
@@ -549,18 +501,12 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
 
 - ![ACL 2026](https://img.shields.io/badge/ACL-2026-1f6feb) [![](https://img.shields.io/badge/citation-0-blue)]() **CASPER in the Machine: Insights into Character Variety in LLM-Generated Stories** [[paper]](https://arxiv.org/abs/2606.22454)<br><sub>A. Brei, Abhisheik Sharma, Nicholas Sanaie, Lu Wang, Snigdha Chaturvedi</sub>
   > Compares characters in LLM-generated and human-written stories along eight narratological dimensions, examining similarity and variety of character types.
-- ![ACL Findings 2026](https://img.shields.io/badge/ACL%20Findings-2026-1f6feb) [![](https://img.shields.io/badge/citation-0-blue)]() **BIASEDTALES-ML: A Multilingual Dataset for Analyzing Narrative Attribute Distributions in LLM-Generated Stories** [[paper]](https://arxiv.org/abs/2604.17008)<br><sub>Yuxuan Ouyang, Yi Luo, Jing-Bo Zhu, Tong Xiao</sub>
-  > Releases a 350K-story multilingual parallel corpus of LLM children's stories, finding narrative attribute distributions vary substantially across eight languages.
 - ![ArXiv 2026](https://img.shields.io/badge/ArXiv-2026-b31b1b) [![](https://img.shields.io/badge/citation-8-blue)]() **StoryScope: Investigating idiosyncrasies in AI fiction** [[paper]](https://arxiv.org/abs/2604.03136)<br><sub>Jenna Russell, Rishanth Rajendhran, Chau Minh Pham, Mohit Iyyer, J. Wieting</sub>
   > Finds that discourse-level narrative features alone separate human from AI fiction and attribute AI stories to specific models, independent of stylistic cues.
 - ![ArXiv 2026](https://img.shields.io/badge/ArXiv-2026-b31b1b) [![](https://img.shields.io/badge/citation-4-blue)]() **LLMs Exhibit Significantly Lower Uncertainty in Creative Writing Than Professional Writers** [[paper]](https://arxiv.org/abs/2602.16162)<br><sub>Pei-Qi Sui</sub>
   > Finds across 28 LLMs that model story continuations carry much lower information-theoretic uncertainty than human writing, worsened by instruction tuning.
 - ![PNAS 2025](https://img.shields.io/badge/PNAS-2025-6e7781) [![](https://img.shields.io/badge/citation-62-blue)]() 🌟 **Echoes in AI: Quantifying Lack of Plot Diversity in LLM Outputs** [[paper]](https://arxiv.org/abs/2501.00273)<br><sub>Wei-Jia Xu, Nebojsa Jojic, Sudha Rao, C. Brockett, Bill Dolan</sub>
   > Finds LLM stories from one prompt reuse plot element combinations far more than human stories, and proposes an automatic narrative-level diversity metric.
-- ![EMNLP 2025](https://img.shields.io/badge/EMNLP-2025-1f6feb) [![](https://img.shields.io/badge/citation-19-blue)]() **Biased Tales: Cultural and Topic Bias in Generating Children's Stories** [[paper]](https://arxiv.org/abs/2509.07908)<br><sub>Donya Rooein, Vilém Zouhar, Debora Nozza, Dirk Hovy</sub>
-  > Introduces a dataset exposing gender and cultural stereotypes in LLM children's stories, such as girls receiving more appearance-related attributes than boys.
-- ![Information 2025](https://img.shields.io/badge/Information-2025-6e7781) [![](https://img.shields.io/badge/citation-18-blue)]() **AI Narrative Modeling: How Machines' Intelligence Reproduces Archetypal Storytelling** [[paper]](https://doi.org/10.3390/info16040319)<br><sub>I. Kabashkin, Olga Zervina, Boriss Misnevs</sub>
-  > Finds LLMs reproduce structured Jungian archetypes like the Hero well but struggle with ambiguous ones like the Shadow and Trickster.
 - ![ICCC 2025](https://img.shields.io/badge/ICCC-2025-6e7781) [![](https://img.shields.io/badge/citation-35-blue)]() **Evaluating Creative Short Story Generation in Humans and Large Language Models** [[paper]](https://arxiv.org/abs/2411.02316) [![GitHub stars](https://img.shields.io/github/stars/mismayil/creative-story-gen?style=social)](https://github.com/mismayil/creative-story-gen)<br><sub>Mete Ismayilzada, Claire E. Stevenson, Lonneke van der Plas</sub>
   > Compares stories by 60 LLMs and 60 humans, finding LLMs lag in novelty and surprise though non-experts rate LLM stories more creative.
 - ![COLING 2025](https://img.shields.io/badge/COLING-2025-1f6feb) [![](https://img.shields.io/badge/citation-39-blue)]() **Small Language Models can Outperform Humans in Short Creative Writing: A Study Comparing SLMs with Humans and LLMs** [[paper]](https://arxiv.org/abs/2409.11547) [![GitHub stars](https://img.shields.io/github/stars/annon-submission/slm-creativity?style=social)](https://github.com/annon-submission/slm-creativity)<br><sub>Guillermo Marco, Luz Rello, Julio Gonzalo</sub>
@@ -573,8 +519,6 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
   > Stages a contest between novelist Patricio Pron and GPT-4, where expert critics judge the LLM far from a top human fiction author.
 - ![EMNLP 2024](https://img.shields.io/badge/EMNLP-2024-1f6feb) [![](https://img.shields.io/badge/citation-16-blue)]() **Measuring Psychological Depth in Language Models** [[paper]](https://arxiv.org/abs/2406.12680)<br><sub>Fabrice Y. Harel-Canada, Hanyu Zhou, Sreya Muppalla, Zeynep Yildiz, Miryung Kim, Amit Sahai, Nan-Yun Peng</sub>
   > Introduces the Psychological Depth Scale for stories' emotional and empathic impact, automates it with LLM personas, finding GPT-4 rivals top Reddit stories.
-- ![HSSC 2023](https://img.shields.io/badge/HSSC-2023-6e7781) [![](https://img.shields.io/badge/citation-87-blue)]() **Experimental narratives: A comparison of human crowdsourced storytelling and AI storytelling** [[paper]](https://arxiv.org/abs/2310.12902)<br><sub>Nina Beguš</sub>
-  > Compares crowdworker and GPT-3.5/GPT-4 stories on identical Pygmalion prompts, finding AI stories more progressive on gender yet less imaginative.
 - ![EMNLP Findings 2023](https://img.shields.io/badge/EMNLP%20Findings-2023-1f6feb) [![](https://img.shields.io/badge/citation-165-blue)]() **A Confederacy of Models: a Comprehensive Evaluation of LLMs on Creative Writing** [[paper]](https://arxiv.org/abs/2310.08433)<br><sub>Carlos G'omez-Rodr'iguez, Paul Williams</sub>
   > Compares LLMs and humans on an unusual comic epic prompt, finding top commercial LLMs match humans on most criteria except creativity.
 - ![C&C 2023](https://img.shields.io/badge/C%26C-2023-bc4c00) [![](https://img.shields.io/badge/citation-60-blue)]() **More human than human: LLM-generated narratives outperform human-LLM interleaved narratives** [[paper]](https://doi.org/10.1145/3591196.3596612)<br><sub>Z. Zhao, Sophie Song, Bridget Duah, J. Macbeth, Scott A. Carter, Monica P. Van, N. Bravo, M. Klenk, Kate Sick, Alexandre L. S. Filipowicz</sub>
@@ -592,8 +536,6 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
 
 - ![EMNLP Findings 2026](https://img.shields.io/badge/EMNLP%20Findings-2026-1f6feb) [![](https://img.shields.io/badge/citation-0-blue)]() **Generating Constructive Feedback on Stories via Reinforcement Learning** [[paper]](https://arxiv.org/abs/2609.04824)<br><sub>Maja Stahl, Timon Ziegenbein, Henning Wachsmuth</sub>
   > Trains LLMs with GRPO and a multi-component constructiveness reward to give story-specific feedback, finding actionable suggestions drive constructiveness most.
-- ![ArXiv 2026](https://img.shields.io/badge/ArXiv-2026-b31b1b) [![](https://img.shields.io/badge/citation-0-blue)]() **GraphStory: Collaborative Story Writing through Event-Based Narrative Editing** [[paper]](https://arxiv.org/abs/2606.16102)<br><sub>X. Lê, Minh-Loi Nguyen, Khanh-Duy Le, Minh-Triet Tran, Trung-Nghia Le</sub>
-  > Builds a graph-based writing assistant for organizing plot points and exploring alternative branches, which writers found reduced structuring effort.
 - ![ArXiv 2026](https://img.shields.io/badge/ArXiv-2026-b31b1b) [![](https://img.shields.io/badge/citation-1-blue)]() **Fabula: Building a Narrative Storytelling Sidekick with the Writers' Community** [[paper]](https://arxiv.org/abs/2606.14411)<br><sub>Piotr Mirowski, Benjamin D. Wedin, Reinald Kim Amplayo, Rich Galt, Duncan Williams, Rida Qadri, Jaume Sanchez-Elias, Erin Drake-Kajioka, Sian Gooding, Lucía López-Rivilla, et al.</sub>
   > Designs and evaluates a narratology-based fiction writing app with 42 writers, probing auto-evaluators, plan-exposing interfaces, and cultural fit of story structures.
 - ![CHI 2026](https://img.shields.io/badge/CHI-2026-bc4c00) [![](https://img.shields.io/badge/citation-1-blue)]() **Exploring Creator-Centric Methods for LLM-Assisted Interactive Storytelling** [[paper]](https://doi.org/10.1145/3772318.3791362)<br><sub>Yue-Lu Li, Siyi Wu, Lu-Jin Zhang, Zhihan Guo, Wenchuan Lu, David Yip</sub>
@@ -624,12 +566,8 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
   > Builds a storytelling system where users steer LLM story text by moving character symbols like toys, via a shared motion-text semantic space.
 - ![CHI 2024](https://img.shields.io/badge/CHI-2024-bc4c00) [![](https://img.shields.io/badge/citation-110-blue)]() 🌟 **CharacterMeet: Supporting Creative Writers' Entire Story Character Construction Processes Through Conversation with LLM-Powered Chatbot Avatars** [[paper]](https://doi.org/10.1145/3613904.3642105)<br><sub>Hua-Xuan Qin, Shan Jin, Ze Gao, Mingming Fan, Pan Hui</sub>
   > Builds a system letting writers develop characters by conversing with customizable chatbot avatars; a 14-writer study shows it supports iterative character construction.
-- ![Frontiers in Robotics and AI 2024](https://img.shields.io/badge/Frontiers%20in%20Robotics%20and%20AI-2024-6e7781) [![](https://img.shields.io/badge/citation-27-blue)]() **Fostering children’s creativity through LLM-driven storytelling with a social robot** [[paper]](https://doi.org/10.3389/frobt.2024.1457429)<br><sub>Maha Elgarf, Hanan Salam, Christopher Peters</sub>
-  > Fine-tunes an LLM to drive creative or non-creative social robot storytelling, finding the creative robot boosts children's fluency, flexibility, and elaboration.
 - ![C&C 2024](https://img.shields.io/badge/C%26C-2024-bc4c00) [![](https://img.shields.io/badge/citation-32-blue)]() **Ai.llude: Encouraging Rewriting AI-Generated Text to Support Creative Expression** [[paper]](https://arxiv.org/abs/2405.17843)<br><sub>David Zhou, S. Sterman</sub>
   > Finds from 27 writing sessions that deliberately imperfect intermediate AI suggestions encourage writers to rewrite, supporting creative ownership and reflection.
-- ![ArXiv 2024](https://img.shields.io/badge/ArXiv-2024-b31b1b) [![](https://img.shields.io/badge/citation-49-blue)]() **GhostWriter: Augmenting Collaborative Human-AI Writing Experiences Through Personalization and Agency** [[paper]](https://arxiv.org/abs/2402.08855)<br><sub>Catherine Yeh, Gonzalo Ramos, Rachel Ng, Andy Huntington, R. Banks</sub>
-  > Builds GhostWriter, a writing design probe that implicitly learns user style while offering explicit controls, studying how it supports agency and personalization.
 - ![TiiS 2023](https://img.shields.io/badge/TiiS-2023-bc4c00) [![](https://img.shields.io/badge/citation-67-blue)]() 🌟 **ID.8: Co-Creating Visual Stories with Generative AI** [[paper]](https://arxiv.org/abs/2309.14228) [![GitHub stars](https://img.shields.io/github/stars/vantony1/IDEATE?style=social)](https://github.com/vantony1/IDEATE)<br><sub>Victor Antony, Chien-Ming Huang</sub>
   > Introduces ID.8, an open-source system for co-creating visual stories with generative AI, with a user study highlighting enjoyment and remaining gaps.
 - ![EACL 2023](https://img.shields.io/badge/EACL-2023-1f6feb) [![](https://img.shields.io/badge/citation-9-blue)]() **Fiction-Writing Mode: An Effective Control for Human-Machine Collaborative Writing** [[paper]](https://aclanthology.org/2023.eacl-main.128/)<br><sub>Wenjie Zhong, Jason Naradowsky, Hiroya Takamura, Ichiro Kobayashi, Yusuke Miyao</sub>
@@ -647,22 +585,14 @@ Venue colors: ![NLP](https://img.shields.io/badge/NLP-1f6feb) ![ML](https://img.
   > Wizard-of-Oz study of intrusive versus non-intrusive proactive AI suggestions in story outlining, revealing a creativity-agency trade-off moderated by how inspiring suggestions are.
 - ![ACL 2025](https://img.shields.io/badge/ACL-2025-1f6feb) [![](https://img.shields.io/badge/citation-19-blue)]() **Help Me Write a Story: Evaluating LLMs' Ability to Generate Writing Feedback** [[paper]](https://arxiv.org/abs/2507.16007)<br><sub>Hannah Rashkin, Elizabeth Clark, Fantine Huot, Mirella Lapata</sub>
   > Introduces a task and 1,300 deliberately corrupted stories to evaluate LLM writing feedback, finding models often miss the biggest writing issue.
-- ![Interacción 2025](https://img.shields.io/badge/Interacci%C3%B3n-2025-6e7781) [![](https://img.shields.io/badge/citation-13-blue)]() **Once More with (the Right) Feeling: How Historical Fiction Writing Processes of Character Design, Plot Outline, and Context Checking Are Affected by Co-Writing with ChatGPT** [[paper]](https://doi.org/10.1007/978-3-031-92823-9_7)<br><sub>Yun Chen, Yiwei Wang, Antoni B. Chan, Jixing Li, LC Ray</sub>
-  > Examines how co-writing with ChatGPT affects historical fiction writers' character design, plot outlining, and context checking processes.
 - ![CHI 2025](https://img.shields.io/badge/CHI-2025-bc4c00) [![](https://img.shields.io/badge/citation-27-blue)]() **Understanding Screenwriters' Practices, Attitudes, and Future Expectations in Human-AI Co-Creation** [[paper]](https://arxiv.org/abs/2502.16153)<br><sub>Yuying Tang, Haotian Li, Minghe Lan, Xiao-Juan Ma, Huamin Qu</sub>
   > Interviews 23 screenwriters on how they integrate AI across workflow stages and categorizes expected AI roles as actor, audience, expert, and executor.
-- ![CHI 2024](https://img.shields.io/badge/CHI-2024-bc4c00) [![](https://img.shields.io/badge/citation-189-blue)]() 🌟 **Shaping Human-AI Collaboration: Varied Scaffolding Levels in Co-writing with Language Models** [[paper]](https://arxiv.org/abs/2402.11723)<br><sub>Paramveer S. Dhillon, Somayeh Molaei, Jiaqi Li, Maximilian Golub, Shaochun Zheng, L. P. Robert</sub>
-  > Finds with 131 participants a U-shaped effect of AI scaffolding: paragraph-level suggestions improve writing quality and productivity, while sentence-level ones do not.
 - ![CSCW 2024](https://img.shields.io/badge/CSCW-2024-bc4c00) [![](https://img.shields.io/badge/citation-48-blue)]() **'It was 80% me, 20% AI': Seeking Authenticity in Co-Writing with Large Language Models** [[paper]](https://arxiv.org/abs/2411.13032)<br><sub>Angel Hsing-Chi Hwang, Q. Liao, Su Lin Blodgett, Alexandra Olteanu, Adam Trischler</sub>
   > Interviews 19 professional writers and surveys readers on authenticity in AI co-writing, finding personalization should support writer growth beyond text production.
-- ![CHI 2024](https://img.shields.io/badge/CHI-2024-bc4c00) [![](https://img.shields.io/badge/citation-122-blue)]() **The Value, Benefits, and Concerns of Generative AI-Powered Assistance in Writing** [[paper]](https://arxiv.org/abs/2403.12004)<br><sub>Zhuo-Yan Li, Chen Liang, Jing Peng, Ming Yin</sub>
-  > Finds through an experiment that people will forgo payment for AI writing help, which boosts productivity and confidence but raises ownership concerns.
 - ![CHI 2023](https://img.shields.io/badge/CHI-2023-bc4c00) [![](https://img.shields.io/badge/citation-183-blue)]() 🌟 **Social Dynamics of AI Support in Creative Writing** [[paper]](https://doi.org/10.1145/3544548.3580782)<br><sub>Katy Ilonka Gero, Tao Long, Lydia B. Chilton</sub>
   > Interviews 20 creative writers to identify what help they want, how they perceive supporters, and values shaping AI-versus-human support choices.
 - ![ArXiv 2023](https://img.shields.io/badge/ArXiv-2023-b31b1b) [![](https://img.shields.io/badge/citation-56-blue)]() **Creativity Support in the Age of Large Language Models: An Empirical Study Involving Emerging Writers** [[paper]](https://arxiv.org/abs/2309.12570)<br><sub>Tuhin Chakrabarty, Vishakh Padmakumar, Faeze Brahman, S. Muresan</sub>
   > Studies 30 writers using an LLM interface based on the cognitive process model, finding LLMs most helpful for translating and reviewing.
-- ![IDC 2023](https://img.shields.io/badge/IDC-2023-bc4c00) [![](https://img.shields.io/badge/citation-128-blue)]() **Design implications of generative AI systems for visual storytelling for young learners** [[paper]](https://doi.org/10.1145/3585088.3593867)<br><sub>Ariel Han, Zhenyao Cai</sub>
-  > Elicits parent, teacher, and researcher views on generative AI for children's visual storytelling and proposes AIStory, a prototype app supporting literacy.
 
 <a id="surveys"></a>
 

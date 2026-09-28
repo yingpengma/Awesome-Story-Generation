@@ -18,28 +18,28 @@
 <text x="40" y="113.5" font-size="11" text-anchor="end" fill="#898781" style="font-variant-numeric:tabular-nums">75</text>
 <line x1="48" x2="616" y1="64.0" y2="64.0" stroke="#e1e0d9" stroke-width="1"/>
 <text x="40" y="68.0" font-size="11" text-anchor="end" fill="#898781" style="font-variant-numeric:tabular-nums">100</text>
-<rect x="107.0" y="216.9" width="24" height="29.1" fill="#2a78d6"/>
-<rect x="107.0" y="206.0" width="24" height="8.9" fill="#eb6834"/>
-<rect x="107.0" y="193.2" width="24" height="10.7" fill="#1baf7a"/>
-<path d="M107.0,191.2 V187.7 Q107.0,184.1 110.5,184.1 H127.5 Q131.0,184.1 131.0,187.7 V191.2 Z" fill="#eda100"/>
-<text x="119.0" y="176.1" font-size="12.5" font-weight="600" text-anchor="middle" fill="#0b0b0b">34</text>
+<rect x="107.0" y="218.7" width="24" height="27.3" fill="#2a78d6"/>
+<rect x="107.0" y="207.8" width="24" height="8.9" fill="#eb6834"/>
+<rect x="107.0" y="198.7" width="24" height="7.1" fill="#1baf7a"/>
+<path d="M107.0,196.7 V194.0 Q107.0,191.4 109.6,191.4 H128.4 Q131.0,191.4 131.0,194.0 V196.7 Z" fill="#eda100"/>
+<text x="119.0" y="183.4" font-size="12.5" font-weight="600" text-anchor="middle" fill="#0b0b0b">30</text>
 <text x="119.0" y="266" font-size="12" text-anchor="middle" fill="#52514e">2023</text>
-<rect x="249.0" y="222.3" width="24" height="23.7" fill="#2a78d6"/>
-<rect x="249.0" y="196.9" width="24" height="23.5" fill="#eb6834"/>
-<rect x="249.0" y="182.3" width="24" height="12.6" fill="#1baf7a"/>
-<path d="M249.0,180.3 V173.6 Q249.0,169.6 253.0,169.6 H269.0 Q273.0,169.6 273.0,173.6 V180.3 Z" fill="#eda100"/>
-<text x="261.0" y="161.6" font-size="12.5" font-weight="600" text-anchor="middle" fill="#0b0b0b">42</text>
+<rect x="249.0" y="224.2" width="24" height="21.8" fill="#2a78d6"/>
+<rect x="249.0" y="204.1" width="24" height="18.0" fill="#eb6834"/>
+<rect x="249.0" y="189.6" width="24" height="12.6" fill="#1baf7a"/>
+<path d="M249.0,187.6 V185.8 Q249.0,184.1 250.7,184.1 H271.3 Q273.0,184.1 273.0,185.8 V187.6 Z" fill="#eda100"/>
+<text x="261.0" y="176.1" font-size="12.5" font-weight="600" text-anchor="middle" fill="#0b0b0b">34</text>
 <text x="261.0" y="266" font-size="12" text-anchor="middle" fill="#52514e">2024</text>
-<rect x="391.0" y="202.3" width="24" height="43.7" fill="#2a78d6"/>
-<rect x="391.0" y="169.6" width="24" height="30.8" fill="#eb6834"/>
-<rect x="391.0" y="145.9" width="24" height="21.7" fill="#1baf7a"/>
-<path d="M391.0,143.9 V137.2 Q391.0,133.2 395.0,133.2 H411.0 Q415.0,133.2 415.0,137.2 V143.9 Z" fill="#eda100"/>
-<text x="403.0" y="125.2" font-size="12.5" font-weight="600" text-anchor="middle" fill="#0b0b0b">62</text>
+<rect x="391.0" y="207.8" width="24" height="38.2" fill="#2a78d6"/>
+<rect x="391.0" y="180.5" width="24" height="25.3" fill="#eb6834"/>
+<rect x="391.0" y="165.9" width="24" height="12.6" fill="#1baf7a"/>
+<path d="M391.0,163.9 V159.0 Q391.0,155.0 395.0,155.0 H411.0 Q415.0,155.0 415.0,159.0 V163.9 Z" fill="#eda100"/>
+<text x="403.0" y="147.0" font-size="12.5" font-weight="600" text-anchor="middle" fill="#0b0b0b">50</text>
 <text x="403.0" y="266" font-size="12" text-anchor="middle" fill="#52514e">2025</text>
-<rect x="533.0" y="189.6" width="24" height="56.4" fill="#2a78d6"/>
-<rect x="533.0" y="129.5" width="24" height="58.1" fill="#eb6834"/>
-<rect x="533.0" y="105.9" width="24" height="21.7" fill="#1baf7a"/>
-<path d="M533.0,103.9 V82.6 Q533.0,78.6 537.0,78.6 H553.0 Q557.0,78.6 557.0,82.6 V103.9 Z" fill="#eda100"/>
-<text x="545.0" y="70.6" font-size="12.5" font-weight="600" text-anchor="middle" fill="#0b0b0b">92</text>
+<rect x="533.0" y="195.0" width="24" height="51.0" fill="#2a78d6"/>
+<rect x="533.0" y="142.3" width="24" height="50.8" fill="#eb6834"/>
+<rect x="533.0" y="124.1" width="24" height="16.2" fill="#1baf7a"/>
+<path d="M533.0,122.1 V102.6 Q533.0,98.6 537.0,98.6 H553.0 Q557.0,98.6 557.0,102.6 V122.1 Z" fill="#eda100"/>
+<text x="545.0" y="90.6" font-size="12.5" font-weight="600" text-anchor="middle" fill="#0b0b0b">81</text>
 <text x="545.0" y="266" font-size="12" text-anchor="middle" fill="#52514e">2026*</text>
 </svg>
