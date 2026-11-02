@@ -10,15 +10,105 @@
       "citations": 32,
       "last_updated": "2026-09-28-08:01:50"
     },
+    "When Stories Evolve: Benchmarking LLM Storytelling Across Agent Architectures in Open-Ended World Simulations": {
+      "title": "When Stories Evolve: Benchmarking LLM Storytelling Across Agent Architectures in Open-Ended World Simulations",
+      "citations": 1,
+      "last_updated": "2026-11-02-10:42:04"
+    },
+    "Generating Clue-Driven Investigative Game Narratives with Large Language Models": {
+      "title": "Generating Clue-Driven Investigative Game Narratives with Large Language Models",
+      "citations": 0,
+      "last_updated": "2026-11-02-10:42:15"
+    },
+    "Generating Role-Playing Game Quests With GPT Language Models": {
+      "title": "Generating Role-Playing Game Quests With GPT Language Models",
+      "citations": 86,
+      "last_updated": "2026-11-02-10:42:20"
+    },
+    "Visual Storytelling with Question-Answer Plans": {
+      "title": "Visual Storytelling with Question-Answer Plans",
+      "citations": 10,
+      "last_updated": "2026-11-02-10:42:31"
+    },
+    "Learning Long-form Movie Prior via Large Language Models.": {
+      "title": "Learning Long-form Movie Prior via Large Language Models.",
+      "citations": 0,
+      "last_updated": "2026-11-02-10:42:36"
+    },
+    "MangaFlow: An End-to-End Agentic Framework for Controllable Story to Manga Generation": {
+      "title": "MangaFlow: An End-to-End Agentic Framework for Controllable Story to Manga Generation",
+      "citations": 2,
+      "last_updated": "2026-11-02-10:42:40"
+    },
+    "SEED-Story: Multimodal Long Story Generation with Large Language Model": {
+      "title": "SEED-Story: Multimodal Long Story Generation with Large Language Model",
+      "citations": 91,
+      "last_updated": "2026-11-02-10:42:41"
+    },
+    "Generating Storytelling Images with Rich Chains-of-Reasoning": {
+      "title": "Generating Storytelling Images with Rich Chains-of-Reasoning",
+      "citations": 1,
+      "last_updated": "2026-11-02-10:42:46"
+    },
+    "BiT-MCTS: A Theme-based Bidirectional MCTS Approach to Chinese Fiction Generation": {
+      "title": "BiT-MCTS: A Theme-based Bidirectional MCTS Approach to Chinese Fiction Generation",
+      "citations": 0,
+      "last_updated": "2026-11-02-10:42:50"
+    },
+    "StoryBox: Collaborative Multi-Agent Simulation for Hybrid Bottom-Up Long-Form Story Generation Using Large Language Models": {
+      "title": "StoryBox: Collaborative Multi-Agent Simulation for Hybrid Bottom-Up Long-Form Story Generation Using Large Language Models",
+      "citations": 5,
+      "last_updated": "2026-10-19-08:47:02"
+    },
+    "MoPS: Modular Story Premise Synthesis for Open-Ended Automatic Story Generation": {
+      "title": "MoPS: Modular Story Premise Synthesis for Open-Ended Automatic Story Generation",
+      "citations": 22,
+      "last_updated": "2026-11-02-10:43:38"
+    },
+    "Rewarding Creativity: A Human-Aligned Generative Reward Model for Reinforcement Learning in Storytelling": {
+      "title": "Rewarding Creativity: A Human-Aligned Generative Reward Model for Reinforcement Learning in Storytelling",
+      "citations": 2,
+      "last_updated": "2026-11-02-10:43:42"
+    },
+    "Learning to Reason for Long-Form Story Generation": {
+      "title": "Learning to Reason for Long-Form Story Generation",
+      "citations": 41,
+      "last_updated": "2026-11-02-10:43:53"
+    },
+    "Echoes in AI: Quantifying Lack of Plot Diversity in LLM Outputs": {
+      "title": "Echoes in AI: Quantifying Lack of Plot Diversity in LLM Outputs",
+      "citations": 71,
+      "last_updated": "2026-11-02-10:43:57"
+    },
+    "Are Large Language Models Capable of Generating Human-Level Narratives?": {
+      "title": "Are Large Language Models Capable of Generating Human-Level Narratives?",
+      "citations": 145,
+      "last_updated": "2026-11-02-10:44:08"
+    },
+    "A Confederacy of Models: a Comprehensive Evaluation of LLMs on Creative Writing": {
+      "title": "A Confederacy of Models: a Comprehensive Evaluation of LLMs on Creative Writing",
+      "citations": 172,
+      "last_updated": "2026-11-02-10:44:09"
+    },
+    "The Next Chapter: A Study of Large Language Models in Storytelling": {
+      "title": "The Next Chapter: A Study of Large Language Models in Storytelling",
+      "citations": 98,
+      "last_updated": "2026-11-02-10:44:56"
+    },
+    "Elsewise: Authoring Open-ended Interactive Narrative with Possibility Space Visualization": {
+      "title": "Elsewise: Authoring Open-ended Interactive Narrative with Possibility Space Visualization",
+      "citations": 2,
+      "last_updated": "2026-11-02-10:45:06"
+    },
     "Sound of Story: Multi-modal Storytelling with Audio": {
       "title": "Sound of Story: Multi-modal Storytelling with Audio",
       "citations": 7,
-      "last_updated": "2026-10-26-08:39:10"
+      "last_updated": "2026-11-02-10:45:17"
     },
     "Can LLM Agents Stick to the Script? A Benchmark for Long-Horizon Consistency in Interactive Narratives": {
       "title": "Can LLM Agents Stick to the Script? A Benchmark for Long-Horizon Consistency in Interactive Narratives",
       "citations": 1,
-      "last_updated": "2026-10-26-08:39:12"
+      "last_updated": "2026-11-02-10:45:39"
     },
     "NARRA-Gym for Evaluating Interactive Narrative Agents": {
       "title": "NARRA-Gym for Evaluating Interactive Narrative Agents",
@@ -27,418 +117,373 @@
     },
     "AdaMARP: An Adaptive Multi-Agent Interaction Framework for General Immersive Role-Playing": {
       "title": "AdaMARP: An Adaptive Multi-Agent Interaction Framework for General Immersive Role-Playing",
-      "citations": 14,
-      "last_updated": "2026-10-26-08:39:46"
+      "citations": 15,
+      "last_updated": "2026-11-02-10:46:30"
     },
     "HAMLET: A Hierarchical and Adaptive Multi-Agent Framework for Live Embodied Theatrics": {
       "title": "HAMLET: A Hierarchical and Adaptive Multi-Agent Framework for Live Embodied Theatrics",
       "citations": 2,
-      "last_updated": "2026-10-26-08:39:51"
+      "last_updated": "2026-11-02-10:46:35"
     },
     "Towards Enhanced Immersion and Agency for LLM-based Interactive Drama": {
       "title": "Towards Enhanced Immersion and Agency for LLM-based Interactive Drama",
       "citations": 13,
-      "last_updated": "2026-10-26-08:39:56"
+      "last_updated": "2026-11-02-10:46:57"
     },
     "CharacterBox: Evaluating the Role-Playing Capabilities of LLMs in Text-Based Virtual Worlds": {
       "title": "CharacterBox: Evaluating the Role-Playing Capabilities of LLMs in Text-Based Virtual Worlds",
       "citations": 50,
-      "last_updated": "2026-10-26-08:40:00"
+      "last_updated": "2026-11-02-10:47:20"
     },
     "OPEN-THEATRE: An Open-Source Toolkit for LLM-based Interactive Drama": {
       "title": "OPEN-THEATRE: An Open-Source Toolkit for LLM-based Interactive Drama",
       "citations": 2,
-      "last_updated": "2026-10-26-08:40:04"
+      "last_updated": "2026-11-02-10:47:25"
     },
     "RolePlot: A Systematic Framework for Evaluating and Enhancing the Plot-Progression Capabilities of Role-Playing Agents": {
       "title": "RolePlot: A Systematic Framework for Evaluating and Enhancing the Plot-Progression Capabilities of Role-Playing Agents",
       "citations": 6,
-      "last_updated": "2026-10-26-08:40:09"
+      "last_updated": "2026-11-02-10:47:47"
     },
     "From Role-Play to Drama-Interaction: An LLM Solution": {
       "title": "From Role-Play to Drama-Interaction: An LLM Solution",
-      "citations": 63,
-      "last_updated": "2026-10-26-08:40:14"
+      "citations": 65,
+      "last_updated": "2026-11-02-10:47:58"
     },
     "NarrativePlay: An Automated System for Crafting Visual Worlds in Novels for Role-Playing": {
       "title": "NarrativePlay: An Automated System for Crafting Visual Worlds in Novels for Role-Playing",
       "citations": 13,
-      "last_updated": "2026-10-26-08:40:15"
-    },
-    "When Stories Evolve: Benchmarking LLM Storytelling Across Agent Architectures in Open-Ended World Simulations": {
-      "title": "When Stories Evolve: Benchmarking LLM Storytelling Across Agent Architectures in Open-Ended World Simulations",
-      "citations": 1,
-      "last_updated": "2026-10-19-08:36:40"
-    },
-    "Generating Clue-Driven Investigative Game Narratives with Large Language Models": {
-      "title": "Generating Clue-Driven Investigative Game Narratives with Large Language Models",
-      "citations": 0,
-      "last_updated": "2026-10-19-08:36:41"
+      "last_updated": "2026-11-02-10:48:20"
     },
     "IVIE: A Neuro-symbolic Approach to Incremental and Validated Generation of Interactive Fiction Worlds": {
       "title": "IVIE: A Neuro-symbolic Approach to Incremental and Validated Generation of Interactive Fiction Worlds",
       "citations": 1,
-      "last_updated": "2026-10-26-08:41:49"
+      "last_updated": "2026-11-02-10:49:07"
     },
     "Guiding, Not Railroading: Design and Evaluation of a Multi-Agent System for Narrative Redirection in Role-playing Games": {
       "title": "Guiding, Not Railroading: Design and Evaluation of a Multi-Agent System for Narrative Redirection in Role-playing Games",
       "citations": 3,
-      "last_updated": "2026-10-26-08:42:00"
+      "last_updated": "2026-11-02-10:49:12"
     },
     "STORY2GAME: Generating (Almost) Everything in an Interactive Fiction Game": {
       "title": "STORY2GAME: Generating (Almost) Everything in an Interactive Fiction Game",
       "citations": 6,
-      "last_updated": "2026-10-26-08:42:04"
+      "last_updated": "2026-11-02-10:49:16"
     },
     "NarrativeGenie: Generating Narrative Beats and Dynamic Storytelling with Large Language Models": {
       "title": "NarrativeGenie: Generating Narrative Beats and Dynamic Storytelling with Large Language Models",
-      "citations": 19,
-      "last_updated": "2026-10-26-08:42:08"
+      "citations": 20,
+      "last_updated": "2026-11-02-10:49:17"
     },
     "PANGeA: Procedural Artificial Narrative Using Generative AI for Turn-Based, Role-Playing Video Games": {
       "title": "PANGeA: Procedural Artificial Narrative Using Generative AI for Turn-Based, Role-Playing Video Games",
-      "citations": 40,
-      "last_updated": "2026-10-26-08:42:34"
+      "citations": 42,
+      "last_updated": "2026-11-02-10:49:21"
     },
     "Word2World: Generating Stories and Worlds through Large Language Models": {
       "title": "Word2World: Generating Stories and Worlds through Large Language Models",
-      "citations": 32,
-      "last_updated": "2026-10-26-08:42:39"
-    },
-    "Generating Role-Playing Game Quests With GPT Language Models": {
-      "title": "Generating Role-Playing Game Quests With GPT Language Models",
-      "citations": 84,
-      "last_updated": "2026-10-19-08:37:07"
+      "citations": 34,
+      "last_updated": "2026-11-02-10:49:23"
     },
     "Ontologically Faithful Generation of Non-Player Character Dialogues": {
       "title": "Ontologically Faithful Generation of Non-Player Character Dialogues",
       "citations": 14,
-      "last_updated": "2026-10-26-08:43:27"
+      "last_updated": "2026-11-02-10:49:33"
     },
     "SceneCraft: Automating Interactive Narrative Scene Generation in Digital Games with Large Language Models": {
       "title": "SceneCraft: Automating Interactive Narrative Scene Generation in Digital Games with Large Language Models",
-      "citations": 92,
-      "last_updated": "2026-10-26-08:43:28"
+      "citations": 95,
+      "last_updated": "2026-11-02-10:49:34"
     },
     "Language as Reality: A Co-Creative Storytelling Game Experience in 1001 Nights using Generative AI": {
       "title": "Language as Reality: A Co-Creative Storytelling Game Experience in 1001 Nights using Generative AI",
-      "citations": 74,
-      "last_updated": "2026-10-26-08:43:32"
+      "citations": 76,
+      "last_updated": "2026-11-02-10:49:36"
     },
     "FIREBALL: A Dataset of Dungeons and Dragons Actual-Play with Structured Game State Information": {
       "title": "FIREBALL: A Dataset of Dungeons and Dragons Actual-Play with Structured Game State Information",
-      "citations": 25,
-      "last_updated": "2026-10-26-08:43:46"
+      "citations": 26,
+      "last_updated": "2026-11-02-10:49:40"
     },
     "Location-Aware Adaptation of Augmented Reality Narratives": {
       "title": "Location-Aware Adaptation of Augmented Reality Narratives",
-      "citations": 41,
-      "last_updated": "2026-10-26-08:43:47"
+      "citations": 42,
+      "last_updated": "2026-11-02-10:49:45"
     },
     "Personalized Quest and Dialogue Generation in Role-Playing Games: A Knowledge Graph- and Language Model-based Approach": {
       "title": "Personalized Quest and Dialogue Generation in Role-Playing Games: A Knowledge Graph- and Language Model-based Approach",
-      "citations": 84,
-      "last_updated": "2026-10-26-08:44:10"
+      "citations": 85,
+      "last_updated": "2026-11-02-10:50:07"
     },
     "I Cast Detect Thoughts: Learning to Converse and Guide with Intents and Theory-of-Mind in Dungeons and Dragons": {
       "title": "I Cast Detect Thoughts: Learning to Converse and Guide with Intents and Theory-of-Mind in Dungeons and Dragons",
-      "citations": 37,
-      "last_updated": "2026-10-26-08:44:57"
+      "citations": 38,
+      "last_updated": "2026-11-02-10:50:30"
     },
     "FilmWorld: Agentic Novel-to-Film Generation through Dynamic Cinematic World Modeling": {
       "title": "FilmWorld: Agentic Novel-to-Film Generation through Dynamic Cinematic World Modeling",
       "citations": 3,
-      "last_updated": "2026-10-26-08:45:07"
+      "last_updated": "2026-11-02-10:50:31"
     },
     "EvolvingWorld: An Open-Schema Framework for Co-Evolving Role-Play Agents and World Model in Interactive Literary World": {
       "title": "EvolvingWorld: An Open-Schema Framework for Co-Evolving Role-Play Agents and World Model in Interactive Literary World",
       "citations": 1,
-      "last_updated": "2026-10-26-08:45:18"
+      "last_updated": "2026-11-02-10:50:32"
     },
     "ReactiveGWM: Steering NPC in Reactive Game World Models": {
       "title": "ReactiveGWM: Steering NPC in Reactive Game World Models",
-      "citations": 10,
-      "last_updated": "2026-10-26-08:45:22"
+      "citations": 11,
+      "last_updated": "2026-11-02-10:50:37"
     },
     "ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling": {
       "title": "ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling",
       "citations": 30,
-      "last_updated": "2026-10-26-08:45:23"
+      "last_updated": "2026-11-02-10:50:47"
     },
     "Unbounded: A Generative Infinite Game of Character Life Simulation": {
       "title": "Unbounded: A Generative Infinite Game of Character Life Simulation",
       "citations": 22,
-      "last_updated": "2026-10-26-08:45:47"
+      "last_updated": "2026-11-02-10:50:58"
     },
     "AnimeGamer: Infinite Anime Life Simulation with Next Game State Prediction": {
       "title": "AnimeGamer: Infinite Anime Life Simulation with Next Game State Prediction",
       "citations": 12,
-      "last_updated": "2026-10-26-08:46:10"
+      "last_updated": "2026-11-02-10:51:02"
     },
     "One Sentence, One Drama: Personalized Short-Form Drama Generation via Multi-Agent Systems": {
       "title": "One Sentence, One Drama: Personalized Short-Form Drama Generation via Multi-Agent Systems",
       "citations": 6,
-      "last_updated": "2026-10-26-08:46:14"
+      "last_updated": "2026-11-02-10:51:03"
     },
     "Text-to-Stage: Spatial Layouts from Long-form Narratives": {
       "title": "Text-to-Stage: Spatial Layouts from Long-form Narratives",
       "citations": 1,
-      "last_updated": "2026-10-26-08:46:25"
+      "last_updated": "2026-11-02-10:51:05"
     },
     "COMIC: Agentic Sketch Comedy Generation": {
       "title": "COMIC: Agentic Sketch Comedy Generation",
       "citations": 1,
-      "last_updated": "2026-10-26-08:46:29"
+      "last_updated": "2026-11-02-10:51:09"
     },
     "DramaBench: A Six-Dimensional Evaluation Framework for Drama Script Continuation": {
       "title": "DramaBench: A Six-Dimensional Evaluation Framework for Drama Script Continuation",
       "citations": 6,
-      "last_updated": "2026-10-26-08:46:30"
+      "last_updated": "2026-11-02-10:51:11"
     },
     "Beyond Direct Generation: A Decomposed Approach to Well-Crafted Screenwriting with LLMs": {
       "title": "Beyond Direct Generation: A Decomposed Approach to Well-Crafted Screenwriting with LLMs",
       "citations": 1,
-      "last_updated": "2026-10-26-08:46:35"
+      "last_updated": "2026-11-02-10:51:12"
     },
     "CML-Bench: A Framework for Evaluating and Enhancing LLM-Powered Movie Scripts Generation": {
       "title": "CML-Bench: A Framework for Evaluating and Enhancing LLM-Powered Movie Scripts Generation",
       "citations": 10,
-      "last_updated": "2026-10-26-08:46:45"
+      "last_updated": "2026-11-02-10:51:13"
     },
     "IBSEN: Director-Actor Agent Collaboration for Controllable and Interactive Drama Script Generation": {
       "title": "IBSEN: Director-Actor Agent Collaboration for Controllable and Interactive Drama Script Generation",
       "citations": 59,
-      "last_updated": "2026-10-26-08:46:55"
+      "last_updated": "2026-11-02-10:51:24"
     },
     "HoLLMwood: Unleashing the Creativity of Large Language Models in Screenwriting via Role Playing": {
       "title": "HoLLMwood: Unleashing the Creativity of Large Language Models in Screenwriting via Role Playing",
       "citations": 43,
-      "last_updated": "2026-10-26-08:47:06"
+      "last_updated": "2026-11-02-10:51:25"
     },
     "Generating Visual Stories with Grounded and Coreferent Characters": {
       "title": "Generating Visual Stories with Grounded and Coreferent Characters",
       "citations": 2,
-      "last_updated": "2026-10-26-08:47:10"
+      "last_updated": "2026-11-02-10:51:26"
     },
     "StoryLLaVA: Enhancing Visual Storytelling with Multi-Modal Large Language Models": {
       "title": "StoryLLaVA: Enhancing Visual Storytelling with Multi-Modal Large Language Models",
       "citations": 19,
-      "last_updated": "2026-10-26-08:47:15"
+      "last_updated": "2026-11-02-10:51:32"
     },
     "VIST-GPT: Ushering in the Era of Visual Storytelling with LLMs?": {
       "title": "VIST-GPT: Ushering in the Era of Visual Storytelling with LLMs?",
       "citations": 16,
-      "last_updated": "2026-10-26-08:47:16"
+      "last_updated": "2026-11-02-10:51:36"
     },
     "From Panels to Prose: Generating Literary Narratives from Comics": {
       "title": "From Panels to Prose: Generating Literary Narratives from Comics",
       "citations": 11,
-      "last_updated": "2026-10-26-08:47:17"
+      "last_updated": "2026-11-02-10:51:37"
     },
     "Not (yet) the whole story: Evaluating Visual Storytelling Requires More than Measuring Coherence, Grounding, and Repetition": {
       "title": "Not (yet) the whole story: Evaluating Visual Storytelling Requires More than Measuring Coherence, Grounding, and Repetition",
       "citations": 11,
-      "last_updated": "2026-10-26-08:47:22"
+      "last_updated": "2026-11-02-10:51:38"
     },
     "Synchronized Video Storytelling: Generating Video Narrations with Structured Storyline": {
       "title": "Synchronized Video Storytelling: Generating Video Narrations with Structured Storyline",
       "citations": 21,
-      "last_updated": "2026-10-26-08:47:23"
+      "last_updated": "2026-11-02-10:52:01"
     },
     "SCO-VIST: Social Interaction Commonsense Knowledge-based Visual Storytelling": {
       "title": "SCO-VIST: Social Interaction Commonsense Knowledge-based Visual Storytelling",
       "citations": 10,
-      "last_updated": "2026-10-26-08:47:33"
+      "last_updated": "2026-11-02-10:52:03"
     },
     "Visual Writing Prompts: Character-Grounded Story Generation with Curated Image Sequences": {
       "title": "Visual Writing Prompts: Character-Grounded Story Generation with Curated Image Sequences",
       "citations": 62,
-      "last_updated": "2026-10-26-08:47:38"
+      "last_updated": "2026-11-02-10:52:07"
     },
     "DiffuVST: Narrating Fictional Scenes with Global-History-Guided Denoising Models": {
       "title": "DiffuVST: Narrating Fictional Scenes with Global-History-Guided Denoising Models",
       "citations": 0,
-      "last_updated": "2026-10-26-08:47:48"
+      "last_updated": "2026-11-02-10:52:08"
     },
     "GROOViST: A Metric for Grounding Objects in Visual Storytelling": {
       "title": "GROOViST: A Metric for Grounding Objects in Visual Storytelling",
       "citations": 15,
-      "last_updated": "2026-10-26-08:47:59"
-    },
-    "Visual Storytelling with Question-Answer Plans": {
-      "title": "Visual Storytelling with Question-Answer Plans",
-      "citations": 10,
-      "last_updated": "2026-10-19-08:42:49"
+      "last_updated": "2026-11-02-10:52:10"
     },
     "Attractive Storyteller: Stylized Visual Storytelling with Unpaired Text": {
       "title": "Attractive Storyteller: Stylized Visual Storytelling with Unpaired Text",
       "citations": 18,
-      "last_updated": "2026-10-26-08:48:49"
+      "last_updated": "2026-11-02-10:52:11"
     },
     "Multimodal Event Transformer for Image-guided Story Ending Generation": {
       "title": "Multimodal Event Transformer for Image-guided Story Ending Generation",
       "citations": 29,
-      "last_updated": "2026-10-26-08:49:00"
+      "last_updated": "2026-11-02-10:52:22"
     },
     "MAViS: A Multi-Agent Framework for Long-Sequence Video Storytelling": {
       "title": "MAViS: A Multi-Agent Framework for Long-Sequence Video Storytelling",
       "citations": 26,
-      "last_updated": "2026-10-26-08:49:04"
+      "last_updated": "2026-11-02-10:52:26"
     },
     "Better Call CineCrew: Consistent Ultra-Long Narrative-to-Film Generation": {
       "title": "Better Call CineCrew: Consistent Ultra-Long Narrative-to-Film Generation",
       "citations": 4,
-      "last_updated": "2026-10-26-08:49:27"
-    },
-    "Learning Long-form Movie Prior via Large Language Models.": {
-      "title": "Learning Long-form Movie Prior via Large Language Models.",
-      "citations": 0,
-      "last_updated": "2026-10-19-08:43:24"
+      "last_updated": "2026-11-02-10:52:27"
     },
     "SAGE: Self-Evolving Storyboard Skills via Attribution-Guided Rule Evolution": {
       "title": "SAGE: Self-Evolving Storyboard Skills via Attribution-Guided Rule Evolution",
       "citations": 0,
-      "last_updated": "2026-10-26-08:50:14"
+      "last_updated": "2026-11-02-10:52:29"
     },
     "AniMaster: From Story Texts to Animated Videos via Cinematic Script Generation and Interactive Authoring": {
       "title": "AniMaster: From Story Texts to Animated Videos via Cinematic Script Generation and Interactive Authoring",
       "citations": 0,
-      "last_updated": "2026-10-26-08:50:19"
-    },
-    "MangaFlow: An End-to-End Agentic Framework for Controllable Story to Manga Generation": {
-      "title": "MangaFlow: An End-to-End Agentic Framework for Controllable Story to Manga Generation",
-      "citations": 1,
-      "last_updated": "2026-10-19-08:43:37"
+      "last_updated": "2026-11-02-10:52:30"
     },
     "BOOKAGENT: Orchestrating Safety-Aware Visual Narratives via Multi-Agent Cognitive Calibration": {
       "title": "BOOKAGENT: Orchestrating Safety-Aware Visual Narratives via Multi-Agent Cognitive Calibration",
       "citations": 1,
-      "last_updated": "2026-10-26-08:51:07"
+      "last_updated": "2026-11-02-10:52:31"
     },
     "CANVAS: Continuity-Aware Narratives via Visual Agentic Storyboarding": {
       "title": "CANVAS: Continuity-Aware Narratives via Visual Agentic Storyboarding",
       "citations": 3,
-      "last_updated": "2026-10-26-08:51:32"
+      "last_updated": "2026-11-02-10:52:35"
     },
     "LogiStory: A Logic-Aware Framework for Multi-Image Story Visualization": {
       "title": "LogiStory: A Logic-Aware Framework for Multi-Image Story Visualization",
       "citations": 3,
-      "last_updated": "2026-10-26-08:51:34"
+      "last_updated": "2026-11-02-10:52:37"
     },
     "EmoStory: Emotion-Aware Story Generation": {
       "title": "EmoStory: Emotion-Aware Story Generation",
       "citations": 0,
-      "last_updated": "2026-10-26-08:51:44"
+      "last_updated": "2026-11-02-10:52:59"
     },
     "Narrative Weaver: Towards Controllable Long-Range Visual Consistency with Multi-Modal Conditioning": {
       "title": "Narrative Weaver: Towards Controllable Long-Range Visual Consistency with Multi-Modal Conditioning",
       "citations": 3,
-      "last_updated": "2026-10-26-08:51:54"
+      "last_updated": "2026-11-02-10:53:10"
     },
     "MUSE: A Multi-agent Framework for Unconstrained Story Envisioning via Closed-Loop Cognitive Orchestration": {
       "title": "MUSE: A Multi-agent Framework for Unconstrained Story Envisioning via Closed-Loop Cognitive Orchestration",
       "citations": 7,
-      "last_updated": "2026-10-26-08:52:17"
-    },
-    "SEED-Story: Multimodal Long Story Generation with Large Language Model": {
-      "title": "SEED-Story: Multimodal Long Story Generation with Large Language Model",
-      "citations": 88,
-      "last_updated": "2026-10-19-08:44:12"
-    },
-    "Generating Storytelling Images with Rich Chains-of-Reasoning": {
-      "title": "Generating Storytelling Images with Rich Chains-of-Reasoning",
-      "citations": 1,
-      "last_updated": "2026-10-19-08:44:16"
+      "last_updated": "2026-11-02-10:53:20"
     },
     "From Outline to Detail: An Hierarchical End-to-end Framework for Coherent and Consistent Visual Novel Generation and Assembly": {
       "title": "From Outline to Detail: An Hierarchical End-to-end Framework for Coherent and Consistent Visual Novel Generation and Assembly",
       "citations": 2,
-      "last_updated": "2026-10-26-08:53:51"
+      "last_updated": "2026-11-02-10:53:21"
     },
     "LLMs Behind the Scenes: Enabling Narrative Scene Illustration": {
       "title": "LLMs Behind the Scenes: Enabling Narrative Scene Illustration",
       "citations": 1,
-      "last_updated": "2026-10-26-08:54:14"
+      "last_updated": "2026-11-02-10:53:44"
     },
     "AniMaker: Multi-Agent Animated Storytelling with MCTS-Driven Clip Generation": {
       "title": "AniMaker: Multi-Agent Animated Storytelling with MCTS-Driven Clip Generation",
       "citations": 23,
-      "last_updated": "2026-10-26-08:55:01"
+      "last_updated": "2026-11-02-10:53:45"
     },
     "VinaBench: Benchmark for Faithful and Consistent Visual Narratives": {
       "title": "VinaBench: Benchmark for Faithful and Consistent Visual Narratives",
       "citations": 7,
-      "last_updated": "2026-10-26-08:55:11"
+      "last_updated": "2026-11-02-10:53:56"
     },
     "MM-StoryAgent: Immersive Narrated Storybook Video Generation with a Multi-Agent Paradigm across Text, Image and Audio": {
       "title": "MM-StoryAgent: Immersive Narrated Storybook Video Generation with a Multi-Agent Paradigm across Text, Image and Audio",
       "citations": 38,
-      "last_updated": "2026-10-26-08:55:16"
+      "last_updated": "2026-11-02-10:54:00"
     },
     "VISIAR: Empower MLLM for Visual Story Ideation": {
       "title": "VISIAR: Empower MLLM for Visual Story Ideation",
       "citations": 3,
-      "last_updated": "2026-10-26-08:55:17"
+      "last_updated": "2026-11-02-10:54:11"
     },
     "Multimodal Persona Based Generation of Comic Dialogs": {
       "title": "Multimodal Persona Based Generation of Comic Dialogs",
       "citations": 14,
-      "last_updated": "2026-10-26-08:55:21"
+      "last_updated": "2026-11-02-10:54:12"
     },
     "LLM-Driven MCTS for Conditional Story Generation via Logic-Guided Evidence Tree Optimization": {
       "title": "LLM-Driven MCTS for Conditional Story Generation via Logic-Guided Evidence Tree Optimization",
       "citations": 0,
-      "last_updated": "2026-10-26-08:55:25"
+      "last_updated": "2026-11-02-10:54:59"
     },
     "Planning Beyond Text: Graph-based Reasoning for Complex Narrative Generation": {
       "title": "Planning Beyond Text: Graph-based Reasoning for Complex Narrative Generation",
       "citations": 2,
-      "last_updated": "2026-10-26-08:55:27"
-    },
-    "BiT-MCTS: A Theme-based Bidirectional MCTS Approach to Chinese Fiction Generation": {
-      "title": "BiT-MCTS: A Theme-based Bidirectional MCTS Approach to Chinese Fiction Generation",
-      "citations": 0,
-      "last_updated": "2026-10-19-08:45:07"
+      "last_updated": "2026-11-02-10:55:03"
     },
     "Lightweight Latent Reasoning for Narrative Tasks": {
       "title": "Lightweight Latent Reasoning for Narrative Tasks",
       "citations": 1,
-      "last_updated": "2026-10-26-08:56:18"
+      "last_updated": "2026-11-02-10:55:14"
     },
     "Generating Long-form Story Using Dynamic Hierarchical Outlining with Memory-Enhancement": {
       "title": "Generating Long-form Story Using Dynamic Hierarchical Outlining with Memory-Enhancement",
-      "citations": 49,
-      "last_updated": "2026-10-26-08:56:28"
+      "citations": 50,
+      "last_updated": "2026-11-02-10:55:25"
     },
     "Agents' Room: Narrative Generation through Multi-step Collaboration": {
       "title": "Agents' Room: Narrative Generation through Multi-step Collaboration",
-      "citations": 84,
-      "last_updated": "2026-10-26-08:56:33"
+      "citations": 85,
+      "last_updated": "2026-11-02-10:55:35"
     },
     "StoryWriter: A Multi-Agent Framework for Long Story Generation": {
       "title": "StoryWriter: A Multi-Agent Framework for Long Story Generation",
       "citations": 28,
-      "last_updated": "2026-10-26-08:56:37"
+      "last_updated": "2026-11-02-10:55:58"
     },
     "STORYTELLER: An Enhanced Plot-Planning Framework for Coherent and Cohesive Story Generation": {
       "title": "STORYTELLER: An Enhanced Plot-Planning Framework for Coherent and Cohesive Story Generation",
       "citations": 17,
-      "last_updated": "2026-10-26-08:57:00"
+      "last_updated": "2026-11-02-10:56:02"
     },
     "Ex3: Automatic Novel Writing by Extracting, Excelsior and Expanding": {
       "title": "Ex3: Automatic Novel Writing by Extracting, Excelsior and Expanding",
       "citations": 15,
-      "last_updated": "2026-10-26-08:57:03"
+      "last_updated": "2026-11-02-10:56:06"
     },
     "SWAG: Storytelling With Action Guidance": {
       "title": "SWAG: Storytelling With Action Guidance",
       "citations": 12,
-      "last_updated": "2026-10-26-08:57:49"
+      "last_updated": "2026-11-02-10:56:29"
     },
     "Little Red Riding Hood Goes around the Globe: Crosslingual Story Planning and Generation with Large Language Models": {
       "title": "Little Red Riding Hood Goes around the Globe: Crosslingual Story Planning and Generation with Large Language Models",
       "citations": 8,
-      "last_updated": "2026-10-26-08:57:54"
+      "last_updated": "2026-11-02-10:56:52"
     },
     "DOC: Improving Long Story Coherence With Detailed Outline Control": {
       "title": "DOC: Improving Long Story Coherence With Detailed Outline Control",
@@ -448,437 +493,397 @@
     "FossilWriter: Learning Hypergraph World Models with Latent Narratives for Creative Story Generation": {
       "title": "FossilWriter: Learning Hypergraph World Models with Latent Narratives for Creative Story Generation",
       "citations": 0,
-      "last_updated": "2026-10-26-08:58:14"
+      "last_updated": "2026-11-02-10:57:43"
     },
     "Narrative World Model: Narratology-Grounded Writer Memory for Long-Form Fiction": {
       "title": "Narrative World Model: Narratology-Grounded Writer Memory for Long-Form Fiction",
       "citations": 3,
-      "last_updated": "2026-10-26-08:58:19"
+      "last_updated": "2026-11-02-10:57:53"
     },
     "ConWriter: Transition-Constrained Stateful Long-Form Story Generation with Lightweight Neuro-Symbolic Consistency Control": {
       "title": "ConWriter: Transition-Constrained Stateful Long-Form Story Generation with Lightweight Neuro-Symbolic Consistency Control",
       "citations": 0,
-      "last_updated": "2026-10-26-08:58:23"
+      "last_updated": "2026-11-02-10:57:58"
     },
     "Octopus: Entropy-Controlled Science Fiction Literature Generation with Persistent Memory-Context Binding": {
       "title": "Octopus: Entropy-Controlled Science Fiction Literature Generation with Persistent Memory-Context Binding",
       "citations": 2,
-      "last_updated": "2026-10-26-08:58:34"
+      "last_updated": "2026-11-02-10:57:59"
     },
     "SCORE: Story Coherence and Retrieval Enhancement for AI Narratives": {
       "title": "SCORE: Story Coherence and Retrieval Enhancement for AI Narratives",
       "citations": 105,
-      "last_updated": "2026-10-26-08:58:44"
+      "last_updated": "2026-11-02-10:58:00"
     },
     "MLD-EA: Check and Complete Narrative Coherence by Introducing Emotions and Actions": {
       "title": "MLD-EA: Check and Complete Narrative Coherence by Introducing Emotions and Actions",
       "citations": 9,
-      "last_updated": "2026-10-26-08:59:31"
+      "last_updated": "2026-11-02-10:58:05"
     },
     "FACTTRACK: Time-Aware World State Tracking in Story Outlines": {
       "title": "FACTTRACK: Time-Aware World State Tracking in Story Outlines",
       "citations": 8,
-      "last_updated": "2026-10-26-08:59:32"
+      "last_updated": "2026-11-02-10:58:15"
     },
     "RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text": {
       "title": "RecurrentGPT: Interactive Generation of (Arbitrarily) Long Text",
       "citations": 109,
-      "last_updated": "2026-10-26-08:59:33"
+      "last_updated": "2026-11-02-10:58:20"
     },
     "ANIMASK: What the Model Contributes to Role Play in Simulated Story Worlds": {
       "title": "ANIMASK: What the Model Contributes to Role Play in Simulated Story Worlds",
       "citations": 0,
-      "last_updated": "2026-10-26-08:59:35"
+      "last_updated": "2026-11-02-10:58:21"
     },
     "Staying In Character: Perspective-Bounded Memory For Book-Based Role-Playing Agents": {
       "title": "Staying In Character: Perspective-Bounded Memory For Book-Based Role-Playing Agents",
       "citations": 2,
-      "last_updated": "2026-10-26-08:59:39"
+      "last_updated": "2026-11-02-10:58:31"
     },
     "EvoSpark: Endogenous Interactive Agent Societies for Unified Long-Horizon Narrative Evolution": {
       "title": "EvoSpark: Endogenous Interactive Agent Societies for Unified Long-Horizon Narrative Evolution",
       "citations": 0,
-      "last_updated": "2026-10-26-08:59:43"
+      "last_updated": "2026-11-02-10:58:33"
     },
     "Deriving Character Logic from Storyline as Codified Decision Trees": {
       "title": "Deriving Character Logic from Storyline as Codified Decision Trees",
       "citations": 3,
-      "last_updated": "2026-10-26-08:59:48"
-    },
-    "StoryBox: Collaborative Multi-Agent Simulation for Hybrid Bottom-Up Long-Form Story Generation Using Large Language Models": {
-      "title": "StoryBox: Collaborative Multi-Agent Simulation for Hybrid Bottom-Up Long-Form Story Generation Using Large Language Models",
-      "citations": 5,
-      "last_updated": "2026-10-19-08:47:02"
+      "last_updated": "2026-11-02-10:58:43"
     },
     "BookWorld: From Novels to Interactive Agent Societies for Creative Story Generation": {
       "title": "BookWorld: From Novels to Interactive Agent Societies for Creative Story Generation",
       "citations": 16,
-      "last_updated": "2026-10-26-09:00:35"
+      "last_updated": "2026-11-02-10:58:48"
     },
     "Steering Narrative Agents Through a Dynamic Cognitive Framework for Guided Emergent Storytelling": {
       "title": "Steering Narrative Agents Through a Dynamic Cognitive Framework for Guided Emergent Storytelling",
       "citations": 5,
-      "last_updated": "2026-10-26-09:00:41"
+      "last_updated": "2026-11-02-10:58:58"
     },
     "StoryVerse: Towards Co-authoring Dynamic Plot with LLM-based Character Simulation via Narrative Planning": {
       "title": "StoryVerse: Towards Co-authoring Dynamic Plot with LLM-based Character Simulation via Narrative Planning",
       "citations": 51,
-      "last_updated": "2026-10-26-09:00:43"
+      "last_updated": "2026-11-02-10:59:45"
     },
     "MUSE: A Theory-Harnessed Story Engine for Vibe Narrativizing": {
       "title": "MUSE: A Theory-Harnessed Story Engine for Vibe Narrativizing",
       "citations": 0,
-      "last_updated": "2026-10-26-09:00:47"
+      "last_updated": "2026-11-02-10:59:49"
     },
     "CraftAlign: Feature-Grounded Evaluation and Revision Guidance for AI Stories": {
       "title": "CraftAlign: Feature-Grounded Evaluation and Revision Guidance for AI Stories",
       "citations": 0,
-      "last_updated": "2026-10-26-09:01:09"
+      "last_updated": "2026-11-02-10:59:51"
     },
     "StorySpark: Module-wise Evolutionary Search for Story Premise Generation": {
       "title": "StorySpark: Module-wise Evolutionary Search for Story Premise Generation",
       "citations": 0,
-      "last_updated": "2026-10-26-09:01:14"
+      "last_updated": "2026-11-02-11:00:37"
     },
     "PlotTwist: A Creative Plot Generation Framework with Small Language Models": {
       "title": "PlotTwist: A Creative Plot Generation Framework with Small Language Models",
       "citations": 0,
-      "last_updated": "2026-10-26-09:01:15"
+      "last_updated": "2026-11-02-11:00:48"
     },
     "LLM Review: Enhancing Creative Writing via Blind Peer Review Feedback": {
       "title": "LLM Review: Enhancing Creative Writing via Blind Peer Review Feedback",
       "citations": 6,
-      "last_updated": "2026-10-26-09:01:38"
+      "last_updated": "2026-11-02-11:01:10"
     },
     "Frankentext: Stitching random text fragments into long-form narratives": {
       "title": "Frankentext: Stitching random text fragments into long-form narratives",
       "citations": 9,
-      "last_updated": "2026-10-26-09:01:49"
+      "last_updated": "2026-11-02-11:01:15"
     },
     "Avoidance Decoding for Diverse Multi-Branch Story Generation": {
       "title": "Avoidance Decoding for Diverse Multi-Branch Story Generation",
       "citations": 6,
-      "last_updated": "2026-10-26-09:01:59"
+      "last_updated": "2026-11-02-11:01:25"
     },
     "A Character-Centric Creative Story Generation via Imagination": {
       "title": "A Character-Centric Creative Story Generation via Imagination",
       "citations": 20,
-      "last_updated": "2026-10-26-09:02:10"
+      "last_updated": "2026-11-02-11:01:30"
     },
     "Collective Critics for Creative Story Generation": {
       "title": "Collective Critics for Creative Story Generation",
       "citations": 40,
-      "last_updated": "2026-10-26-09:02:15"
-    },
-    "MoPS: Modular Story Premise Synthesis for Open-Ended Automatic Story Generation": {
-      "title": "MoPS: Modular Story Premise Synthesis for Open-Ended Automatic Story Generation",
-      "citations": 21,
-      "last_updated": "2026-10-19-08:48:19"
+      "last_updated": "2026-11-02-11:01:40"
     },
     "Creating Suspenseful Stories: Iterative Planning with Large Language Models": {
       "title": "Creating Suspenseful Stories: Iterative Planning with Large Language Models",
       "citations": 30,
-      "last_updated": "2026-10-26-09:03:02"
+      "last_updated": "2026-11-02-11:01:51"
     },
     "A Conflict-Embedded Narrative Generation Using Commonsense Reasoning": {
       "title": "A Conflict-Embedded Narrative Generation Using Commonsense Reasoning",
       "citations": 0,
-      "last_updated": "2026-10-26-09:03:04"
+      "last_updated": "2026-11-02-11:02:01"
     },
     "Returning to the Start: Generating Narratives with Related Endpoints": {
       "title": "Returning to the Start: Generating Narratives with Related Endpoints",
       "citations": 6,
-      "last_updated": "2026-10-26-09:03:26"
+      "last_updated": "2026-11-02-11:02:03"
     },
     "Improving Pacing in Long-Form Story Planning": {
       "title": "Improving Pacing in Long-Form Story Planning",
       "citations": 34,
-      "last_updated": "2026-10-26-09:03:31"
+      "last_updated": "2026-11-02-11:02:04"
     },
     "Affective and Dynamic Beam Search for Story Generation": {
       "title": "Affective and Dynamic Beam Search for Story Generation",
       "citations": 17,
-      "last_updated": "2026-10-26-09:03:33"
+      "last_updated": "2026-11-02-11:02:09"
     },
     "GROVE: A Retrieval-augmented Complex Story Generation Framework with A Forest of Evidence": {
       "title": "GROVE: A Retrieval-augmented Complex Story Generation Framework with A Forest of Evidence",
       "citations": 28,
-      "last_updated": "2026-10-26-09:04:19"
+      "last_updated": "2026-11-02-11:02:13"
     },
     "Narrative Order Aware Story Generation via Bidirectional Pretraining Model with Optimal Transport Reward": {
       "title": "Narrative Order Aware Story Generation via Bidirectional Pretraining Model with Optimal Transport Reward",
       "citations": 13,
-      "last_updated": "2026-10-26-09:04:30"
+      "last_updated": "2026-11-02-11:02:18"
     },
     "Retell, Reward, Repeat: Reinforcement Learning for Narrative Theory-Informed Story Generation": {
       "title": "Retell, Reward, Repeat: Reinforcement Learning for Narrative Theory-Informed Story Generation",
       "citations": 2,
-      "last_updated": "2026-10-26-09:04:31"
+      "last_updated": "2026-11-02-11:02:40"
     },
     "POLARIS: Guiding Small Models to Write Long Stories": {
       "title": "POLARIS: Guiding Small Models to Write Long Stories",
       "citations": 1,
-      "last_updated": "2026-10-26-09:04:35"
+      "last_updated": "2026-11-02-11:02:51"
     },
     "Narrative Flattening: How Post-Training Compresses Thematic, Affective, and Stylistic Variation in LLM Fiction": {
       "title": "Narrative Flattening: How Post-Training Compresses Thematic, Affective, and Stylistic Variation in LLM Fiction",
       "citations": 2,
-      "last_updated": "2026-10-26-09:04:37"
+      "last_updated": "2026-11-02-11:02:52"
     },
     "StoryAlign: Evaluating and Training Reward Models for Story Generation": {
       "title": "StoryAlign: Evaluating and Training Reward Models for Story Generation",
       "citations": 2,
-      "last_updated": "2026-10-26-09:04:59"
+      "last_updated": "2026-11-02-11:02:56"
     },
     "UniCreative: Unifying Long-form Logic and Short-form Sparkle via Reference-Free Reinforcement Learning": {
       "title": "UniCreative: Unifying Long-form Logic and Short-form Sparkle via Reference-Free Reinforcement Learning",
       "citations": 1,
-      "last_updated": "2026-10-26-09:05:03"
+      "last_updated": "2026-11-02-11:03:07"
     },
     "DPWriter: Reinforcement Learning with Diverse Planning Branching for Creative Writing": {
       "title": "DPWriter: Reinforcement Learning with Diverse Planning Branching for Creative Writing",
       "citations": 6,
-      "last_updated": "2026-10-26-09:05:14"
-    },
-    "Rewarding Creativity: A Human-Aligned Generative Reward Model for Reinforcement Learning in Storytelling": {
-      "title": "Rewarding Creativity: A Human-Aligned Generative Reward Model for Reinforcement Learning in Storytelling",
-      "citations": 2,
-      "last_updated": "2026-10-19-08:49:32"
+      "last_updated": "2026-11-02-11:03:08"
     },
     "From Style to Story: A Curriculum Learning Approach for Imitative Novel Generation": {
       "title": "From Style to Story: A Curriculum Learning Approach for Imitative Novel Generation",
       "citations": 0,
-      "last_updated": "2026-10-26-09:06:02"
+      "last_updated": "2026-11-02-11:03:12"
     },
     "Capturing Classic Authorial Style in Long-Form Story Generation with GRPO Fine-Tuning": {
       "title": "Capturing Classic Authorial Style in Long-Form Story Generation with GRPO Fine-Tuning",
       "citations": 1,
-      "last_updated": "2026-10-26-09:06:06"
+      "last_updated": "2026-11-02-11:03:14"
     },
     "RLMR: Reinforcement Learning with Mixed Rewards for Creative Writing": {
       "title": "RLMR: Reinforcement Learning with Mixed Rewards for Creative Writing",
       "citations": 12,
       "last_updated": "2026-10-26-09:06:11"
     },
-    "Learning to Reason for Long-Form Story Generation": {
-      "title": "Learning to Reason for Long-Form Story Generation",
-      "citations": 41,
-      "last_updated": "2026-10-19-08:49:37"
-    },
     "Modifying Large Language Model Post-Training for Diverse Creative Writing": {
       "title": "Modifying Large Language Model Post-Training for Diverse Creative Writing",
       "citations": 54,
-      "last_updated": "2026-10-26-09:06:59"
+      "last_updated": "2026-11-02-11:04:05"
     },
     "LiteraryTaste: A Preference Dataset for Creative Writing Personalization": {
       "title": "LiteraryTaste: A Preference Dataset for Creative Writing Personalization",
       "citations": 5,
-      "last_updated": "2026-10-26-09:07:21"
+      "last_updated": "2026-11-02-11:04:51"
     },
     "COIG-Writer: A High-Quality Dataset for Chinese Creative Writing with Thought Processes": {
       "title": "COIG-Writer: A High-Quality Dataset for Chinese Creative Writing with Thought Processes",
       "citations": 1,
-      "last_updated": "2026-10-26-09:07:32"
+      "last_updated": "2026-11-02-11:05:14"
     },
     "Weaver: Foundation Models for Creative Writing": {
       "title": "Weaver: Foundation Models for Creative Writing",
       "citations": 29,
-      "last_updated": "2026-10-26-09:07:36"
+      "last_updated": "2026-11-02-11:05:19"
     },
     "MirrorStories: Reflecting Diversity through Personalized Narrative Generation with Large Language Models": {
       "title": "MirrorStories: Reflecting Diversity through Personalized Narrative Generation with Large Language Models",
       "citations": 14,
-      "last_updated": "2026-10-26-09:07:59"
+      "last_updated": "2026-11-02-11:05:23"
     },
     "LitBench: A Benchmark and Dataset for Reliable Evaluation of Creative Writing": {
       "title": "LitBench: A Benchmark and Dataset for Reliable Evaluation of Creative Writing",
       "citations": 51,
-      "last_updated": "2026-10-26-09:08:00"
+      "last_updated": "2026-11-02-11:05:34"
     },
     "Lost in Stories: Consistency Bugs in Long Story Generation by LLMs": {
       "title": "Lost in Stories: Consistency Bugs in Long Story Generation by LLMs",
       "citations": 12,
-      "last_updated": "2026-10-26-09:08:10"
+      "last_updated": "2026-11-02-11:05:35"
     },
     "ChangJuan: A Comprehensive Benchmark for Book-Length Chinese Story Evaluation": {
       "title": "ChangJuan: A Comprehensive Benchmark for Book-Length Chinese Story Evaluation",
       "citations": 0,
-      "last_updated": "2026-10-26-09:08:21"
+      "last_updated": "2026-11-02-11:05:36"
     },
     "Mary, the Cheeseburger-Eating Vegetarian: Do LLMs Recognize Incoherence in Narratives?": {
       "title": "Mary, the Cheeseburger-Eating Vegetarian: Do LLMs Recognize Incoherence in Narratives?",
       "citations": 3,
-      "last_updated": "2026-10-26-09:09:08"
+      "last_updated": "2026-11-02-11:05:37"
     },
     "WebNovelBench: Placing LLM Novelists on the Web Novel Distribution": {
       "title": "WebNovelBench: Placing LLM Novelists on the Web Novel Distribution",
       "citations": 2,
-      "last_updated": "2026-10-26-09:09:21"
+      "last_updated": "2026-11-02-11:05:42"
     },
     "What Matters in Evaluating Book-Length Stories? A Systematic Study of Long Story Evaluation": {
       "title": "What Matters in Evaluating Book-Length Stories? A Systematic Study of Long Story Evaluation",
       "citations": 11,
-      "last_updated": "2026-10-26-09:10:08"
+      "last_updated": "2026-11-02-11:05:46"
     },
     "Finding Flawed Fictions: Evaluating Complex Reasoning in Language Models via Plot Hole Detection": {
       "title": "Finding Flawed Fictions: Evaluating Complex Reasoning in Language Models via Plot Hole Detection",
       "citations": 27,
-      "last_updated": "2026-10-26-09:10:58"
+      "last_updated": "2026-11-02-11:05:47"
     },
     "Towards A \"Novel\" Benchmark: Evaluating Literary Fiction with Large Language Models": {
       "title": "Towards A \"Novel\" Benchmark: Evaluating Literary Fiction with Large Language Models",
-      "citations": 2,
-      "last_updated": "2026-10-26-09:10:59"
+      "citations": 3,
+      "last_updated": "2026-11-02-11:06:34"
     },
     "CollabStory: Multi-LLM Collaborative Story Generation and Authorship Analysis": {
       "title": "CollabStory: Multi-LLM Collaborative Story Generation and Authorship Analysis",
-      "citations": 53,
-      "last_updated": "2026-10-26-09:11:10"
+      "citations": 54,
+      "last_updated": "2026-11-02-11:06:35"
     },
     "CS4: Measuring the Creativity of Large Language Models Automatically by Controlling the Number of Story-Writing Constraints": {
       "title": "CS4: Measuring the Creativity of Large Language Models Automatically by Controlling the Number of Story-Writing Constraints",
       "citations": 31,
-      "last_updated": "2026-10-26-09:11:14"
+      "last_updated": "2026-11-02-11:06:46"
     },
     "StoryWars: A Dataset and Instruction Tuning Baselines for Collaborative Story Understanding and Generation": {
       "title": "StoryWars: A Dataset and Instruction Tuning Baselines for Collaborative Story Understanding and Generation",
       "citations": 10,
-      "last_updated": "2026-10-26-09:11:15"
+      "last_updated": "2026-11-02-11:06:50"
     },
     "Spoiler Alert: Narrative Forecasting as a Metric for Tension in LLM Storytelling": {
       "title": "Spoiler Alert: Narrative Forecasting as a Metric for Tension in LLM Storytelling",
       "citations": 1,
-      "last_updated": "2026-10-26-09:11:17"
+      "last_updated": "2026-11-02-11:07:12"
     },
     "EvolvR: Self-Evolving Pairwise Reasoning for Story Evaluation to Enhance Generation": {
       "title": "EvolvR: Self-Evolving Pairwise Reasoning for Story Evaluation to Enhance Generation",
       "citations": 2,
-      "last_updated": "2026-10-26-09:11:39"
+      "last_updated": "2026-11-02-11:07:23"
     },
     "The Reader is the Metric: How Textual Features and Reader Profiles Explain Conflicting Evaluations of AI Creative Writing": {
       "title": "The Reader is the Metric: How Textual Features and Reader Profiles Explain Conflicting Evaluations of AI Creative Writing",
       "citations": 12,
-      "last_updated": "2026-10-26-09:11:44"
+      "last_updated": "2026-11-02-11:07:24"
     },
     "Do Language Models Enjoy Their Own Stories? Prompting Large Language Models for Automatic Story Evaluation": {
       "title": "Do Language Models Enjoy Their Own Stories? Prompting Large Language Models for Automatic Story Evaluation",
       "citations": 62,
-      "last_updated": "2026-10-26-09:11:54"
+      "last_updated": "2026-11-02-11:07:25"
     },
     "CHIRON: Rich Character Representations in Long-Form Narratives": {
       "title": "CHIRON: Rich Character Representations in Long-Form Narratives",
       "citations": 13,
-      "last_updated": "2026-10-26-09:12:20"
+      "last_updated": "2026-11-02-11:07:27"
     },
     "Learning Personalized Alignment for Evaluating Open-ended Text Generation": {
       "title": "Learning Personalized Alignment for Evaluating Open-ended Text Generation",
       "citations": 41,
-      "last_updated": "2026-10-26-09:12:25"
+      "last_updated": "2026-11-02-11:07:28"
     },
     "DeltaScore: Evaluating Story Generation with Differentiating Perturbations": {
       "title": "DeltaScore: Evaluating Story Generation with Differentiating Perturbations",
       "citations": 4,
-      "last_updated": "2026-10-26-09:12:29"
+      "last_updated": "2026-11-02-11:07:50"
     },
     "CASPER in the Machine: Insights into Character Variety in LLM-Generated Stories": {
       "title": "CASPER in the Machine: Insights into Character Variety in LLM-Generated Stories",
       "citations": 0,
-      "last_updated": "2026-10-26-09:13:15"
+      "last_updated": "2026-11-02-11:07:55"
     },
     "StoryScope: Investigating idiosyncrasies in AI fiction": {
       "title": "StoryScope: Investigating idiosyncrasies in AI fiction",
       "citations": 11,
-      "last_updated": "2026-10-26-09:13:20"
+      "last_updated": "2026-11-02-11:07:56"
     },
     "LLMs Exhibit Significantly Lower Uncertainty in Creative Writing Than Professional Writers": {
       "title": "LLMs Exhibit Significantly Lower Uncertainty in Creative Writing Than Professional Writers",
       "citations": 7,
-      "last_updated": "2026-10-26-09:13:42"
-    },
-    "Echoes in AI: Quantifying Lack of Plot Diversity in LLM Outputs": {
-      "title": "Echoes in AI: Quantifying Lack of Plot Diversity in LLM Outputs",
-      "citations": 67,
-      "last_updated": "2026-10-19-08:53:09"
+      "last_updated": "2026-11-02-11:07:57"
     },
     "Evaluating Creative Short Story Generation in Humans and Large Language Models": {
       "title": "Evaluating Creative Short Story Generation in Humans and Large Language Models",
       "citations": 35,
-      "last_updated": "2026-10-26-09:14:30"
+      "last_updated": "2026-11-02-11:07:59"
     },
     "Small Language Models can Outperform Humans in Short Creative Writing: A Study Comparing SLMs with Humans and LLMs": {
       "title": "Small Language Models can Outperform Humans in Short Creative Writing: A Study Comparing SLMs with Humans and LLMs",
       "citations": 42,
-      "last_updated": "2026-10-26-09:14:32"
-    },
-    "Are Large Language Models Capable of Generating Human-Level Narratives?": {
-      "title": "Are Large Language Models Capable of Generating Human-Level Narratives?",
-      "citations": 143,
-      "last_updated": "2026-10-19-08:53:32"
+      "last_updated": "2026-11-02-11:08:00"
     },
     "Art or Artifice? Large Language Models and the False Promise of Creativity": {
       "title": "Art or Artifice? Large Language Models and the False Promise of Creativity",
-      "citations": 317,
-      "last_updated": "2026-10-26-09:15:22"
+      "citations": 322,
+      "last_updated": "2026-11-02-11:08:23"
     },
     "Pron vs Prompt: Can Large Language Models already Challenge a World-Class Fiction Author at Creative Text Writing?": {
       "title": "Pron vs Prompt: Can Large Language Models already Challenge a World-Class Fiction Author at Creative Text Writing?",
-      "citations": 45,
-      "last_updated": "2026-10-26-09:15:33"
+      "citations": 46,
+      "last_updated": "2026-11-02-11:08:46"
     },
     "Measuring Psychological Depth in Language Models": {
       "title": "Measuring Psychological Depth in Language Models",
       "citations": 18,
-      "last_updated": "2026-10-26-09:15:38"
-    },
-    "A Confederacy of Models: a Comprehensive Evaluation of LLMs on Creative Writing": {
-      "title": "A Confederacy of Models: a Comprehensive Evaluation of LLMs on Creative Writing",
-      "citations": 170,
-      "last_updated": "2026-10-19-08:54:12"
+      "last_updated": "2026-11-02-11:08:48"
     },
     "More human than human: LLM-generated narratives outperform human-LLM interleaved narratives": {
       "title": "More human than human: LLM-generated narratives outperform human-LLM interleaved narratives",
       "citations": 63,
-      "last_updated": "2026-10-26-09:16:47"
-    },
-    "The Next Chapter: A Study of Large Language Models in Storytelling": {
-      "title": "The Next Chapter: A Study of Large Language Models in Storytelling",
-      "citations": 97,
-      "last_updated": "2026-10-19-08:54:27"
+      "last_updated": "2026-11-02-11:08:51"
     },
     "Generating Constructive Feedback on Stories via Reinforcement Learning": {
       "title": "Generating Constructive Feedback on Stories via Reinforcement Learning",
       "citations": 0,
-      "last_updated": "2026-10-26-09:17:38"
+      "last_updated": "2026-11-02-11:08:52"
     },
     "Fabula: Building a Narrative Storytelling Sidekick with the Writers' Community": {
       "title": "Fabula: Building a Narrative Storytelling Sidekick with the Writers' Community",
       "citations": 1,
-      "last_updated": "2026-10-26-09:17:49"
+      "last_updated": "2026-11-02-11:09:02"
     },
     "Exploring Creator-Centric Methods for LLM-Assisted Interactive Storytelling": {
       "title": "Exploring Creator-Centric Methods for LLM-Assisted Interactive Storytelling",
-      "citations": 2,
-      "last_updated": "2026-10-26-09:18:11"
+      "citations": 3,
+      "last_updated": "2026-11-02-11:09:13"
     },
     "Orchid-Creator: An Authoring Tool Supporting LLM-Driven Interactive Narrative Creation": {
       "title": "Orchid-Creator: An Authoring Tool Supporting LLM-Driven Interactive Narrative Creation",
-      "citations": 2,
-      "last_updated": "2026-10-26-09:18:58"
+      "citations": 4,
+      "last_updated": "2026-11-02-11:09:14"
     },
     "Plotania: Exploring Transparency Trade-offs in AI Co-Writing Through Virtual Readers and Transparent Attribution": {
       "title": "Plotania: Exploring Transparency Trade-offs in AI Co-Writing Through Virtual Readers and Transparent Attribution",
       "citations": 3,
-      "last_updated": "2026-10-26-09:19:08"
+      "last_updated": "2026-11-02-11:09:18"
     },
     "Narrix: Remixing Narrative Strategies from Examples for Story Writing": {
       "title": "Narrix: Remixing Narrative Strategies from Examples for Story Writing",
-      "citations": 7,
-      "last_updated": "2026-10-26-09:19:09"
+      "citations": 8,
+      "last_updated": "2026-11-02-11:09:23"
     },
     "NarrativeLoom: Enhancing Creative Storytelling through Multi-Persona Collaborative Improvisation": {
       "title": "NarrativeLoom: Enhancing Creative Storytelling through Multi-Persona Collaborative Improvisation",
-      "citations": 2,
-      "last_updated": "2026-10-26-09:19:20"
+      "citations": 3,
+      "last_updated": "2026-11-02-11:09:33"
     },
     "PlayWrite: A Multimodal System for AI Supported Narrative Co-Authoring Through Play in XR": {
       "title": "PlayWrite: A Multimodal System for AI Supported Narrative Co-Authoring Through Play in XR",
@@ -887,53 +892,48 @@
     },
     "DuoDrama: Supporting Screenplay Refinement Through LLM-Assisted Human Reflection": {
       "title": "DuoDrama: Supporting Screenplay Refinement Through LLM-Assisted Human Reflection",
-      "citations": 5,
-      "last_updated": "2026-10-26-09:20:53"
+      "citations": 6,
+      "last_updated": "2026-11-02-11:10:21"
     },
     "Vidmento: Creating Video Stories through Context-Aware Expansion with Generative Video": {
       "title": "Vidmento: Creating Video Stories through Context-Aware Expansion with Generative Video",
-      "citations": 3,
-      "last_updated": "2026-10-26-09:21:16"
+      "citations": 4,
+      "last_updated": "2026-11-02-11:10:22"
     },
     "DiaryPlay: AI-Assisted Creation of Interactive Story Vignettes for Everyday Storytelling": {
       "title": "DiaryPlay: AI-Assisted Creation of Interactive Story Vignettes for Everyday Storytelling",
-      "citations": 4,
-      "last_updated": "2026-10-26-09:21:27"
-    },
-    "Elsewise: Authoring Open-ended Interactive Narrative with Possibility Space Visualization": {
-      "title": "Elsewise: Authoring Open-ended Interactive Narrative with Possibility Space Visualization",
-      "citations": 2,
-      "last_updated": "2026-10-19-08:56:04"
+      "citations": 5,
+      "last_updated": "2026-11-02-11:10:45"
     },
     "Toward Personalizable AI Node Graph Creative Writing Support: Insights on Preferences for Generative AI Features and Information Presentation Across Story Writing Processes": {
       "title": "Toward Personalizable AI Node Graph Creative Writing Support: Insights on Preferences for Generative AI Features and Information Presentation Across Story Writing Processes",
-      "citations": 27,
-      "last_updated": "2026-10-26-09:22:15"
+      "citations": 29,
+      "last_updated": "2026-11-02-11:10:46"
     },
     "WhatELSE: Shaping Narrative Spaces at Configurable Level of Abstraction for AI-bridged Interactive Storytelling": {
       "title": "WhatELSE: Shaping Narrative Spaces at Configurable Level of Abstraction for AI-bridged Interactive Storytelling",
       "citations": 25,
-      "last_updated": "2026-10-26-09:22:26"
+      "last_updated": "2026-11-02-11:10:51"
     },
     "Toyteller: AI-powered Visual Storytelling Through Toy-Playing with Character Symbols": {
       "title": "Toyteller: AI-powered Visual Storytelling Through Toy-Playing with Character Symbols",
-      "citations": 20,
-      "last_updated": "2026-10-26-09:22:28"
+      "citations": 21,
+      "last_updated": "2026-11-02-11:10:52"
     },
     "CharacterMeet: Supporting Creative Writers' Entire Story Character Construction Processes Through Conversation with LLM-Powered Chatbot Avatars": {
       "title": "CharacterMeet: Supporting Creative Writers' Entire Story Character Construction Processes Through Conversation with LLM-Powered Chatbot Avatars",
       "citations": 112,
-      "last_updated": "2026-10-26-09:22:29"
+      "last_updated": "2026-11-02-11:10:53"
     },
     "ID.8: Co-Creating Visual Stories with Generative AI": {
       "title": "ID.8: Co-Creating Visual Stories with Generative AI",
       "citations": 72,
-      "last_updated": "2026-10-26-09:23:16"
+      "last_updated": "2026-11-02-11:10:58"
     },
     "Fiction-Writing Mode: An Effective Control for Human-Machine Collaborative Writing": {
       "title": "Fiction-Writing Mode: An Effective Control for Human-Machine Collaborative Writing",
       "citations": 10,
-      "last_updated": "2026-10-26-09:24:02"
+      "last_updated": "2026-11-02-11:11:08"
     },
     "The Garden of Forking Prompts: How Users Explore Narrative Space in Story Generation": {
       "title": "The Garden of Forking Prompts: How Users Explore Narrative Space in Story Generation",
@@ -943,57 +943,57 @@
     "AI Fiction in the Wild": {
       "title": "AI Fiction in the Wild",
       "citations": 1,
-      "last_updated": "2026-10-26-09:24:08"
+      "last_updated": "2026-11-02-11:11:56"
     },
     "Proactive AI as a Catalyst for Creativity? Balancing Human Agency and AI Contribution in Collaborative Story Writing": {
       "title": "Proactive AI as a Catalyst for Creativity? Balancing Human Agency and AI Contribution in Collaborative Story Writing",
       "citations": 5,
-      "last_updated": "2026-10-26-09:24:12"
+      "last_updated": "2026-11-02-11:11:57"
     },
     "Help Me Write a Story: Evaluating LLMs' Ability to Generate Writing Feedback": {
       "title": "Help Me Write a Story: Evaluating LLMs' Ability to Generate Writing Feedback",
       "citations": 20,
-      "last_updated": "2026-10-26-09:24:23"
+      "last_updated": "2026-11-02-11:12:44"
     },
     "Understanding Screenwriters' Practices, Attitudes, and Future Expectations in Human-AI Co-Creation": {
       "title": "Understanding Screenwriters' Practices, Attitudes, and Future Expectations in Human-AI Co-Creation",
-      "citations": 28,
-      "last_updated": "2026-10-26-09:24:27"
+      "citations": 29,
+      "last_updated": "2026-11-02-11:12:45"
     },
     "'It was 80% me, 20% AI': Seeking Authenticity in Co-Writing with Large Language Models": {
       "title": "'It was 80% me, 20% AI': Seeking Authenticity in Co-Writing with Large Language Models",
-      "citations": 55,
-      "last_updated": "2026-10-26-09:24:28"
+      "citations": 57,
+      "last_updated": "2026-11-02-11:12:47"
     },
     "Social Dynamics of AI Support in Creative Writing": {
       "title": "Social Dynamics of AI Support in Creative Writing",
-      "citations": 190,
-      "last_updated": "2026-10-26-09:24:30"
+      "citations": 193,
+      "last_updated": "2026-11-02-11:12:48"
     },
     "Creativity Support in the Age of Large Language Models: An Empirical Study Involving Emerging Writers": {
       "title": "Creativity Support in the Age of Large Language Models: An Empirical Study Involving Emerging Writers",
       "citations": 57,
-      "last_updated": "2026-10-26-09:24:40"
+      "last_updated": "2026-11-02-11:12:49"
     },
     "Narrative Theory-Driven LLM Methods for Automatic Story Generation and Understanding: A Survey": {
       "title": "Narrative Theory-Driven LLM Methods for Automatic Story Generation and Understanding: A Survey",
       "citations": 8,
-      "last_updated": "2026-10-26-09:24:45"
+      "last_updated": "2026-11-02-11:12:54"
     },
     "A Survey on LLMs for Story Generation": {
       "title": "A Survey on LLMs for Story Generation",
       "citations": 27,
-      "last_updated": "2026-10-26-09:25:31"
+      "last_updated": "2026-11-02-11:12:58"
     },
     "What Makes a Good Story and How Can We Measure It? A Comprehensive Survey of Story Evaluation": {
       "title": "What Makes a Good Story and How Can We Measure It? A Comprehensive Survey of Story Evaluation",
       "citations": 22,
-      "last_updated": "2026-10-26-09:25:42"
+      "last_updated": "2026-11-02-11:13:00"
     },
     "Open-world Story Generation with Structured Knowledge Enhancement: A Comprehensive Survey": {
       "title": "Open-world Story Generation with Structured Knowledge Enhancement: A Comprehensive Survey",
       "citations": 39,
-      "last_updated": "2026-10-26-09:25:46"
+      "last_updated": "2026-11-02-11:13:01"
     }
   }
 }
